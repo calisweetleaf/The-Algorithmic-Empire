@@ -1,0 +1,96 @@
+{
+  "manifest_version": "1.0",
+  "stage": "stage1_evidence_curator",
+  "run_date": "2026-02-18 02:21",
+  "gate_status": "PASS",
+  "data_source": "live \u2014 visuals/network_metrics.json + docs/synthesis_matrix.json",
+  "graph_stats": {
+    "nodes": 271,
+    "edges": 2076,
+    "density": 0.056745,
+    "avg_clustering": 0.886043,
+    "communities": 18
+  },
+  "actor_metrics": {
+    "Peter Thiel": {
+      "pagerank": 0.02773,
+      "betweenness": 0.4843,
+      "degree": 135,
+      "community": 8,
+      "in_graph": true
+    },
+    "Sam Altman": {
+      "pagerank": 0.01742,
+      "betweenness": 0.26345,
+      "degree": 88,
+      "community": 8,
+      "in_graph": true
+    },
+    "Larry Ellison": {
+      "pagerank": 0.00284,
+      "betweenness": 0.00141,
+      "degree": 9,
+      "community": 171,
+      "in_graph": true,
+      "gap_flag": "SEVERE_UNDERREPRESENTATION"
+    },
+    "Eric Schmidt": {
+      "pagerank": null,
+      "betweenness": null,
+      "degree": null,
+      "community": null,
+      "in_graph": false,
+      "gap_flag": "NOT_IN_GRAPH"
+    },
+    "Elon Musk": {
+      "pagerank": 0.01356,
+      "betweenness": 0.10486,
+      "degree": 71,
+      "community": 8,
+      "in_graph": true
+    }
+  },
+  "key_co_occurrences": {
+    "Founders Fund|Peter Thiel": 33,
+    "Anduril Industries|Palantir Technologies": 29,
+    "Peter Thiel|Sam Altman": 23,
+    "Project Stargate|Sam Altman": 9,
+    "Scale AI|Anduril Industries": 9,
+    "Claude Gov|Anduril Industries": 6,
+    "Larry Ellison|Sam Altman": 2,
+    "Larry Ellison|Peter Thiel": 3
+  },
+  "duplicates_suppressed": 14,
+  "collection_gaps": [
+    {
+      "id": "GAP-01",
+      "target": "Eric Schmidt",
+      "severity": "CRITICAL",
+      "note": "Not in graph."
+    },
+    {
+      "id": "GAP-02",
+      "target": "Larry Ellison / Oracle",
+      "severity": "CRITICAL",
+      "note": "degree=9 \u2014 only U11 dedicated."
+    },
+    {
+      "id": "GAP-03",
+      "target": "Project Stargate",
+      "severity": "HIGH",
+      "note": "Community 239, isolated from core Community 8."
+    },
+    {
+      "id": "GAP-04",
+      "target": "Scale AI",
+      "severity": "MEDIUM",
+      "note": "degree=27, PR=0.00548."
+    }
+  ],
+  "outputs": [
+    "C:\\Users\\treyr\\Documents\\algorithmic_empire\\reports\\stage1_evidence_curator.md",
+    "C:\\Users\\treyr\\Documents\\algorithmic_empire\\reports\\stage1_evidence_curator_manifest.json",
+    "C:\\Users\\treyr\\Documents\\algorithmic_empire\\data\\derived\\evidence_packet_2026-02-18.json"
+  ],
+  "next_stage": "stage2_edge_encoding"
+}

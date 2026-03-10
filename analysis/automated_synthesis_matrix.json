@@ -1,0 +1,36 @@
+{
+  "metadata": {
+    "status": "SUCCESS",
+    "tier": "SOVEREIGN_ANALYSIS"
+  },
+  "strong_signals": {
+    "cross_document_citations": [],
+    "cross_document_entities": [
+      "Cognitive Dominance",
+      "Metric Engineering",
+      "Algorithmic Reasoning",
+      "Exotic Physics"
+    ]
+  },
+  "clusters": {
+    "citation_clusters": {},
+    "entity_clusters": {
+      "Cognitive Dominance": [
+        "sovereign_intelligence_report.md",
+        "stargate_anomaly_dossier.md"
+      ],
+      "Metric Engineering": [
+        "sovereign_intelligence_report.md",
+        "stargate_anomaly_dossier.md"
+      ],
+      "Algorithmic Reasoning": [
+        "sovereign_intelligence_report.md",
+        "stargate_anomaly_dossier.md"
+      ],
+      "Exotic Physics": [
+        "sovereign_intelligence_report.md",
+        "stargate_anomaly_dossier.md"
+      ]
+    }
+  }
+}

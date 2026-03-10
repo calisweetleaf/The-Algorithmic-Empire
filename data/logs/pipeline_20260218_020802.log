@@ -1,0 +1,5 @@
+2026-02-18 02:08:02,469 [INFO] sovereign_pipeline: ==================================================
+2026-02-18 02:08:02,470 [INFO] sovereign_pipeline: STAGE: VISUALIZATION
+2026-02-18 02:08:02,470 [INFO] sovereign_pipeline: ==================================================
+2026-02-18 02:08:02,471 [DEBUG] sovereign_pipeline: Running: C:\Users\treyr\Documents\algorithmic_empire\.venv\Scripts\python.exe C:\Users\treyr\Documents\algorithmic_empire\tools\visualize_network.py --mode full --input C:\Users\treyr\Documents\algorithmic_empire\docs\entity_network.md --output-dir visuals --export-json C:\Users\treyr\Documents\algorithmic_empire\visuals\network_metrics.json
+2026-02-18 02:08:09,842 [INFO] sovereign_pipeline: Stage visualization completed in 7.37s

@@ -1,0 +1,80 @@
+# SOMNUS File Processor - Production Dependencies
+# Install with: pip install -r requirements.txt
+
+# ============================================
+# CORE DEPENDENCIES (Required)
+# ============================================
+
+# Numerical computing
+numpy
+scipy
+
+# Machine learning & NLP
+scikit-learn
+nltk
+networkx
+
+# Image processing
+Pillow
+
+# Async file operations
+aiofiles
+
+# ============================================
+# OPTIONAL DEPENDENCIES (Graceful degradation)
+# ============================================
+
+# Transformer embeddings (recommended for best semantic analysis)
+sentence-transformers
+
+# Advanced NLP (recommended)
+spacy
+
+# Computer vision
+opencv-python
+
+# Audio processing
+librosa
+
+# Video processing (requires ffmpeg binary installed separately)
+ffmpeg-python
+
+# CAD/3D file processing
+ezdxf
+trimesh
+
+# Scientific data formats
+h5py
+pydicom
+
+# Creative file formats
+psd-tools
+
+# Healthcare interoperability
+hl7apy
+fhir.resources
+
+# ============================================
+# PRODUCTION HARDENING
+# ============================================
+
+# Rate limiting
+ratelimit
+
+# Input validation
+pydantic
+
+# ============================================
+# DEVELOPMENT DEPENDENCIES (optional)
+# ============================================
+
+# Testing
+pytest
+pytest-asyncio
+pytest-cov
+
+# Type checking
+mypy
+
+# Linting
+ruff

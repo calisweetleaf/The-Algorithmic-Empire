@@ -1,0 +1,5 @@
+2026-02-18 02:07:49,245 [INFO] sovereign_pipeline: ==================================================
+2026-02-18 02:07:49,245 [INFO] sovereign_pipeline: STAGE: ENTITY_CLEAN
+2026-02-18 02:07:49,246 [INFO] sovereign_pipeline: ==================================================
+2026-02-18 02:07:49,246 [DEBUG] sovereign_pipeline: Running: C:\Users\treyr\Documents\algorithmic_empire\.venv\Scripts\python.exe C:\Users\treyr\Documents\algorithmic_empire\tools\entity_cleaner.py --stats C:\Users\treyr\Documents\algorithmic_empire\docs\per_document_stats.json --out C:\Users\treyr\Documents\algorithmic_empire\docs\per_document_stats_clean.json --report C:\Users\treyr\Documents\algorithmic_empire\docs\cleaning_report.json --detect-dupes
+2026-02-18 02:07:51,110 [INFO] sovereign_pipeline: Stage entity_clean completed in 1.86s

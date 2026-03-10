@@ -1,0 +1,27 @@
+min_function_lines: 5
+min_docstring_length: 15
+test_coverage_threshold: 0.7
+target_globs:
+  - "ARCS/*.py"
+ignore_patterns:
+  - "__pycache__/*"
+  - "*.pyc"
+  - ".git/*"
+  - ".venv/*"
+  - "venv/*"
+  - "env/*"
+  - "node_modules/*"
+per_file_reports: true
+per_file_report_dir: "reports/python_production_doctor/arcs_per_file"
+json_manifest_path: "reports/python_production_doctor/arcs_run_manifest.json"
+severity_levels:
+  syntax_errors: critical
+  unimplemented_abstracts: critical
+  stubs: serious
+  simple_returns: serious
+  incomplete_methods: serious
+  test_gaps: serious
+  todos: minor
+  missing_docstrings: minor
+  suspicious_short_functions: minor
+  type_hint_gaps: minor

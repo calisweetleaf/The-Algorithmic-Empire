@@ -1,0 +1,3533 @@
+{
+  "metadata": {
+    "generated": "2026-02-18T02:08:03.849047",
+    "version": "3.0-DEFENSE",
+    "node_count": 271,
+    "edge_count": 2076
+  },
+  "topology": {
+    "nodes": 271,
+    "edges": 2076,
+    "density": 0.05674456744567446,
+    "avg_degree": 15.321033210332104,
+    "diameter": -1,
+    "avg_clustering": 0.8860429570523344,
+    "modularity": 0.0,
+    "total_weight": 7594
+  },
+  "nodes": {
+    "Career Path": {
+      "label": "Career Path",
+      "degree": 11,
+      "weighted_degree": 55,
+      "betweenness": 0.0,
+      "closeness": 0.408736,
+      "eigenvector": 0.002586,
+      "pagerank": 0.002785,
+      "community": 0
+    },
+    "Abu Dhabi": {
+      "label": "Abu Dhabi",
+      "degree": 14,
+      "weighted_degree": 79,
+      "betweenness": 1.9e-05,
+      "closeness": 0.428105,
+      "eigenvector": 0.003291,
+      "pagerank": 0.003047,
+      "community": 214
+    },
+    "Data Platform": {
+      "label": "Data Platform",
+      "degree": 14,
+      "weighted_degree": 42,
+      "betweenness": 0.0,
+      "closeness": 0.432343,
+      "eigenvector": 0.003291,
+      "pagerank": 0.003015,
+      "community": 8
+    },
+    "Project Neptune": {
+      "label": "Project Neptune",
+      "degree": 12,
+      "weighted_degree": 36,
+      "betweenness": 0.0,
+      "closeness": 0.369535,
+      "eigenvector": 0.002821,
+      "pagerank": 0.003168,
+      "community": 23
+    },
+    "Christian Brose": {
+      "label": "Christian Brose",
+      "degree": 28,
+      "weighted_degree": 134,
+      "betweenness": 0.012555,
+      "closeness": 0.462081,
+      "eigenvector": 0.006583,
+      "pagerank": 0.005866,
+      "community": 8
+    },
+    "Assured Autonomy": {
+      "label": "Assured Autonomy",
+      "degree": 13,
+      "weighted_degree": 39,
+      "betweenness": 0.0,
+      "closeness": 0.377522,
+      "eigenvector": 0.003056,
+      "pagerank": 0.003142,
+      "community": 75
+    },
+    "Jack Clark": {
+      "label": "Jack Clark",
+      "degree": 8,
+      "weighted_degree": 25,
+      "betweenness": 0.0,
+      "closeness": 0.410016,
+      "eigenvector": 0.00188,
+      "pagerank": 0.002657,
+      "community": 171
+    },
+    "Hierarchical Temporal Memory": {
+      "label": "Hierarchical Temporal Memory",
+      "degree": 12,
+      "weighted_degree": 36,
+      "betweenness": 0.0,
+      "closeness": 0.351678,
+      "eigenvector": 0.002835,
+      "pagerank": 0.003201,
+      "community": 118
+    },
+    "Anduril Industries": {
+      "label": "Anduril Industries",
+      "degree": 90,
+      "weighted_degree": 358,
+      "betweenness": 0.270925,
+      "closeness": 0.594104,
+      "eigenvector": 0.021165,
+      "pagerank": 0.018237,
+      "community": 8
+    },
+    "Corporate Bridge": {
+      "label": "Corporate Bridge",
+      "degree": 10,
+      "weighted_degree": 50,
+      "betweenness": 0.0,
+      "closeness": 0.4081,
+      "eigenvector": 0.002351,
+      "pagerank": 0.002649,
+      "community": 157
+    },
+    "Strategic Computing Initiative": {
+      "label": "Strategic Computing Initiative",
+      "degree": 13,
+      "weighted_degree": 39,
+      "betweenness": 0.0,
+      "closeness": 0.377522,
+      "eigenvector": 0.003056,
+      "pagerank": 0.003142,
+      "community": 75
+    },
+    "Military Crossovers": {
+      "label": "Military Crossovers",
+      "degree": 11,
+      "weighted_degree": 33,
+      "betweenness": 0.0,
+      "closeness": 0.446337,
+      "eigenvector": 0.002586,
+      "pagerank": 0.002512,
+      "community": 8
+    },
+    "West Point": {
+      "label": "West Point",
+      "degree": 12,
+      "weighted_degree": 36,
+      "betweenness": 0.0,
+      "closeness": 0.397572,
+      "eigenvector": 0.002822,
+      "pagerank": 0.002925,
+      "community": 8
+    },
+    "Customs Enforcement": {
+      "label": "Customs Enforcement",
+      "degree": 14,
+      "weighted_degree": 55,
+      "betweenness": 0.0,
+      "closeness": 0.436667,
+      "eigenvector": 0.003291,
+      "pagerank": 0.002972,
+      "community": 8
+    },
+    "Arda Capital": {
+      "label": "Arda Capital",
+      "degree": 14,
+      "weighted_degree": 42,
+      "betweenness": 0.0,
+      "closeness": 0.436667,
+      "eigenvector": 0.003291,
+      "pagerank": 0.002972,
+      "community": 8
+    },
+    "Compressing Chain": {
+      "label": "Compressing Chain",
+      "degree": 2,
+      "weighted_degree": 6,
+      "betweenness": 0.0,
+      "closeness": 1.0,
+      "eigenvector": 0.00369,
+      "pagerank": 0.00369,
+      "community": 188
+    },
+    "Pais Effect": {
+      "label": "Pais Effect",
+      "degree": 13,
+      "weighted_degree": 41,
+      "betweenness": 0.0,
+      "closeness": 0.386431,
+      "eigenvector": 0.003061,
+      "pagerank": 0.003335,
+      "community": 8
+    },
+    "Apache Maven": {
+      "label": "Apache Maven",
+      "degree": 12,
+      "weighted_degree": 36,
+      "betweenness": 0.0,
+      "closeness": 0.397572,
+      "eigenvector": 0.002822,
+      "pagerank": 0.002925,
+      "community": 8
+    },
+    "Effective Altruism": {
+      "label": "Effective Altruism",
+      "degree": 17,
+      "weighted_degree": 70,
+      "betweenness": 0.0,
+      "closeness": 0.459649,
+      "eigenvector": 0.003996,
+      "pagerank": 0.003442,
+      "community": 8
+    },
+    "Robot Operating System": {
+      "label": "Robot Operating System",
+      "degree": 12,
+      "weighted_degree": 36,
+      "betweenness": 0.0,
+      "closeness": 0.397572,
+      "eigenvector": 0.002822,
+      "pagerank": 0.002925,
+      "community": 8
+    },
+    "Regulatory Capture Risk": {
+      "label": "Regulatory Capture Risk",
+      "degree": 11,
+      "weighted_degree": 33,
+      "betweenness": 0.0,
+      "closeness": 0.360385,
+      "eigenvector": 0.002585,
+      "pagerank": 0.002922,
+      "community": 148
+    },
+    "CEO Dario Amodei": {
+      "label": "CEO Dario Amodei",
+      "degree": 7,
+      "weighted_degree": 21,
+      "betweenness": 0.0,
+      "closeness": 0.356463,
+      "eigenvector": 0.001645,
+      "pagerank": 0.002235,
+      "community": 21
+    },
+    "An OSINT Investigation": {
+      "label": "An OSINT Investigation",
+      "degree": 7,
+      "weighted_degree": 21,
+      "betweenness": 0.0,
+      "closeness": 0.42671,
+      "eigenvector": 0.001646,
+      "pagerank": 0.001954,
+      "community": 8
+    },
+    "Business Insider": {
+      "label": "Business Insider",
+      "degree": 12,
+      "weighted_degree": 36,
+      "betweenness": 0.0,
+      "closeness": 0.369535,
+      "eigenvector": 0.002821,
+      "pagerank": 0.003168,
+      "community": 23
+    },
+    "National Cyber Security Centre": {
+      "label": "National Cyber Security Centre",
+      "degree": 11,
+      "weighted_degree": 55,
+      "betweenness": 0.0,
+      "closeness": 0.447863,
+      "eigenvector": 0.002586,
+      "pagerank": 0.002554,
+      "community": 8
+    },
+    "DoD Directive": {
+      "label": "DoD Directive",
+      "degree": 13,
+      "weighted_degree": 39,
+      "betweenness": 0.0,
+      "closeness": 0.377522,
+      "eigenvector": 0.003056,
+      "pagerank": 0.003142,
+      "community": 75
+    },
+    "Project Vibe": {
+      "label": "Project Vibe",
+      "degree": 12,
+      "weighted_degree": 36,
+      "betweenness": 0.0,
+      "closeness": 0.369535,
+      "eigenvector": 0.002821,
+      "pagerank": 0.003168,
+      "community": 23
+    },
+    "BBN Systems": {
+      "label": "BBN Systems",
+      "degree": 12,
+      "weighted_degree": 36,
+      "betweenness": 0.0,
+      "closeness": 0.351678,
+      "eigenvector": 0.002835,
+      "pagerank": 0.003201,
+      "community": 48
+    },
+    "Brian Schimpf": {
+      "label": "Brian Schimpf",
+      "degree": 14,
+      "weighted_degree": 66,
+      "betweenness": 0.0,
+      "closeness": 0.450947,
+      "eigenvector": 0.003292,
+      "pagerank": 0.003025,
+      "community": 8
+    },
+    "Claude Gov": {
+      "label": "Claude Gov",
+      "degree": 32,
+      "weighted_degree": 110,
+      "betweenness": 0.047866,
+      "closeness": 0.521912,
+      "eigenvector": 0.007523,
+      "pagerank": 0.007737,
+      "community": 8
+    },
+    "Skinwalker Ranch": {
+      "label": "Skinwalker Ranch",
+      "degree": 25,
+      "weighted_degree": 75,
+      "betweenness": 0.026519,
+      "closeness": 0.414557,
+      "eigenvector": 0.005891,
+      "pagerank": 0.006194,
+      "community": 8
+    },
+    "Portfolio Synergy": {
+      "label": "Portfolio Synergy",
+      "degree": 11,
+      "weighted_degree": 33,
+      "betweenness": 0.0,
+      "closeness": 0.360385,
+      "eigenvector": 0.002585,
+      "pagerank": 0.002922,
+      "community": 148
+    },
+    "Investigation Trigger": {
+      "label": "Investigation Trigger",
+      "degree": 9,
+      "weighted_degree": 27,
+      "betweenness": 0.0,
+      "closeness": 0.407465,
+      "eigenvector": 0.002115,
+      "pagerank": 0.002814,
+      "community": 155
+    },
+    "Tom Brown": {
+      "label": "Tom Brown",
+      "degree": 8,
+      "weighted_degree": 24,
+      "betweenness": 0.0,
+      "closeness": 0.410016,
+      "eigenvector": 0.00188,
+      "pagerank": 0.002657,
+      "community": 171
+    },
+    "DARPA OPTIMA": {
+      "label": "DARPA OPTIMA",
+      "degree": 12,
+      "weighted_degree": 36,
+      "betweenness": 0.0,
+      "closeness": 0.351678,
+      "eigenvector": 0.002835,
+      "pagerank": 0.003201,
+      "community": 118
+    },
+    "Google Brain": {
+      "label": "Google Brain",
+      "degree": 8,
+      "weighted_degree": 24,
+      "betweenness": 0.0,
+      "closeness": 0.410016,
+      "eigenvector": 0.00188,
+      "pagerank": 0.002657,
+      "community": 171
+    },
+    "Artificial Intelligence": {
+      "label": "Artificial Intelligence",
+      "degree": 31,
+      "weighted_degree": 131,
+      "betweenness": 0.028433,
+      "closeness": 0.528226,
+      "eigenvector": 0.007289,
+      "pagerank": 0.006655,
+      "community": 8
+    },
+    "General Atomics Aeronautical Systems": {
+      "label": "General Atomics Aeronautical Systems",
+      "degree": 9,
+      "weighted_degree": 31,
+      "betweenness": 0.001633,
+      "closeness": 0.365411,
+      "eigenvector": 0.002116,
+      "pagerank": 0.002885,
+      "community": 209
+    },
+    "Investigation Focus": {
+      "label": "Investigation Focus",
+      "degree": 9,
+      "weighted_degree": 27,
+      "betweenness": 0.0,
+      "closeness": 0.407465,
+      "eigenvector": 0.002115,
+      "pagerank": 0.002814,
+      "community": 155
+    },
+    "Sovereign Wealth Funds": {
+      "label": "Sovereign Wealth Funds",
+      "degree": 13,
+      "weighted_degree": 52,
+      "betweenness": 0.0,
+      "closeness": 0.427406,
+      "eigenvector": 0.003056,
+      "pagerank": 0.002858,
+      "community": 214
+    },
+    "General Atomics": {
+      "label": "General Atomics",
+      "degree": 7,
+      "weighted_degree": 21,
+      "betweenness": 0.0,
+      "closeness": 0.341146,
+      "eigenvector": 0.001646,
+      "pagerank": 0.002354,
+      "community": 209
+    },
+    "Dark Enlightenment": {
+      "label": "Dark Enlightenment",
+      "degree": 27,
+      "weighted_degree": 92,
+      "betweenness": 0.007365,
+      "closeness": 0.474638,
+      "eigenvector": 0.006347,
+      "pagerank": 0.005529,
+      "community": 8
+    },
+    "Surge AI": {
+      "label": "Surge AI",
+      "degree": 12,
+      "weighted_degree": 36,
+      "betweenness": 0.0,
+      "closeness": 0.369535,
+      "eigenvector": 0.002821,
+      "pagerank": 0.003168,
+      "community": 23
+    },
+    "GitHub Pipeline": {
+      "label": "GitHub Pipeline",
+      "degree": 12,
+      "weighted_degree": 36,
+      "betweenness": 0.0,
+      "closeness": 0.397572,
+      "eigenvector": 0.002822,
+      "pagerank": 0.002925,
+      "community": 8
+    },
+    "Escalation Risk": {
+      "label": "Escalation Risk",
+      "degree": 11,
+      "weighted_degree": 55,
+      "betweenness": 0.0,
+      "closeness": 0.408736,
+      "eigenvector": 0.002586,
+      "pagerank": 0.002785,
+      "community": 0
+    },
+    "Google Cloud": {
+      "label": "Google Cloud",
+      "degree": 3,
+      "weighted_degree": 10,
+      "betweenness": 0.0,
+      "closeness": 0.39697,
+      "eigenvector": 0.000705,
+      "pagerank": 0.001114,
+      "community": 8
+    },
+    "SOMPO Holdings": {
+      "label": "SOMPO Holdings",
+      "degree": 9,
+      "weighted_degree": 27,
+      "betweenness": 0.0,
+      "closeness": 0.407465,
+      "eigenvector": 0.002115,
+      "pagerank": 0.002814,
+      "community": 155
+    },
+    "The DoD": {
+      "label": "The DoD",
+      "degree": 13,
+      "weighted_degree": 40,
+      "betweenness": 0.0,
+      "closeness": 0.377522,
+      "eigenvector": 0.003056,
+      "pagerank": 0.003142,
+      "community": 75
+    },
+    "Advanced Technology Laboratories": {
+      "label": "Advanced Technology Laboratories",
+      "degree": 12,
+      "weighted_degree": 38,
+      "betweenness": 0.0,
+      "closeness": 0.351678,
+      "eigenvector": 0.002835,
+      "pagerank": 0.003201,
+      "community": 48
+    },
+    "Red Team": {
+      "label": "Red Team",
+      "degree": 13,
+      "weighted_degree": 39,
+      "betweenness": 0.0,
+      "closeness": 0.386431,
+      "eigenvector": 0.003061,
+      "pagerank": 0.003335,
+      "community": 8
+    },
+    "Salvatore Pais": {
+      "label": "Salvatore Pais",
+      "degree": 13,
+      "weighted_degree": 41,
+      "betweenness": 0.0,
+      "closeness": 0.386431,
+      "eigenvector": 0.003061,
+      "pagerank": 0.003335,
+      "community": 8
+    },
+    "Intervention Strategy": {
+      "label": "Intervention Strategy",
+      "degree": 9,
+      "weighted_degree": 27,
+      "betweenness": 0.0,
+      "closeness": 0.407465,
+      "eigenvector": 0.002115,
+      "pagerank": 0.002814,
+      "community": 155
+    },
+    "DLA PIPER LLP": {
+      "label": "DLA PIPER LLP",
+      "degree": 12,
+      "weighted_degree": 36,
+      "betweenness": 0.0,
+      "closeness": 0.368495,
+      "eigenvector": 0.00282,
+      "pagerank": 0.002714,
+      "community": 239
+    },
+    "Government Efficiency": {
+      "label": "Government Efficiency",
+      "degree": 23,
+      "weighted_degree": 93,
+      "betweenness": 0.001967,
+      "closeness": 0.472072,
+      "eigenvector": 0.005407,
+      "pagerank": 0.004662,
+      "community": 8
+    },
+    "Mojave Falcon": {
+      "label": "Mojave Falcon",
+      "degree": 8,
+      "weighted_degree": 26,
+      "betweenness": 0.000858,
+      "closeness": 0.341591,
+      "eigenvector": 0.001881,
+      "pagerank": 0.002674,
+      "community": 209
+    },
+    "Expected Outcome": {
+      "label": "Expected Outcome",
+      "degree": 9,
+      "weighted_degree": 27,
+      "betweenness": 0.0,
+      "closeness": 0.407465,
+      "eigenvector": 0.002115,
+      "pagerank": 0.002814,
+      "community": 155
+    },
+    "Former OpenAI": {
+      "label": "Former OpenAI",
+      "degree": 11,
+      "weighted_degree": 33,
+      "betweenness": 0.0,
+      "closeness": 0.426016,
+      "eigenvector": 0.002585,
+      "pagerank": 0.002598,
+      "community": 239
+    },
+    "Gregory Barbaccia": {
+      "label": "Gregory Barbaccia",
+      "degree": 8,
+      "weighted_degree": 24,
+      "betweenness": 0.0,
+      "closeness": 0.438861,
+      "eigenvector": 0.001882,
+      "pagerank": 0.002117,
+      "community": 8
+    },
+    "NSA AI Security Center": {
+      "label": "NSA AI Security Center",
+      "degree": 11,
+      "weighted_degree": 33,
+      "betweenness": 0.0,
+      "closeness": 0.360385,
+      "eigenvector": 0.002585,
+      "pagerank": 0.002922,
+      "community": 148
+    },
+    "Scale AI": {
+      "label": "Scale AI",
+      "degree": 27,
+      "weighted_degree": 112,
+      "betweenness": 0.013069,
+      "closeness": 0.516765,
+      "eigenvector": 0.006348,
+      "pagerank": 0.005483,
+      "community": 8
+    },
+    "Covert Function": {
+      "label": "Covert Function",
+      "degree": 11,
+      "weighted_degree": 55,
+      "betweenness": 0.0,
+      "closeness": 0.447863,
+      "eigenvector": 0.002586,
+      "pagerank": 0.002554,
+      "community": 8
+    },
+    "CONFIDENTIAL INTELLIGENCE REPORT": {
+      "label": "CONFIDENTIAL INTELLIGENCE REPORT",
+      "degree": 7,
+      "weighted_degree": 21,
+      "betweenness": 0.0,
+      "closeness": 0.42671,
+      "eigenvector": 0.001646,
+      "pagerank": 0.001954,
+      "community": 8
+    },
+    "Phantom Works": {
+      "label": "Phantom Works",
+      "degree": 12,
+      "weighted_degree": 36,
+      "betweenness": 0.0,
+      "closeness": 0.357923,
+      "eigenvector": 0.00283,
+      "pagerank": 0.003377,
+      "community": 77
+    },
+    "ChatGPT Gov": {
+      "label": "ChatGPT Gov",
+      "degree": 3,
+      "weighted_degree": 9,
+      "betweenness": 0.0,
+      "closeness": 0.383602,
+      "eigenvector": 0.000705,
+      "pagerank": 0.001104,
+      "community": 8
+    },
+    "The LTBT": {
+      "label": "The LTBT",
+      "degree": 7,
+      "weighted_degree": 21,
+      "betweenness": 0.0,
+      "closeness": 0.356463,
+      "eigenvector": 0.001645,
+      "pagerank": 0.002235,
+      "community": 21
+    },
+    "Regulatory Arbitrage": {
+      "label": "Regulatory Arbitrage",
+      "degree": 11,
+      "weighted_degree": 33,
+      "betweenness": 0.0,
+      "closeness": 0.360385,
+      "eigenvector": 0.002585,
+      "pagerank": 0.002922,
+      "community": 148
+    },
+    "Marine Corps": {
+      "label": "Marine Corps",
+      "degree": 19,
+      "weighted_degree": 62,
+      "betweenness": 0.015024,
+      "closeness": 0.455652,
+      "eigenvector": 0.004467,
+      "pagerank": 0.004518,
+      "community": 8
+    },
+    "Five Eyes": {
+      "label": "Five Eyes",
+      "degree": 35,
+      "weighted_degree": 168,
+      "betweenness": 0.027071,
+      "closeness": 0.528226,
+      "eigenvector": 0.00823,
+      "pagerank": 0.00706,
+      "community": 8
+    },
+    "Senate Armed Services Committee": {
+      "label": "Senate Armed Services Committee",
+      "degree": 18,
+      "weighted_degree": 75,
+      "betweenness": 0.000995,
+      "closeness": 0.413249,
+      "eigenvector": 0.004231,
+      "pagerank": 0.004775,
+      "community": 155
+    },
+    "BAE Systems": {
+      "label": "BAE Systems",
+      "degree": 1,
+      "weighted_degree": 3,
+      "betweenness": 0.0,
+      "closeness": 0.264113,
+      "eigenvector": 0.000236,
+      "pagerank": 0.000818,
+      "community": 77
+    },
+    "The War Zone": {
+      "label": "The War Zone",
+      "degree": 13,
+      "weighted_degree": 40,
+      "betweenness": 0.0,
+      "closeness": 0.386431,
+      "eigenvector": 0.003061,
+      "pagerank": 0.003335,
+      "community": 8
+    },
+    "Yuma Proving Ground": {
+      "label": "Yuma Proving Ground",
+      "degree": 5,
+      "weighted_degree": 16,
+      "betweenness": 0.000392,
+      "closeness": 0.350267,
+      "eigenvector": 0.001175,
+      "pagerank": 0.001877,
+      "community": 209
+    },
+    "The Pais": {
+      "label": "The Pais",
+      "degree": 13,
+      "weighted_degree": 39,
+      "betweenness": 0.0,
+      "closeness": 0.386431,
+      "eigenvector": 0.003061,
+      "pagerank": 0.003335,
+      "community": 8
+    },
+    "Lattice OS": {
+      "label": "Lattice OS",
+      "degree": 33,
+      "weighted_degree": 146,
+      "betweenness": 0.014339,
+      "closeness": 0.502879,
+      "eigenvector": 0.007759,
+      "pagerank": 0.006483,
+      "community": 8
+    },
+    "Bird Dog": {
+      "label": "Bird Dog",
+      "degree": 7,
+      "weighted_degree": 21,
+      "betweenness": 0.0,
+      "closeness": 0.341146,
+      "eigenvector": 0.001646,
+      "pagerank": 0.002354,
+      "community": 209
+    },
+    "AI Winter": {
+      "label": "AI Winter",
+      "degree": 13,
+      "weighted_degree": 39,
+      "betweenness": 0.0,
+      "closeness": 0.377522,
+      "eigenvector": 0.003056,
+      "pagerank": 0.003142,
+      "community": 75
+    },
+    "Senate Intelligence Committee": {
+      "label": "Senate Intelligence Committee",
+      "degree": 9,
+      "weighted_degree": 27,
+      "betweenness": 0.0,
+      "closeness": 0.407465,
+      "eigenvector": 0.002115,
+      "pagerank": 0.002814,
+      "community": 155
+    },
+    "Lockheed Martin": {
+      "label": "Lockheed Martin",
+      "degree": 55,
+      "weighted_degree": 193,
+      "betweenness": 0.329126,
+      "closeness": 0.529293,
+      "eigenvector": 0.012966,
+      "pagerank": 0.012638,
+      "community": 8
+    },
+    "Constitutional AI": {
+      "label": "Constitutional AI",
+      "degree": 18,
+      "weighted_degree": 57,
+      "betweenness": 9.1e-05,
+      "closeness": 0.376437,
+      "eigenvector": 0.004231,
+      "pagerank": 0.004697,
+      "community": 23
+    },
+    "AKIN GUMP STRAUSS HAUER": {
+      "label": "AKIN GUMP STRAUSS HAUER",
+      "degree": 12,
+      "weighted_degree": 36,
+      "betweenness": 0.0,
+      "closeness": 0.368495,
+      "eigenvector": 0.00282,
+      "pagerank": 0.002714,
+      "community": 239
+    },
+    "ISX Corp": {
+      "label": "ISX Corp",
+      "degree": 12,
+      "weighted_degree": 36,
+      "betweenness": 0.0,
+      "closeness": 0.351678,
+      "eigenvector": 0.002835,
+      "pagerank": 0.003201,
+      "community": 48
+    },
+    "Marc Andreessen": {
+      "label": "Marc Andreessen",
+      "degree": 14,
+      "weighted_degree": 42,
+      "betweenness": 0.0,
+      "closeness": 0.450172,
+      "eigenvector": 0.003291,
+      "pagerank": 0.00305,
+      "community": 8
+    },
+    "Khosla Ventures": {
+      "label": "Khosla Ventures",
+      "degree": 23,
+      "weighted_degree": 83,
+      "betweenness": 0.030294,
+      "closeness": 0.455652,
+      "eigenvector": 0.005406,
+      "pagerank": 0.004737,
+      "community": 239
+    },
+    "UAE MGX": {
+      "label": "UAE MGX",
+      "degree": 11,
+      "weighted_degree": 33,
+      "betweenness": 0.0,
+      "closeness": 0.426016,
+      "eigenvector": 0.002585,
+      "pagerank": 0.002598,
+      "community": 239
+    },
+    "Booz Allen": {
+      "label": "Booz Allen",
+      "degree": 5,
+      "weighted_degree": 19,
+      "betweenness": 0.0,
+      "closeness": 0.413249,
+      "eigenvector": 0.001176,
+      "pagerank": 0.00147,
+      "community": 8
+    },
+    "Maven Smart System": {
+      "label": "Maven Smart System",
+      "degree": 14,
+      "weighted_degree": 43,
+      "betweenness": 0.0,
+      "closeness": 0.432343,
+      "eigenvector": 0.003291,
+      "pagerank": 0.003015,
+      "community": 8
+    },
+    "Buga Sphere": {
+      "label": "Buga Sphere",
+      "degree": 13,
+      "weighted_degree": 39,
+      "betweenness": 0.0,
+      "closeness": 0.386431,
+      "eigenvector": 0.003061,
+      "pagerank": 0.003335,
+      "community": 8
+    },
+    "Congressional Scrutiny": {
+      "label": "Congressional Scrutiny",
+      "degree": 11,
+      "weighted_degree": 55,
+      "betweenness": 0.0,
+      "closeness": 0.408736,
+      "eigenvector": 0.002586,
+      "pagerank": 0.002785,
+      "community": 0
+    },
+    "Lockheed Martin Red Team": {
+      "label": "Lockheed Martin Red Team",
+      "degree": 12,
+      "weighted_degree": 36,
+      "betweenness": 0.0,
+      "closeness": 0.351678,
+      "eigenvector": 0.002835,
+      "pagerank": 0.003201,
+      "community": 48
+    },
+    "RF Spectrum": {
+      "label": "RF Spectrum",
+      "degree": 12,
+      "weighted_degree": 36,
+      "betweenness": 0.0,
+      "closeness": 0.351678,
+      "eigenvector": 0.002835,
+      "pagerank": 0.003201,
+      "community": 118
+    },
+    "Intelligence Community": {
+      "label": "Intelligence Community",
+      "degree": 29,
+      "weighted_degree": 121,
+      "betweenness": 0.015029,
+      "closeness": 0.504817,
+      "eigenvector": 0.006818,
+      "pagerank": 0.005795,
+      "community": 8
+    },
+    "Hivemind AI": {
+      "label": "Hivemind AI",
+      "degree": 12,
+      "weighted_degree": 36,
+      "betweenness": 0.0,
+      "closeness": 0.397572,
+      "eigenvector": 0.002822,
+      "pagerank": 0.002925,
+      "community": 8
+    },
+    "Scott Fouse": {
+      "label": "Scott Fouse",
+      "degree": 21,
+      "weighted_degree": 69,
+      "betweenness": 0.0,
+      "closeness": 0.355978,
+      "eigenvector": 0.004961,
+      "pagerank": 0.005255,
+      "community": 118
+    },
+    "The Dalles": {
+      "label": "The Dalles",
+      "degree": 4,
+      "weighted_degree": 12,
+      "betweenness": 0.0,
+      "closeness": 1.0,
+      "eigenvector": 0.00369,
+      "pagerank": 0.00369,
+      "community": 231
+    },
+    "Lockheed Martin ATL": {
+      "label": "Lockheed Martin ATL",
+      "degree": 12,
+      "weighted_degree": 36,
+      "betweenness": 0.0,
+      "closeness": 0.351678,
+      "eigenvector": 0.002835,
+      "pagerank": 0.003201,
+      "community": 48
+    },
+    "Thiel Fellows": {
+      "label": "Thiel Fellows",
+      "degree": 20,
+      "weighted_degree": 85,
+      "betweenness": 0.001315,
+      "closeness": 0.462081,
+      "eigenvector": 0.004702,
+      "pagerank": 0.003991,
+      "community": 8
+    },
+    "Sovereign Wealth Fund Integration": {
+      "label": "Sovereign Wealth Fund Integration",
+      "degree": 11,
+      "weighted_degree": 33,
+      "betweenness": 0.0,
+      "closeness": 0.426016,
+      "eigenvector": 0.002585,
+      "pagerank": 0.002598,
+      "community": 239
+    },
+    "ISX Corporation": {
+      "label": "ISX Corporation",
+      "degree": 21,
+      "weighted_degree": 71,
+      "betweenness": 0.0,
+      "closeness": 0.355978,
+      "eigenvector": 0.004961,
+      "pagerank": 0.005255,
+      "community": 118
+    },
+    "Operation Desert Storm": {
+      "label": "Operation Desert Storm",
+      "degree": 12,
+      "weighted_degree": 36,
+      "betweenness": 0.0,
+      "closeness": 0.351678,
+      "eigenvector": 0.002835,
+      "pagerank": 0.003201,
+      "community": 48
+    },
+    "HP Labs": {
+      "label": "HP Labs",
+      "degree": 12,
+      "weighted_degree": 36,
+      "betweenness": 0.0,
+      "closeness": 0.351678,
+      "eigenvector": 0.002835,
+      "pagerank": 0.003201,
+      "community": 118
+    },
+    "Thiel Fellowship": {
+      "label": "Thiel Fellowship",
+      "degree": 14,
+      "weighted_degree": 42,
+      "betweenness": 0.0,
+      "closeness": 0.457243,
+      "eigenvector": 0.003291,
+      "pagerank": 0.002927,
+      "community": 8
+    },
+    "Tasha McCauley": {
+      "label": "Tasha McCauley",
+      "degree": 12,
+      "weighted_degree": 36,
+      "betweenness": 0.0,
+      "closeness": 0.368495,
+      "eigenvector": 0.00282,
+      "pagerank": 0.002714,
+      "community": 239
+    },
+    "Investigation Risk": {
+      "label": "Investigation Risk",
+      "degree": 11,
+      "weighted_degree": 55,
+      "betweenness": 0.0,
+      "closeness": 0.408736,
+      "eigenvector": 0.002586,
+      "pagerank": 0.002785,
+      "community": 0
+    },
+    "Warp Drive": {
+      "label": "Warp Drive",
+      "degree": 12,
+      "weighted_degree": 36,
+      "betweenness": 0.0,
+      "closeness": 0.357923,
+      "eigenvector": 0.00283,
+      "pagerank": 0.003377,
+      "community": 77
+    },
+    "Curtis Yarvin": {
+      "label": "Curtis Yarvin",
+      "degree": 28,
+      "weighted_degree": 101,
+      "betweenness": 0.009385,
+      "closeness": 0.488806,
+      "eigenvector": 0.006582,
+      "pagerank": 0.005702,
+      "community": 8
+    },
+    "Confidence Assessment": {
+      "label": "Confidence Assessment",
+      "degree": 12,
+      "weighted_degree": 36,
+      "betweenness": 0.0,
+      "closeness": 0.369535,
+      "eigenvector": 0.002821,
+      "pagerank": 0.003168,
+      "community": 23
+    },
+    "Golden Dome": {
+      "label": "Golden Dome",
+      "degree": 8,
+      "weighted_degree": 26,
+      "betweenness": 0.0,
+      "closeness": 0.438861,
+      "eigenvector": 0.001882,
+      "pagerank": 0.002117,
+      "community": 8
+    },
+    "Palantir Technologies": {
+      "label": "Palantir Technologies",
+      "degree": 83,
+      "weighted_degree": 336,
+      "betweenness": 0.176844,
+      "closeness": 0.59276,
+      "eigenvector": 0.019515,
+      "pagerank": 0.01635,
+      "community": 8
+    },
+    "Ann Altman": {
+      "label": "Ann Altman",
+      "degree": 12,
+      "weighted_degree": 45,
+      "betweenness": 0.0,
+      "closeness": 0.368495,
+      "eigenvector": 0.00282,
+      "pagerank": 0.002714,
+      "community": 239
+    },
+    "Current Role": {
+      "label": "Current Role",
+      "degree": 10,
+      "weighted_degree": 50,
+      "betweenness": 0.0,
+      "closeness": 0.4081,
+      "eigenvector": 0.002351,
+      "pagerank": 0.002649,
+      "community": 157
+    },
+    "World ID": {
+      "label": "World ID",
+      "degree": 11,
+      "weighted_degree": 33,
+      "betweenness": 0.0,
+      "closeness": 0.446337,
+      "eigenvector": 0.002586,
+      "pagerank": 0.002512,
+      "community": 8
+    },
+    "United Kingdom": {
+      "label": "United Kingdom",
+      "degree": 1,
+      "weighted_degree": 3,
+      "betweenness": 0.0,
+      "closeness": 0.345646,
+      "eigenvector": 0.000235,
+      "pagerank": 0.000752,
+      "community": 8
+    },
+    "Defense Policy": {
+      "label": "Defense Policy",
+      "degree": 13,
+      "weighted_degree": 39,
+      "betweenness": 0.0,
+      "closeness": 0.450172,
+      "eigenvector": 0.003056,
+      "pagerank": 0.002822,
+      "community": 8
+    },
+    "Peter Thiel": {
+      "label": "Peter Thiel",
+      "degree": 135,
+      "weighted_degree": 573,
+      "betweenness": 0.484301,
+      "closeness": 0.671795,
+      "eigenvector": 0.031736,
+      "pagerank": 0.027734,
+      "community": 8
+    },
+    "Anduril Lattice OS": {
+      "label": "Anduril Lattice OS",
+      "degree": 12,
+      "weighted_degree": 36,
+      "betweenness": 0.0,
+      "closeness": 0.397572,
+      "eigenvector": 0.002822,
+      "pagerank": 0.002925,
+      "community": 8
+    },
+    "Advanced Space Propulsion Based": {
+      "label": "Advanced Space Propulsion Based",
+      "degree": 12,
+      "weighted_degree": 36,
+      "betweenness": 0.0,
+      "closeness": 0.357923,
+      "eigenvector": 0.00283,
+      "pagerank": 0.003377,
+      "community": 77
+    },
+    "Former Palantir": {
+      "label": "Former Palantir",
+      "degree": 7,
+      "weighted_degree": 21,
+      "betweenness": 0.0,
+      "closeness": 0.415873,
+      "eigenvector": 0.001645,
+      "pagerank": 0.001839,
+      "community": 8
+    },
+    "Covert Control": {
+      "label": "Covert Control",
+      "degree": 14,
+      "weighted_degree": 79,
+      "betweenness": 1.9e-05,
+      "closeness": 0.428105,
+      "eigenvector": 0.003291,
+      "pagerank": 0.003047,
+      "community": 214
+    },
+    "Cognitive Command": {
+      "label": "Cognitive Command",
+      "degree": 12,
+      "weighted_degree": 36,
+      "betweenness": 0.0,
+      "closeness": 0.351678,
+      "eigenvector": 0.002835,
+      "pagerank": 0.003201,
+      "community": 118
+    },
+    "Elon Musk": {
+      "label": "Elon Musk",
+      "degree": 71,
+      "weighted_degree": 297,
+      "betweenness": 0.10486,
+      "closeness": 0.53144,
+      "eigenvector": 0.016689,
+      "pagerank": 0.013557,
+      "community": 8
+    },
+    "White House": {
+      "label": "White House",
+      "degree": 19,
+      "weighted_degree": 60,
+      "betweenness": 0.008129,
+      "closeness": 0.454073,
+      "eigenvector": 0.004467,
+      "pagerank": 0.004483,
+      "community": 8
+    },
+    "Targeted Neuroplasticity Training": {
+      "label": "Targeted Neuroplasticity Training",
+      "degree": 13,
+      "weighted_degree": 39,
+      "betweenness": 0.0,
+      "closeness": 0.386431,
+      "eigenvector": 0.003061,
+      "pagerank": 0.003335,
+      "community": 8
+    },
+    "Sovereign Synthetic Empire": {
+      "label": "Sovereign Synthetic Empire",
+      "degree": 20,
+      "weighted_degree": 64,
+      "betweenness": 0.004881,
+      "closeness": 0.432343,
+      "eigenvector": 0.0047,
+      "pagerank": 0.004633,
+      "community": 148
+    },
+    "The Cathedral": {
+      "label": "The Cathedral",
+      "degree": 14,
+      "weighted_degree": 42,
+      "betweenness": 0.0,
+      "closeness": 0.450172,
+      "eigenvector": 0.003291,
+      "pagerank": 0.00305,
+      "community": 8
+    },
+    "Ayn Rand": {
+      "label": "Ayn Rand",
+      "degree": 5,
+      "weighted_degree": 15,
+      "betweenness": 0.0,
+      "closeness": 0.333333,
+      "eigenvector": 0.001175,
+      "pagerank": 0.001527,
+      "community": 8
+    },
+    "Financial Capture": {
+      "label": "Financial Capture",
+      "degree": 13,
+      "weighted_degree": 39,
+      "betweenness": 0.0,
+      "closeness": 0.427406,
+      "eigenvector": 0.003056,
+      "pagerank": 0.002858,
+      "community": 214
+    },
+    "Monroe Institute": {
+      "label": "Monroe Institute",
+      "degree": 13,
+      "weighted_degree": 39,
+      "betweenness": 0.0,
+      "closeness": 0.386431,
+      "eigenvector": 0.003061,
+      "pagerank": 0.003335,
+      "community": 8
+    },
+    "Digital Array Row Transceiver": {
+      "label": "Digital Array Row Transceiver",
+      "degree": 12,
+      "weighted_degree": 36,
+      "betweenness": 0.0,
+      "closeness": 0.351678,
+      "eigenvector": 0.002835,
+      "pagerank": 0.003201,
+      "community": 48
+    },
+    "Nick Land": {
+      "label": "Nick Land",
+      "degree": 14,
+      "weighted_degree": 42,
+      "betweenness": 0.0,
+      "closeness": 0.450172,
+      "eigenvector": 0.003291,
+      "pagerank": 0.00305,
+      "community": 8
+    },
+    "Ilya Sutskever": {
+      "label": "Ilya Sutskever",
+      "degree": 12,
+      "weighted_degree": 45,
+      "betweenness": 0.0,
+      "closeness": 0.368495,
+      "eigenvector": 0.00282,
+      "pagerank": 0.002714,
+      "community": 239
+    },
+    "Defense Information Systems Agency": {
+      "label": "Defense Information Systems Agency",
+      "degree": 11,
+      "weighted_degree": 55,
+      "betweenness": 0.0,
+      "closeness": 0.447863,
+      "eigenvector": 0.002586,
+      "pagerank": 0.002554,
+      "community": 8
+    },
+    "Balaji Srinivasan": {
+      "label": "Balaji Srinivasan",
+      "degree": 14,
+      "weighted_degree": 42,
+      "betweenness": 0.0,
+      "closeness": 0.450172,
+      "eigenvector": 0.003291,
+      "pagerank": 0.00305,
+      "community": 8
+    },
+    "Systemic Ethical Violation": {
+      "label": "Systemic Ethical Violation",
+      "degree": 14,
+      "weighted_degree": 79,
+      "betweenness": 1.9e-05,
+      "closeness": 0.428105,
+      "eigenvector": 0.003291,
+      "pagerank": 0.003047,
+      "community": 214
+    },
+    "Enabled Tactics": {
+      "label": "Enabled Tactics",
+      "degree": 13,
+      "weighted_degree": 39,
+      "betweenness": 0.0,
+      "closeness": 0.377522,
+      "eigenvector": 0.003056,
+      "pagerank": 0.003142,
+      "community": 75
+    },
+    "Carnegie Mellon University": {
+      "label": "Carnegie Mellon University",
+      "degree": 12,
+      "weighted_degree": 36,
+      "betweenness": 0.0,
+      "closeness": 0.351678,
+      "eigenvector": 0.002835,
+      "pagerank": 0.003201,
+      "community": 48
+    },
+    "Hoover Institution": {
+      "label": "Hoover Institution",
+      "degree": 18,
+      "weighted_degree": 56,
+      "betweenness": 0.002043,
+      "closeness": 0.435216,
+      "eigenvector": 0.004232,
+      "pagerank": 0.003881,
+      "community": 8
+    },
+    "South Africa": {
+      "label": "South Africa",
+      "degree": 14,
+      "weighted_degree": 55,
+      "betweenness": 0.0,
+      "closeness": 0.436667,
+      "eigenvector": 0.003291,
+      "pagerank": 0.002972,
+      "community": 8
+    },
+    "Command Post": {
+      "label": "Command Post",
+      "degree": 12,
+      "weighted_degree": 36,
+      "betweenness": 0.0,
+      "closeness": 0.351678,
+      "eigenvector": 0.002835,
+      "pagerank": 0.003201,
+      "community": 48
+    },
+    "Intelligence Sharing Enhancement": {
+      "label": "Intelligence Sharing Enhancement",
+      "degree": 11,
+      "weighted_degree": 33,
+      "betweenness": 0.0,
+      "closeness": 0.360385,
+      "eigenvector": 0.002585,
+      "pagerank": 0.002922,
+      "community": 148
+    },
+    "Alvaro Velasquez": {
+      "label": "Alvaro Velasquez",
+      "degree": 12,
+      "weighted_degree": 36,
+      "betweenness": 0.0,
+      "closeness": 0.357923,
+      "eigenvector": 0.00283,
+      "pagerank": 0.003377,
+      "community": 77
+    },
+    "Control Function": {
+      "label": "Control Function",
+      "degree": 10,
+      "weighted_degree": 50,
+      "betweenness": 0.0,
+      "closeness": 0.4081,
+      "eigenvector": 0.002351,
+      "pagerank": 0.002649,
+      "community": 157
+    },
+    "Suchir Balaji": {
+      "label": "Suchir Balaji",
+      "degree": 21,
+      "weighted_degree": 88,
+      "betweenness": 0.002853,
+      "closeness": 0.373219,
+      "eigenvector": 0.004936,
+      "pagerank": 0.004409,
+      "community": 239
+    },
+    "Robert Bigelow": {
+      "label": "Robert Bigelow",
+      "degree": 13,
+      "weighted_degree": 39,
+      "betweenness": 0.0,
+      "closeness": 0.386431,
+      "eigenvector": 0.003061,
+      "pagerank": 0.003335,
+      "community": 8
+    },
+    "Chief Digital": {
+      "label": "Chief Digital",
+      "degree": 13,
+      "weighted_degree": 42,
+      "betweenness": 0.0,
+      "closeness": 0.377522,
+      "eigenvector": 0.003056,
+      "pagerank": 0.003142,
+      "community": 75
+    },
+    "Leaked Details": {
+      "label": "Leaked Details",
+      "degree": 12,
+      "weighted_degree": 36,
+      "betweenness": 0.0,
+      "closeness": 0.369535,
+      "eigenvector": 0.002821,
+      "pagerank": 0.003168,
+      "community": 23
+    },
+    "Middle East": {
+      "label": "Middle East",
+      "degree": 4,
+      "weighted_degree": 15,
+      "betweenness": 3.7e-05,
+      "closeness": 0.351206,
+      "eigenvector": 0.00094,
+      "pagerank": 0.001748,
+      "community": 158
+    },
+    "Corporate Role": {
+      "label": "Corporate Role",
+      "degree": 10,
+      "weighted_degree": 50,
+      "betweenness": 0.0,
+      "closeness": 0.4081,
+      "eigenvector": 0.002351,
+      "pagerank": 0.002649,
+      "community": 157
+    },
+    "Project Stargate": {
+      "label": "Project Stargate",
+      "degree": 25,
+      "weighted_degree": 122,
+      "betweenness": 0.013272,
+      "closeness": 0.43594,
+      "eigenvector": 0.005876,
+      "pagerank": 0.005098,
+      "community": 239
+    },
+    "Behavioral Data Collection": {
+      "label": "Behavioral Data Collection",
+      "degree": 11,
+      "weighted_degree": 33,
+      "betweenness": 0.0,
+      "closeness": 0.360385,
+      "eigenvector": 0.002585,
+      "pagerank": 0.002922,
+      "community": 148
+    },
+    "Crew Training": {
+      "label": "Crew Training",
+      "degree": 8,
+      "weighted_degree": 26,
+      "betweenness": 0.000858,
+      "closeness": 0.341591,
+      "eigenvector": 0.001881,
+      "pagerank": 0.002674,
+      "community": 209
+    },
+    "Anduril UK": {
+      "label": "Anduril UK",
+      "degree": 13,
+      "weighted_degree": 39,
+      "betweenness": 0.0,
+      "closeness": 0.437396,
+      "eigenvector": 0.003056,
+      "pagerank": 0.002776,
+      "community": 8
+    },
+    "Unqualified Reservations": {
+      "label": "Unqualified Reservations",
+      "degree": 14,
+      "weighted_degree": 42,
+      "betweenness": 0.0,
+      "closeness": 0.450172,
+      "eigenvector": 0.003291,
+      "pagerank": 0.00305,
+      "community": 8
+    },
+    "PayPal Mafia": {
+      "label": "PayPal Mafia",
+      "degree": 22,
+      "weighted_degree": 91,
+      "betweenness": 0.001111,
+      "closeness": 0.463717,
+      "eigenvector": 0.005172,
+      "pagerank": 0.004356,
+      "community": 8
+    },
+    "Security Clearance Requirements": {
+      "label": "Security Clearance Requirements",
+      "degree": 11,
+      "weighted_degree": 33,
+      "betweenness": 0.0,
+      "closeness": 0.360385,
+      "eigenvector": 0.002585,
+      "pagerank": 0.002922,
+      "community": 148
+    },
+    "Strategic Hedging": {
+      "label": "Strategic Hedging",
+      "degree": 11,
+      "weighted_degree": 33,
+      "betweenness": 0.0,
+      "closeness": 0.360385,
+      "eigenvector": 0.002585,
+      "pagerank": 0.002922,
+      "community": 148
+    },
+    "Congressional Oversight": {
+      "label": "Congressional Oversight",
+      "degree": 9,
+      "weighted_degree": 27,
+      "betweenness": 0.0,
+      "closeness": 0.407465,
+      "eigenvector": 0.002115,
+      "pagerank": 0.002814,
+      "community": 155
+    },
+    "Jony Ive": {
+      "label": "Jony Ive",
+      "degree": 14,
+      "weighted_degree": 79,
+      "betweenness": 1.9e-05,
+      "closeness": 0.428105,
+      "eigenvector": 0.003291,
+      "pagerank": 0.003047,
+      "community": 214
+    },
+    "Anduril President": {
+      "label": "Anduril President",
+      "degree": 10,
+      "weighted_degree": 50,
+      "betweenness": 0.0,
+      "closeness": 0.4081,
+      "eigenvector": 0.002351,
+      "pagerank": 0.002649,
+      "community": 157
+    },
+    "United States": {
+      "label": "United States",
+      "degree": 45,
+      "weighted_degree": 172,
+      "betweenness": 0.196497,
+      "closeness": 0.527163,
+      "eigenvector": 0.01058,
+      "pagerank": 0.010524,
+      "community": 8
+    },
+    "AI Safety Institutes": {
+      "label": "AI Safety Institutes",
+      "degree": 11,
+      "weighted_degree": 33,
+      "betweenness": 0.0,
+      "closeness": 0.446337,
+      "eigenvector": 0.002586,
+      "pagerank": 0.002512,
+      "community": 8
+    },
+    "Founders Fund": {
+      "label": "Founders Fund",
+      "degree": 80,
+      "weighted_degree": 350,
+      "betweenness": 0.090392,
+      "closeness": 0.546973,
+      "eigenvector": 0.018806,
+      "pagerank": 0.015667,
+      "community": 8
+    },
+    "OpenAI LP": {
+      "label": "OpenAI LP",
+      "degree": 24,
+      "weighted_degree": 85,
+      "betweenness": 0.019641,
+      "closeness": 0.465364,
+      "eigenvector": 0.005641,
+      "pagerank": 0.004788,
+      "community": 8
+    },
+    "Jack Altman": {
+      "label": "Jack Altman",
+      "degree": 12,
+      "weighted_degree": 45,
+      "betweenness": 0.0,
+      "closeness": 0.368495,
+      "eigenvector": 0.00282,
+      "pagerank": 0.002714,
+      "community": 239
+    },
+    "Lattice Partner Program": {
+      "label": "Lattice Partner Program",
+      "degree": 12,
+      "weighted_degree": 36,
+      "betweenness": 0.0,
+      "closeness": 0.397572,
+      "eigenvector": 0.002822,
+      "pagerank": 0.002925,
+      "community": 8
+    },
+    "Confirmed Evidence": {
+      "label": "Confirmed Evidence",
+      "degree": 4,
+      "weighted_degree": 12,
+      "betweenness": 0.0,
+      "closeness": 0.422581,
+      "eigenvector": 0.00094,
+      "pagerank": 0.001396,
+      "community": 8
+    },
+    "Google DeepMind": {
+      "label": "Google DeepMind",
+      "degree": 4,
+      "weighted_degree": 12,
+      "betweenness": 0.0,
+      "closeness": 0.422581,
+      "eigenvector": 0.00094,
+      "pagerank": 0.001396,
+      "community": 8
+    },
+    "Reid Hoffman": {
+      "label": "Reid Hoffman",
+      "degree": 13,
+      "weighted_degree": 51,
+      "betweenness": 0.0,
+      "closeness": 0.362881,
+      "eigenvector": 0.003055,
+      "pagerank": 0.002911,
+      "community": 239
+    },
+    "Financial Vehicle": {
+      "label": "Financial Vehicle",
+      "degree": 21,
+      "weighted_degree": 63,
+      "betweenness": 0.013533,
+      "closeness": 0.454861,
+      "eigenvector": 0.004937,
+      "pagerank": 0.004725,
+      "community": 8
+    },
+    "Claude Opus": {
+      "label": "Claude Opus",
+      "degree": 12,
+      "weighted_degree": 36,
+      "betweenness": 0.0,
+      "closeness": 0.369535,
+      "eigenvector": 0.002821,
+      "pagerank": 0.003168,
+      "community": 23
+    },
+    "Seasteading Institute": {
+      "label": "Seasteading Institute",
+      "degree": 14,
+      "weighted_degree": 42,
+      "betweenness": 0.0,
+      "closeness": 0.432343,
+      "eigenvector": 0.003291,
+      "pagerank": 0.003015,
+      "community": 8
+    },
+    "Silicon Valley": {
+      "label": "Silicon Valley",
+      "degree": 55,
+      "weighted_degree": 216,
+      "betweenness": 0.058164,
+      "closeness": 0.519841,
+      "eigenvector": 0.012929,
+      "pagerank": 0.010848,
+      "community": 8
+    },
+    "Daniela Amodei": {
+      "label": "Daniela Amodei",
+      "degree": 8,
+      "weighted_degree": 25,
+      "betweenness": 0.0,
+      "closeness": 0.410016,
+      "eigenvector": 0.00188,
+      "pagerank": 0.002657,
+      "community": 171
+    },
+    "Executive Order": {
+      "label": "Executive Order",
+      "degree": 20,
+      "weighted_degree": 77,
+      "betweenness": 0.008487,
+      "closeness": 0.467023,
+      "eigenvector": 0.004703,
+      "pagerank": 0.004239,
+      "community": 8
+    },
+    "Northern Virginia": {
+      "label": "Northern Virginia",
+      "degree": 4,
+      "weighted_degree": 12,
+      "betweenness": 0.0,
+      "closeness": 1.0,
+      "eigenvector": 0.00369,
+      "pagerank": 0.00369,
+      "community": 231
+    },
+    "Jeffrey Epstein": {
+      "label": "Jeffrey Epstein",
+      "degree": 14,
+      "weighted_degree": 58,
+      "betweenness": 0.0,
+      "closeness": 0.436667,
+      "eigenvector": 0.003291,
+      "pagerank": 0.002972,
+      "community": 8
+    },
+    "Shield AI": {
+      "label": "Shield AI",
+      "degree": 18,
+      "weighted_degree": 65,
+      "betweenness": 0.011254,
+      "closeness": 0.42671,
+      "eigenvector": 0.004233,
+      "pagerank": 0.004307,
+      "community": 8
+    },
+    "Dynamic Analysis": {
+      "label": "Dynamic Analysis",
+      "degree": 21,
+      "weighted_degree": 69,
+      "betweenness": 0.0,
+      "closeness": 0.355978,
+      "eigenvector": 0.004961,
+      "pagerank": 0.005255,
+      "community": 118
+    },
+    "Maricopa County": {
+      "label": "Maricopa County",
+      "degree": 4,
+      "weighted_degree": 12,
+      "betweenness": 0.0,
+      "closeness": 1.0,
+      "eigenvector": 0.00369,
+      "pagerank": 0.00369,
+      "community": 231
+    },
+    "Microsoft Azure": {
+      "label": "Microsoft Azure",
+      "degree": 11,
+      "weighted_degree": 35,
+      "betweenness": 0.0,
+      "closeness": 0.426016,
+      "eigenvector": 0.002585,
+      "pagerank": 0.002598,
+      "community": 239
+    },
+    "Domain Integration": {
+      "label": "Domain Integration",
+      "degree": 8,
+      "weighted_degree": 24,
+      "betweenness": 0.0,
+      "closeness": 0.438861,
+      "eigenvector": 0.001882,
+      "pagerank": 0.002117,
+      "community": 8
+    },
+    "Helen Toner": {
+      "label": "Helen Toner",
+      "degree": 21,
+      "weighted_degree": 88,
+      "betweenness": 0.002853,
+      "closeness": 0.373219,
+      "eigenvector": 0.004936,
+      "pagerank": 0.004409,
+      "community": 239
+    },
+    "Northrop Grumman": {
+      "label": "Northrop Grumman",
+      "degree": 13,
+      "weighted_degree": 40,
+      "betweenness": 0.006965,
+      "closeness": 0.358413,
+      "eigenvector": 0.003066,
+      "pagerank": 0.004047,
+      "community": 77
+    },
+    "Defense Intelligence Reference Document": {
+      "label": "Defense Intelligence Reference Document",
+      "degree": 12,
+      "weighted_degree": 36,
+      "betweenness": 0.0,
+      "closeness": 0.357923,
+      "eigenvector": 0.00283,
+      "pagerank": 0.003377,
+      "community": 77
+    },
+    "Poornima Rao": {
+      "label": "Poornima Rao",
+      "degree": 13,
+      "weighted_degree": 51,
+      "betweenness": 0.0,
+      "closeness": 0.362881,
+      "eigenvector": 0.003055,
+      "pagerank": 0.002911,
+      "community": 239
+    },
+    "Sheikh Tahnoon": {
+      "label": "Sheikh Tahnoon",
+      "degree": 20,
+      "weighted_degree": 64,
+      "betweenness": 0.004881,
+      "closeness": 0.432343,
+      "eigenvector": 0.0047,
+      "pagerank": 0.004633,
+      "community": 148
+    },
+    "Skunk Works": {
+      "label": "Skunk Works",
+      "degree": 12,
+      "weighted_degree": 36,
+      "betweenness": 0.0,
+      "closeness": 0.357923,
+      "eigenvector": 0.00283,
+      "pagerank": 0.003377,
+      "community": 77
+    },
+    "Geof Kahn": {
+      "label": "Geof Kahn",
+      "degree": 10,
+      "weighted_degree": 50,
+      "betweenness": 0.0,
+      "closeness": 0.4081,
+      "eigenvector": 0.002351,
+      "pagerank": 0.002649,
+      "community": 157
+    },
+    "State Defense Architecture": {
+      "label": "State Defense Architecture",
+      "degree": 7,
+      "weighted_degree": 21,
+      "betweenness": 0.0,
+      "closeness": 0.42671,
+      "eigenvector": 0.001646,
+      "pagerank": 0.001954,
+      "community": 8
+    },
+    "Deep Thinking": {
+      "label": "Deep Thinking",
+      "degree": 2,
+      "weighted_degree": 6,
+      "betweenness": 0.0,
+      "closeness": 1.0,
+      "eigenvector": 0.00369,
+      "pagerank": 0.00369,
+      "community": 188
+    },
+    "Larry Ellison": {
+      "label": "Larry Ellison",
+      "degree": 9,
+      "weighted_degree": 28,
+      "betweenness": 0.001413,
+      "closeness": 0.428105,
+      "eigenvector": 0.002115,
+      "pagerank": 0.002839,
+      "community": 171
+    },
+    "Paul Graham": {
+      "label": "Paul Graham",
+      "degree": 13,
+      "weighted_degree": 51,
+      "betweenness": 0.0,
+      "closeness": 0.362881,
+      "eigenvector": 0.003055,
+      "pagerank": 0.002911,
+      "community": 239
+    },
+    "Klaus Thiel": {
+      "label": "Klaus Thiel",
+      "degree": 14,
+      "weighted_degree": 55,
+      "betweenness": 0.0,
+      "closeness": 0.436667,
+      "eigenvector": 0.003291,
+      "pagerank": 0.002972,
+      "community": 8
+    },
+    "OFFensive Swarm": {
+      "label": "OFFensive Swarm",
+      "degree": 13,
+      "weighted_degree": 39,
+      "betweenness": 0.0,
+      "closeness": 0.377522,
+      "eigenvector": 0.003056,
+      "pagerank": 0.003142,
+      "community": 75
+    },
+    "Defense Advanced Research Projects": {
+      "label": "Defense Advanced Research Projects",
+      "degree": 11,
+      "weighted_degree": 55,
+      "betweenness": 0.0,
+      "closeness": 0.447863,
+      "eigenvector": 0.002586,
+      "pagerank": 0.002554,
+      "community": 8
+    },
+    "Public Subsidies": {
+      "label": "Public Subsidies",
+      "degree": 4,
+      "weighted_degree": 12,
+      "betweenness": 0.0,
+      "closeness": 1.0,
+      "eigenvector": 0.00369,
+      "pagerank": 0.00369,
+      "community": 231
+    },
+    "House Foreign Affairs Committee": {
+      "label": "House Foreign Affairs Committee",
+      "degree": 9,
+      "weighted_degree": 27,
+      "betweenness": 0.0,
+      "closeness": 0.407465,
+      "eigenvector": 0.002115,
+      "pagerank": 0.002814,
+      "community": 155
+    },
+    "CIA In": {
+      "label": "CIA In",
+      "degree": 7,
+      "weighted_degree": 21,
+      "betweenness": 0.0,
+      "closeness": 0.415873,
+      "eigenvector": 0.001645,
+      "pagerank": 0.001839,
+      "community": 8
+    },
+    "Qiang Xu": {
+      "label": "Qiang Xu",
+      "degree": 2,
+      "weighted_degree": 6,
+      "betweenness": 0.0,
+      "closeness": 1.0,
+      "eigenvector": 0.00369,
+      "pagerank": 0.00369,
+      "community": 188
+    },
+    "Suman Datta": {
+      "label": "Suman Datta",
+      "degree": 12,
+      "weighted_degree": 36,
+      "betweenness": 0.0,
+      "closeness": 0.351678,
+      "eigenvector": 0.002835,
+      "pagerank": 0.003201,
+      "community": 118
+    },
+    "Contract Value": {
+      "label": "Contract Value",
+      "degree": 11,
+      "weighted_degree": 55,
+      "betweenness": 0.0,
+      "closeness": 0.408736,
+      "eigenvector": 0.002586,
+      "pagerank": 0.002785,
+      "community": 0
+    },
+    "Meta Platforms": {
+      "label": "Meta Platforms",
+      "degree": 12,
+      "weighted_degree": 36,
+      "betweenness": 0.0,
+      "closeness": 0.357923,
+      "eigenvector": 0.00283,
+      "pagerank": 0.003377,
+      "community": 77
+    },
+    "Mencius Moldbug": {
+      "label": "Mencius Moldbug",
+      "degree": 14,
+      "weighted_degree": 42,
+      "betweenness": 0.0,
+      "closeness": 0.450172,
+      "eigenvector": 0.003291,
+      "pagerank": 0.00305,
+      "community": 8
+    },
+    "Capital Scale": {
+      "label": "Capital Scale",
+      "degree": 11,
+      "weighted_degree": 33,
+      "betweenness": 0.0,
+      "closeness": 0.360385,
+      "eigenvector": 0.002585,
+      "pagerank": 0.002922,
+      "community": 148
+    },
+    "Elbit Systems": {
+      "label": "Elbit Systems",
+      "degree": 12,
+      "weighted_degree": 40,
+      "betweenness": 0.00562,
+      "closeness": 0.472924,
+      "eigenvector": 0.002822,
+      "pagerank": 0.003168,
+      "community": 8
+    },
+    "Thrive Capital": {
+      "label": "Thrive Capital",
+      "degree": 22,
+      "weighted_degree": 103,
+      "betweenness": 0.004666,
+      "closeness": 0.454861,
+      "eigenvector": 0.005171,
+      "pagerank": 0.004518,
+      "community": 8
+    },
+    "Booz Allen Hamilton": {
+      "label": "Booz Allen Hamilton",
+      "degree": 9,
+      "weighted_degree": 34,
+      "betweenness": 5e-05,
+      "closeness": 0.42671,
+      "eigenvector": 0.002117,
+      "pagerank": 0.002237,
+      "community": 8
+    },
+    "Unidentified Anomalous Phenomena": {
+      "label": "Unidentified Anomalous Phenomena",
+      "degree": 12,
+      "weighted_degree": 36,
+      "betweenness": 0.0,
+      "closeness": 0.357923,
+      "eigenvector": 0.00283,
+      "pagerank": 0.003377,
+      "community": 77
+    },
+    "Mithril Capital": {
+      "label": "Mithril Capital",
+      "degree": 41,
+      "weighted_degree": 154,
+      "betweenness": 0.009317,
+      "closeness": 0.497154,
+      "eigenvector": 0.009639,
+      "pagerank": 0.007742,
+      "community": 8
+    },
+    "Sam Altman": {
+      "label": "Sam Altman",
+      "degree": 88,
+      "weighted_degree": 373,
+      "betweenness": 0.263454,
+      "closeness": 0.55042,
+      "eigenvector": 0.020685,
+      "pagerank": 0.017417,
+      "community": 8
+    },
+    "Border Protection": {
+      "label": "Border Protection",
+      "degree": 8,
+      "weighted_degree": 25,
+      "betweenness": 0.000858,
+      "closeness": 0.341591,
+      "eigenvector": 0.001881,
+      "pagerank": 0.002674,
+      "community": 209
+    },
+    "The Gospel": {
+      "label": "The Gospel",
+      "degree": 2,
+      "weighted_degree": 6,
+      "betweenness": 0.0,
+      "closeness": 0.392804,
+      "eigenvector": 0.000471,
+      "pagerank": 0.000916,
+      "community": 8
+    },
+    "Artificial Intelligence Office": {
+      "label": "Artificial Intelligence Office",
+      "degree": 13,
+      "weighted_degree": 39,
+      "betweenness": 0.0,
+      "closeness": 0.377522,
+      "eigenvector": 0.003056,
+      "pagerank": 0.003142,
+      "community": 75
+    },
+    "Corporate Background": {
+      "label": "Corporate Background",
+      "degree": 8,
+      "weighted_degree": 24,
+      "betweenness": 0.0,
+      "closeness": 0.438861,
+      "eigenvector": 0.001882,
+      "pagerank": 0.002117,
+      "community": 8
+    },
+    "Sovereign Ideology": {
+      "label": "Sovereign Ideology",
+      "degree": 5,
+      "weighted_degree": 15,
+      "betweenness": 0.0,
+      "closeness": 0.333333,
+      "eigenvector": 0.001175,
+      "pagerank": 0.001527,
+      "community": 8
+    },
+    "AI Action Plan": {
+      "label": "AI Action Plan",
+      "degree": 22,
+      "weighted_degree": 103,
+      "betweenness": 0.004666,
+      "closeness": 0.454861,
+      "eigenvector": 0.005171,
+      "pagerank": 0.004518,
+      "community": 8
+    },
+    "President Trump": {
+      "label": "President Trump",
+      "degree": 4,
+      "weighted_degree": 14,
+      "betweenness": 3.7e-05,
+      "closeness": 0.351206,
+      "eigenvector": 0.00094,
+      "pagerank": 0.001748,
+      "community": 158
+    },
+    "Andreessen Horowitz": {
+      "label": "Andreessen Horowitz",
+      "degree": 13,
+      "weighted_degree": 39,
+      "betweenness": 0.0,
+      "closeness": 0.362881,
+      "eigenvector": 0.003055,
+      "pagerank": 0.002911,
+      "community": 239
+    },
+    "Retro Biosciences": {
+      "label": "Retro Biosciences",
+      "degree": 13,
+      "weighted_degree": 51,
+      "betweenness": 0.0,
+      "closeness": 0.362881,
+      "eigenvector": 0.003055,
+      "pagerank": 0.002911,
+      "community": 239
+    },
+    "Michael Obadal": {
+      "label": "Michael Obadal",
+      "degree": 11,
+      "weighted_degree": 55,
+      "betweenness": 0.0,
+      "closeness": 0.408736,
+      "eigenvector": 0.002586,
+      "pagerank": 0.002785,
+      "community": 0
+    },
+    "Further Investigation": {
+      "label": "Further Investigation",
+      "degree": 14,
+      "weighted_degree": 42,
+      "betweenness": 0.0,
+      "closeness": 0.457243,
+      "eigenvector": 0.003291,
+      "pagerank": 0.002927,
+      "community": 8
+    },
+    "Al Jazeera": {
+      "label": "Al Jazeera",
+      "degree": 3,
+      "weighted_degree": 9,
+      "betweenness": 0.0,
+      "closeness": 0.346561,
+      "eigenvector": 0.000705,
+      "pagerank": 0.001495,
+      "community": 158
+    },
+    "Reliable Neural": {
+      "label": "Reliable Neural",
+      "degree": 12,
+      "weighted_degree": 36,
+      "betweenness": 0.0,
+      "closeness": 0.357923,
+      "eigenvector": 0.00283,
+      "pagerank": 0.003377,
+      "community": 77
+    },
+    "Homeland Security": {
+      "label": "Homeland Security",
+      "degree": 13,
+      "weighted_degree": 39,
+      "betweenness": 0.0,
+      "closeness": 0.437396,
+      "eigenvector": 0.003056,
+      "pagerank": 0.002776,
+      "community": 8
+    },
+    "Emerson Collective": {
+      "label": "Emerson Collective",
+      "degree": 14,
+      "weighted_degree": 79,
+      "betweenness": 1.9e-05,
+      "closeness": 0.428105,
+      "eigenvector": 0.003291,
+      "pagerank": 0.003047,
+      "community": 214
+    },
+    "Tie Impasse": {
+      "label": "Tie Impasse",
+      "degree": 12,
+      "weighted_degree": 36,
+      "betweenness": 0.0,
+      "closeness": 0.351678,
+      "eigenvector": 0.002835,
+      "pagerank": 0.003201,
+      "community": 118
+    },
+    "OpenAI Startup Fund": {
+      "label": "OpenAI Startup Fund",
+      "degree": 29,
+      "weighted_degree": 114,
+      "betweenness": 0.019431,
+      "closeness": 0.438861,
+      "eigenvector": 0.006816,
+      "pagerank": 0.005984,
+      "community": 239
+    },
+    "Stanford University": {
+      "label": "Stanford University",
+      "degree": 14,
+      "weighted_degree": 42,
+      "betweenness": 0.0,
+      "closeness": 0.432343,
+      "eigenvector": 0.003291,
+      "pagerank": 0.003015,
+      "community": 8
+    },
+    "Valar Ventures": {
+      "label": "Valar Ventures",
+      "degree": 45,
+      "weighted_degree": 192,
+      "betweenness": 0.019896,
+      "closeness": 0.485185,
+      "eigenvector": 0.010579,
+      "pagerank": 0.008936,
+      "community": 8
+    },
+    "Claude Code": {
+      "label": "Claude Code",
+      "degree": 12,
+      "weighted_degree": 36,
+      "betweenness": 0.0,
+      "closeness": 0.369535,
+      "eigenvector": 0.002821,
+      "pagerank": 0.003168,
+      "community": 23
+    },
+    "Jaan Tallinn": {
+      "label": "Jaan Tallinn",
+      "degree": 8,
+      "weighted_degree": 24,
+      "betweenness": 0.0,
+      "closeness": 0.410016,
+      "eigenvector": 0.00188,
+      "pagerank": 0.002657,
+      "community": 171
+    },
+    "UAE Stargate Project": {
+      "label": "UAE Stargate Project",
+      "degree": 11,
+      "weighted_degree": 55,
+      "betweenness": 0.0,
+      "closeness": 0.408736,
+      "eigenvector": 0.002586,
+      "pagerank": 0.002785,
+      "community": 0
+    },
+    "ChatGPT Plus": {
+      "label": "ChatGPT Plus",
+      "degree": 4,
+      "weighted_degree": 12,
+      "betweenness": 0.0,
+      "closeness": 1.0,
+      "eigenvector": 0.00369,
+      "pagerank": 0.00369,
+      "community": 231
+    },
+    "Iron Beam": {
+      "label": "Iron Beam",
+      "degree": 2,
+      "weighted_degree": 6,
+      "betweenness": 0.0,
+      "closeness": 0.326683,
+      "eigenvector": 0.00047,
+      "pagerank": 0.000981,
+      "community": 8
+    },
+    "Gateway Process": {
+      "label": "Gateway Process",
+      "degree": 13,
+      "weighted_degree": 39,
+      "betweenness": 0.0,
+      "closeness": 0.386431,
+      "eigenvector": 0.003061,
+      "pagerank": 0.003335,
+      "community": 8
+    },
+    "DEV Community": {
+      "label": "DEV Community",
+      "degree": 12,
+      "weighted_degree": 36,
+      "betweenness": 0.0,
+      "closeness": 0.369535,
+      "eigenvector": 0.002821,
+      "pagerank": 0.003168,
+      "community": 23
+    },
+    "Palmer Luckey": {
+      "label": "Palmer Luckey",
+      "degree": 18,
+      "weighted_degree": 86,
+      "betweenness": 5.3e-05,
+      "closeness": 0.454861,
+      "eigenvector": 0.004232,
+      "pagerank": 0.003958,
+      "community": 8
+    },
+    "IC Labs": {
+      "label": "IC Labs",
+      "degree": 14,
+      "weighted_degree": 79,
+      "betweenness": 1.9e-05,
+      "closeness": 0.428105,
+      "eigenvector": 0.003291,
+      "pagerank": 0.003047,
+      "community": 214
+    },
+    "Nimitz Encounter": {
+      "label": "Nimitz Encounter",
+      "degree": 13,
+      "weighted_degree": 42,
+      "betweenness": 0.0,
+      "closeness": 0.386431,
+      "eigenvector": 0.003061,
+      "pagerank": 0.003335,
+      "community": 8
+    },
+    "Joint Artificial Intelligence Center": {
+      "label": "Joint Artificial Intelligence Center",
+      "degree": 13,
+      "weighted_degree": 39,
+      "betweenness": 0.0,
+      "closeness": 0.377522,
+      "eigenvector": 0.003056,
+      "pagerank": 0.003142,
+      "community": 75
+    },
+    "Green Dot": {
+      "label": "Green Dot",
+      "degree": 13,
+      "weighted_degree": 51,
+      "betweenness": 0.0,
+      "closeness": 0.362881,
+      "eigenvector": 0.003055,
+      "pagerank": 0.002911,
+      "community": 239
+    },
+    "Project Maven": {
+      "label": "Project Maven",
+      "degree": 55,
+      "weighted_degree": 228,
+      "betweenness": 0.130504,
+      "closeness": 0.557447,
+      "eigenvector": 0.012932,
+      "pagerank": 0.011061,
+      "community": 8
+    },
+    "Air Force": {
+      "label": "Air Force",
+      "degree": 37,
+      "weighted_degree": 158,
+      "betweenness": 0.043628,
+      "closeness": 0.509728,
+      "eigenvector": 0.0087,
+      "pagerank": 0.008153,
+      "community": 8
+    },
+    "Government Role": {
+      "label": "Government Role",
+      "degree": 10,
+      "weighted_degree": 50,
+      "betweenness": 0.0,
+      "closeness": 0.4081,
+      "eigenvector": 0.002351,
+      "pagerank": 0.002649,
+      "community": 157
+    },
+    "Robotic Technology Kernel": {
+      "label": "Robotic Technology Kernel",
+      "degree": 12,
+      "weighted_degree": 40,
+      "betweenness": 0.0,
+      "closeness": 0.397572,
+      "eigenvector": 0.002822,
+      "pagerank": 0.002925,
+      "community": 8
+    },
+    "Leverage Research": {
+      "label": "Leverage Research",
+      "degree": 14,
+      "weighted_degree": 42,
+      "betweenness": 0.0,
+      "closeness": 0.432343,
+      "eigenvector": 0.003291,
+      "pagerank": 0.003015,
+      "community": 8
+    },
+    "Hydrazine Capital": {
+      "label": "Hydrazine Capital",
+      "degree": 51,
+      "weighted_degree": 214,
+      "betweenness": 0.091043,
+      "closeness": 0.488806,
+      "eigenvector": 0.011987,
+      "pagerank": 0.010012,
+      "community": 239
+    },
+    "JD Vance": {
+      "label": "JD Vance",
+      "degree": 18,
+      "weighted_degree": 56,
+      "betweenness": 0.002043,
+      "closeness": 0.435216,
+      "eigenvector": 0.004232,
+      "pagerank": 0.003881,
+      "community": 8
+    },
+    "Richard Fontaine": {
+      "label": "Richard Fontaine",
+      "degree": 7,
+      "weighted_degree": 21,
+      "betweenness": 0.0,
+      "closeness": 0.356463,
+      "eigenvector": 0.001645,
+      "pagerank": 0.002235,
+      "community": 21
+    },
+    "Luke Nosek": {
+      "label": "Luke Nosek",
+      "degree": 7,
+      "weighted_degree": 21,
+      "betweenness": 0.0,
+      "closeness": 0.415873,
+      "eigenvector": 0.001645,
+      "pagerank": 0.001839,
+      "community": 8
+    },
+    "New Zealand": {
+      "label": "New Zealand",
+      "degree": 22,
+      "weighted_degree": 88,
+      "betweenness": 0.002542,
+      "closeness": 0.466192,
+      "eigenvector": 0.005172,
+      "pagerank": 0.004379,
+      "community": 8
+    },
+    "Responsible Scaling Policy": {
+      "label": "Responsible Scaling Policy",
+      "degree": 7,
+      "weighted_degree": 21,
+      "betweenness": 0.0,
+      "closeness": 0.356463,
+      "eigenvector": 0.001645,
+      "pagerank": 0.002235,
+      "community": 21
+    },
+    "Space Force": {
+      "label": "Space Force",
+      "degree": 14,
+      "weighted_degree": 43,
+      "betweenness": 0.0,
+      "closeness": 0.432343,
+      "eigenvector": 0.003291,
+      "pagerank": 0.003015,
+      "community": 8
+    },
+    "Dario Amodei": {
+      "label": "Dario Amodei",
+      "degree": 15,
+      "weighted_degree": 47,
+      "betweenness": 0.002069,
+      "closeness": 0.424635,
+      "eigenvector": 0.003526,
+      "pagerank": 0.004394,
+      "community": 171
+    },
+    "Max Altman": {
+      "label": "Max Altman",
+      "degree": 11,
+      "weighted_degree": 33,
+      "betweenness": 0.0,
+      "closeness": 0.426016,
+      "eigenvector": 0.002585,
+      "pagerank": 0.002598,
+      "community": 239
+    },
+    "Generation Nonsurgical Neurotechnology": {
+      "label": "Generation Nonsurgical Neurotechnology",
+      "degree": 13,
+      "weighted_degree": 39,
+      "betweenness": 0.0,
+      "closeness": 0.386431,
+      "eigenvector": 0.003061,
+      "pagerank": 0.003335,
+      "community": 8
+    },
+    "Jacob Helberg": {
+      "label": "Jacob Helberg",
+      "degree": 11,
+      "weighted_degree": 55,
+      "betweenness": 0.0,
+      "closeness": 0.408736,
+      "eigenvector": 0.002586,
+      "pagerank": 0.002785,
+      "community": 0
+    },
+    "Gray Mirror": {
+      "label": "Gray Mirror",
+      "degree": 14,
+      "weighted_degree": 42,
+      "betweenness": 0.0,
+      "closeness": 0.450172,
+      "eigenvector": 0.003291,
+      "pagerank": 0.00305,
+      "community": 8
+    },
+    "Confidence Score": {
+      "label": "Confidence Score",
+      "degree": 11,
+      "weighted_degree": 33,
+      "betweenness": 0.0,
+      "closeness": 0.446337,
+      "eigenvector": 0.002586,
+      "pagerank": 0.002512,
+      "community": 8
+    },
+    "Eliezer Yudkowsky": {
+      "label": "Eliezer Yudkowsky",
+      "degree": 14,
+      "weighted_degree": 42,
+      "betweenness": 0.0,
+      "closeness": 0.457243,
+      "eigenvector": 0.003291,
+      "pagerank": 0.002927,
+      "community": 8
+    },
+    "EnCharge AI": {
+      "label": "EnCharge AI",
+      "degree": 12,
+      "weighted_degree": 36,
+      "betweenness": 0.0,
+      "closeness": 0.351678,
+      "eigenvector": 0.002835,
+      "pagerank": 0.003201,
+      "community": 118
+    },
+    "Trae Stephens": {
+      "label": "Trae Stephens",
+      "degree": 20,
+      "weighted_degree": 94,
+      "betweenness": 0.001344,
+      "closeness": 0.455652,
+      "eigenvector": 0.004702,
+      "pagerank": 0.004069,
+      "community": 8
+    },
+    "Helion Energy": {
+      "label": "Helion Energy",
+      "degree": 13,
+      "weighted_degree": 51,
+      "betweenness": 0.0,
+      "closeness": 0.362881,
+      "eigenvector": 0.003055,
+      "pagerank": 0.002911,
+      "community": 239
+    },
+    "Machine Intelligence Research Institute": {
+      "label": "Machine Intelligence Research Institute",
+      "degree": 24,
+      "weighted_degree": 80,
+      "betweenness": 0.00147,
+      "closeness": 0.467857,
+      "eigenvector": 0.005642,
+      "pagerank": 0.00479,
+      "community": 8
+    },
+    "United Arab Emirates": {
+      "label": "United Arab Emirates",
+      "degree": 2,
+      "weighted_degree": 6,
+      "betweenness": 0.0,
+      "closeness": 0.350267,
+      "eigenvector": 0.00047,
+      "pagerank": 0.000953,
+      "community": 8
+    },
+    "Interface Technology": {
+      "label": "Interface Technology",
+      "degree": 12,
+      "weighted_degree": 36,
+      "betweenness": 0.0,
+      "closeness": 0.357923,
+      "eigenvector": 0.00283,
+      "pagerank": 0.003377,
+      "community": 77
+    },
+    "Hivemind Systems": {
+      "label": "Hivemind Systems",
+      "degree": 12,
+      "weighted_degree": 36,
+      "betweenness": 0.0,
+      "closeness": 0.397572,
+      "eigenvector": 0.002822,
+      "pagerank": 0.002925,
+      "community": 8
+    },
+    "DOGE Member": {
+      "label": "DOGE Member",
+      "degree": 14,
+      "weighted_degree": 42,
+      "betweenness": 0.0,
+      "closeness": 0.446337,
+      "eigenvector": 0.003291,
+      "pagerank": 0.002973,
+      "community": 8
+    },
+    "Corporate Witness Protection": {
+      "label": "Corporate Witness Protection",
+      "degree": 12,
+      "weighted_degree": 36,
+      "betweenness": 0.0,
+      "closeness": 0.351678,
+      "eigenvector": 0.002835,
+      "pagerank": 0.003201,
+      "community": 118
+    },
+    "Dustin Moskovitz": {
+      "label": "Dustin Moskovitz",
+      "degree": 8,
+      "weighted_degree": 24,
+      "betweenness": 0.0,
+      "closeness": 0.410016,
+      "eigenvector": 0.00188,
+      "pagerank": 0.002657,
+      "community": 171
+    },
+    "Model Context Protocol": {
+      "label": "Model Context Protocol",
+      "degree": 12,
+      "weighted_degree": 36,
+      "betweenness": 0.0,
+      "closeness": 0.369535,
+      "eigenvector": 0.002821,
+      "pagerank": 0.003168,
+      "community": 23
+    },
+    "Collapse Risk": {
+      "label": "Collapse Risk",
+      "degree": 11,
+      "weighted_degree": 55,
+      "betweenness": 0.0,
+      "closeness": 0.408736,
+      "eigenvector": 0.002586,
+      "pagerank": 0.002785,
+      "community": 0
+    }
+  },
+  "communities": {
+    "0": [
+      "Career Path",
+      "Escalation Risk",
+      "Congressional Scrutiny",
+      "Investigation Risk",
+      "Contract Value",
+      "Michael Obadal",
+      "UAE Stargate Project",
+      "Jacob Helberg",
+      "Collapse Risk"
+    ],
+    "214": [
+      "Abu Dhabi",
+      "Sovereign Wealth Funds",
+      "Covert Control",
+      "Financial Capture",
+      "Systemic Ethical Violation",
+      "Jony Ive",
+      "Emerson Collective",
+      "IC Labs"
+    ],
+    "8": [
+      "Data Platform",
+      "Christian Brose",
+      "Anduril Industries",
+      "Military Crossovers",
+      "West Point",
+      "Customs Enforcement",
+      "Arda Capital",
+      "Pais Effect",
+      "Apache Maven",
+      "Effective Altruism",
+      "Robot Operating System",
+      "An OSINT Investigation",
+      "National Cyber Security Centre",
+      "Brian Schimpf",
+      "Claude Gov",
+      "Skinwalker Ranch",
+      "Artificial Intelligence",
+      "Dark Enlightenment",
+      "GitHub Pipeline",
+      "Google Cloud",
+      "Red Team",
+      "Salvatore Pais",
+      "Government Efficiency",
+      "Gregory Barbaccia",
+      "Scale AI",
+      "Covert Function",
+      "CONFIDENTIAL INTELLIGENCE REPORT",
+      "ChatGPT Gov",
+      "Marine Corps",
+      "Five Eyes",
+      "The War Zone",
+      "The Pais",
+      "Lattice OS",
+      "Lockheed Martin",
+      "Marc Andreessen",
+      "Booz Allen",
+      "Maven Smart System",
+      "Buga Sphere",
+      "Intelligence Community",
+      "Hivemind AI",
+      "Thiel Fellows",
+      "Thiel Fellowship",
+      "Curtis Yarvin",
+      "Golden Dome",
+      "Palantir Technologies",
+      "World ID",
+      "United Kingdom",
+      "Defense Policy",
+      "Peter Thiel",
+      "Anduril Lattice OS",
+      "Former Palantir",
+      "Elon Musk",
+      "White House",
+      "Targeted Neuroplasticity Training",
+      "The Cathedral",
+      "Ayn Rand",
+      "Monroe Institute",
+      "Nick Land",
+      "Defense Information Systems Agency",
+      "Balaji Srinivasan",
+      "Hoover Institution",
+      "South Africa",
+      "Robert Bigelow",
+      "Anduril UK",
+      "Unqualified Reservations",
+      "PayPal Mafia",
+      "United States",
+      "AI Safety Institutes",
+      "Founders Fund",
+      "OpenAI LP",
+      "Lattice Partner Program",
+      "Confirmed Evidence",
+      "Google DeepMind",
+      "Financial Vehicle",
+      "Seasteading Institute",
+      "Silicon Valley",
+      "Executive Order",
+      "Jeffrey Epstein",
+      "Shield AI",
+      "Domain Integration",
+      "State Defense Architecture",
+      "Klaus Thiel",
+      "Defense Advanced Research Projects",
+      "CIA In",
+      "Mencius Moldbug",
+      "Elbit Systems",
+      "Thrive Capital",
+      "Booz Allen Hamilton",
+      "Mithril Capital",
+      "Sam Altman",
+      "The Gospel",
+      "Corporate Background",
+      "Sovereign Ideology",
+      "AI Action Plan",
+      "Further Investigation",
+      "Homeland Security",
+      "Stanford University",
+      "Valar Ventures",
+      "Iron Beam",
+      "Gateway Process",
+      "Palmer Luckey",
+      "Nimitz Encounter",
+      "Project Maven",
+      "Air Force",
+      "Robotic Technology Kernel",
+      "Leverage Research",
+      "JD Vance",
+      "Luke Nosek",
+      "New Zealand",
+      "Space Force",
+      "Generation Nonsurgical Neurotechnology",
+      "Gray Mirror",
+      "Confidence Score",
+      "Eliezer Yudkowsky",
+      "Trae Stephens",
+      "Machine Intelligence Research Institute",
+      "United Arab Emirates",
+      "Hivemind Systems",
+      "DOGE Member"
+    ],
+    "23": [
+      "Project Neptune",
+      "Business Insider",
+      "Project Vibe",
+      "Surge AI",
+      "Constitutional AI",
+      "Confidence Assessment",
+      "Leaked Details",
+      "Claude Opus",
+      "Claude Code",
+      "DEV Community",
+      "Model Context Protocol"
+    ],
+    "75": [
+      "Assured Autonomy",
+      "Strategic Computing Initiative",
+      "DoD Directive",
+      "The DoD",
+      "AI Winter",
+      "Enabled Tactics",
+      "Chief Digital",
+      "OFFensive Swarm",
+      "Artificial Intelligence Office",
+      "Joint Artificial Intelligence Center"
+    ],
+    "171": [
+      "Jack Clark",
+      "Tom Brown",
+      "Google Brain",
+      "Daniela Amodei",
+      "Larry Ellison",
+      "Jaan Tallinn",
+      "Dario Amodei",
+      "Dustin Moskovitz"
+    ],
+    "118": [
+      "Hierarchical Temporal Memory",
+      "DARPA OPTIMA",
+      "RF Spectrum",
+      "Scott Fouse",
+      "ISX Corporation",
+      "HP Labs",
+      "Cognitive Command",
+      "Dynamic Analysis",
+      "Suman Datta",
+      "Tie Impasse",
+      "EnCharge AI",
+      "Corporate Witness Protection"
+    ],
+    "157": [
+      "Corporate Bridge",
+      "Current Role",
+      "Control Function",
+      "Corporate Role",
+      "Anduril President",
+      "Geof Kahn",
+      "Government Role"
+    ],
+    "188": [
+      "Compressing Chain",
+      "Deep Thinking",
+      "Qiang Xu"
+    ],
+    "148": [
+      "Regulatory Capture Risk",
+      "Portfolio Synergy",
+      "NSA AI Security Center",
+      "Regulatory Arbitrage",
+      "Sovereign Synthetic Empire",
+      "Intelligence Sharing Enhancement",
+      "Behavioral Data Collection",
+      "Security Clearance Requirements",
+      "Strategic Hedging",
+      "Sheikh Tahnoon",
+      "Capital Scale"
+    ],
+    "21": [
+      "CEO Dario Amodei",
+      "The LTBT",
+      "Richard Fontaine",
+      "Responsible Scaling Policy"
+    ],
+    "48": [
+      "BBN Systems",
+      "Advanced Technology Laboratories",
+      "ISX Corp",
+      "Lockheed Martin Red Team",
+      "Lockheed Martin ATL",
+      "Operation Desert Storm",
+      "Digital Array Row Transceiver",
+      "Carnegie Mellon University",
+      "Command Post"
+    ],
+    "155": [
+      "Investigation Trigger",
+      "Investigation Focus",
+      "SOMPO Holdings",
+      "Intervention Strategy",
+      "Expected Outcome",
+      "Senate Armed Services Committee",
+      "Senate Intelligence Committee",
+      "Congressional Oversight",
+      "House Foreign Affairs Committee"
+    ],
+    "209": [
+      "General Atomics Aeronautical Systems",
+      "General Atomics",
+      "Mojave Falcon",
+      "Yuma Proving Ground",
+      "Bird Dog",
+      "Crew Training",
+      "Border Protection"
+    ],
+    "239": [
+      "DLA PIPER LLP",
+      "Former OpenAI",
+      "AKIN GUMP STRAUSS HAUER",
+      "Khosla Ventures",
+      "UAE MGX",
+      "Sovereign Wealth Fund Integration",
+      "Tasha McCauley",
+      "Ann Altman",
+      "Ilya Sutskever",
+      "Suchir Balaji",
+      "Project Stargate",
+      "Jack Altman",
+      "Reid Hoffman",
+      "Microsoft Azure",
+      "Helen Toner",
+      "Poornima Rao",
+      "Paul Graham",
+      "Andreessen Horowitz",
+      "Retro Biosciences",
+      "OpenAI Startup Fund",
+      "Green Dot",
+      "Hydrazine Capital",
+      "Max Altman",
+      "Helion Energy"
+    ],
+    "77": [
+      "Phantom Works",
+      "BAE Systems",
+      "Warp Drive",
+      "Advanced Space Propulsion Based",
+      "Alvaro Velasquez",
+      "Northrop Grumman",
+      "Defense Intelligence Reference Document",
+      "Skunk Works",
+      "Meta Platforms",
+      "Unidentified Anomalous Phenomena",
+      "Reliable Neural",
+      "Interface Technology"
+    ],
+    "231": [
+      "The Dalles",
+      "Northern Virginia",
+      "Maricopa County",
+      "Public Subsidies",
+      "ChatGPT Plus"
+    ],
+    "158": [
+      "Middle East",
+      "President Trump",
+      "Al Jazeera"
+    ]
+  },
+  "top_by_metric": {
+    "degree": [
+      [
+        "Peter Thiel",
+        135
+      ],
+      [
+        "Anduril Industries",
+        90
+      ],
+      [
+        "Sam Altman",
+        88
+      ],
+      [
+        "Palantir Technologies",
+        83
+      ],
+      [
+        "Founders Fund",
+        80
+      ],
+      [
+        "Elon Musk",
+        71
+      ],
+      [
+        "Lockheed Martin",
+        55
+      ],
+      [
+        "Silicon Valley",
+        55
+      ],
+      [
+        "Project Maven",
+        55
+      ],
+      [
+        "Hydrazine Capital",
+        51
+      ],
+      [
+        "United States",
+        45
+      ],
+      [
+        "Valar Ventures",
+        45
+      ],
+      [
+        "Mithril Capital",
+        41
+      ],
+      [
+        "Air Force",
+        37
+      ],
+      [
+        "Five Eyes",
+        35
+      ],
+      [
+        "Lattice OS",
+        33
+      ],
+      [
+        "Claude Gov",
+        32
+      ],
+      [
+        "Artificial Intelligence",
+        31
+      ],
+      [
+        "Intelligence Community",
+        29
+      ],
+      [
+        "OpenAI Startup Fund",
+        29
+      ]
+    ],
+    "weighted_degree": [
+      [
+        "Peter Thiel",
+        573
+      ],
+      [
+        "Sam Altman",
+        373
+      ],
+      [
+        "Anduril Industries",
+        358
+      ],
+      [
+        "Founders Fund",
+        350
+      ],
+      [
+        "Palantir Technologies",
+        336
+      ],
+      [
+        "Elon Musk",
+        297
+      ],
+      [
+        "Project Maven",
+        228
+      ],
+      [
+        "Silicon Valley",
+        216
+      ],
+      [
+        "Hydrazine Capital",
+        214
+      ],
+      [
+        "Lockheed Martin",
+        193
+      ],
+      [
+        "Valar Ventures",
+        192
+      ],
+      [
+        "United States",
+        172
+      ],
+      [
+        "Five Eyes",
+        168
+      ],
+      [
+        "Air Force",
+        158
+      ],
+      [
+        "Mithril Capital",
+        154
+      ],
+      [
+        "Lattice OS",
+        146
+      ],
+      [
+        "Christian Brose",
+        134
+      ],
+      [
+        "Artificial Intelligence",
+        131
+      ],
+      [
+        "Project Stargate",
+        122
+      ],
+      [
+        "Intelligence Community",
+        121
+      ]
+    ],
+    "betweenness": [
+      [
+        "Peter Thiel",
+        0.48430077957665163
+      ],
+      [
+        "Lockheed Martin",
+        0.3291258166199839
+      ],
+      [
+        "Anduril Industries",
+        0.27092527012953715
+      ],
+      [
+        "Sam Altman",
+        0.26345355850648333
+      ],
+      [
+        "United States",
+        0.19649720259819736
+      ],
+      [
+        "Palantir Technologies",
+        0.17684386171205368
+      ],
+      [
+        "Project Maven",
+        0.13050362408513014
+      ],
+      [
+        "Elon Musk",
+        0.10486016786530662
+      ],
+      [
+        "Hydrazine Capital",
+        0.09104297875152352
+      ],
+      [
+        "Founders Fund",
+        0.09039211713606865
+      ],
+      [
+        "Silicon Valley",
+        0.05816368193181907
+      ],
+      [
+        "Claude Gov",
+        0.04786562817121586
+      ],
+      [
+        "Air Force",
+        0.04362753531474289
+      ],
+      [
+        "Khosla Ventures",
+        0.030294284912480537
+      ],
+      [
+        "Artificial Intelligence",
+        0.028432825238948904
+      ],
+      [
+        "Five Eyes",
+        0.027070924757456864
+      ],
+      [
+        "Skinwalker Ranch",
+        0.026519396671423914
+      ],
+      [
+        "Valar Ventures",
+        0.019895843842865423
+      ],
+      [
+        "OpenAI LP",
+        0.019641074253216626
+      ],
+      [
+        "OpenAI Startup Fund",
+        0.019431156915795045
+      ]
+    ],
+    "closeness": [
+      [
+        "Compressing Chain",
+        1.0
+      ],
+      [
+        "The Dalles",
+        1.0
+      ],
+      [
+        "Northern Virginia",
+        1.0
+      ],
+      [
+        "Maricopa County",
+        1.0
+      ],
+      [
+        "Deep Thinking",
+        1.0
+      ],
+      [
+        "Public Subsidies",
+        1.0
+      ],
+      [
+        "Qiang Xu",
+        1.0
+      ],
+      [
+        "ChatGPT Plus",
+        1.0
+      ],
+      [
+        "Peter Thiel",
+        0.6717948717948717
+      ],
+      [
+        "Anduril Industries",
+        0.5941043083900227
+      ],
+      [
+        "Palantir Technologies",
+        0.5927601809954751
+      ],
+      [
+        "Project Maven",
+        0.5574468085106383
+      ],
+      [
+        "Sam Altman",
+        0.5504201680672269
+      ],
+      [
+        "Founders Fund",
+        0.5469728601252609
+      ],
+      [
+        "Elon Musk",
+        0.5314401622718052
+      ],
+      [
+        "Lockheed Martin",
+        0.5292929292929293
+      ],
+      [
+        "Artificial Intelligence",
+        0.5282258064516129
+      ],
+      [
+        "Five Eyes",
+        0.5282258064516129
+      ],
+      [
+        "United States",
+        0.5271629778672032
+      ],
+      [
+        "Claude Gov",
+        0.5219123505976095
+      ]
+    ],
+    "eigenvector": [
+      [
+        "Peter Thiel",
+        0.031735726939842064
+      ],
+      [
+        "Anduril Industries",
+        0.021165040430452562
+      ],
+      [
+        "Sam Altman",
+        0.020684502920884695
+      ],
+      [
+        "Palantir Technologies",
+        0.019514884279207785
+      ],
+      [
+        "Founders Fund",
+        0.01880635720494767
+      ],
+      [
+        "Elon Musk",
+        0.016689371301018965
+      ],
+      [
+        "Lockheed Martin",
+        0.012965772319623805
+      ],
+      [
+        "Project Maven",
+        0.012931760173675267
+      ],
+      [
+        "Silicon Valley",
+        0.012929324961175366
+      ],
+      [
+        "Hydrazine Capital",
+        0.011987193712844233
+      ],
+      [
+        "United States",
+        0.010579825271658665
+      ],
+      [
+        "Valar Ventures",
+        0.010578535897950258
+      ],
+      [
+        "Mithril Capital",
+        0.009638556573778602
+      ],
+      [
+        "Air Force",
+        0.00869972057726062
+      ],
+      [
+        "Five Eyes",
+        0.00822995205406935
+      ],
+      [
+        "Lattice OS",
+        0.007759315154585105
+      ],
+      [
+        "Claude Gov",
+        0.0075233011405680915
+      ],
+      [
+        "Artificial Intelligence",
+        0.007289111607907554
+      ],
+      [
+        "Intelligence Community",
+        0.0068183515314090585
+      ],
+      [
+        "OpenAI Startup Fund",
+        0.006815764648589776
+      ]
+    ],
+    "pagerank": [
+      [
+        "Peter Thiel",
+        0.027734495674269027
+      ],
+      [
+        "Anduril Industries",
+        0.01823695768995849
+      ],
+      [
+        "Sam Altman",
+        0.017416543399753133
+      ],
+      [
+        "Palantir Technologies",
+        0.016349668281502493
+      ],
+      [
+        "Founders Fund",
+        0.015666636051624543
+      ],
+      [
+        "Elon Musk",
+        0.013556665075534413
+      ],
+      [
+        "Lockheed Martin",
+        0.012638082055675823
+      ],
+      [
+        "Project Maven",
+        0.011060883066948626
+      ],
+      [
+        "Silicon Valley",
+        0.01084808123822398
+      ],
+      [
+        "United States",
+        0.01052430963102119
+      ],
+      [
+        "Hydrazine Capital",
+        0.01001237035655061
+      ],
+      [
+        "Valar Ventures",
+        0.008935965715207035
+      ],
+      [
+        "Air Force",
+        0.008152821749708206
+      ],
+      [
+        "Mithril Capital",
+        0.007742113362505426
+      ],
+      [
+        "Claude Gov",
+        0.007737190739808605
+      ],
+      [
+        "Five Eyes",
+        0.007060492386217989
+      ],
+      [
+        "Artificial Intelligence",
+        0.00665463967475553
+      ],
+      [
+        "Lattice OS",
+        0.006482877284228291
+      ],
+      [
+        "Skinwalker Ranch",
+        0.006194028455324129
+      ],
+      [
+        "OpenAI Startup Fund",
+        0.005983820536077
+      ]
+    ]
+  }
+}

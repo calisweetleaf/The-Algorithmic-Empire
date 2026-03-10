@@ -1,0 +1,15 @@
+learning:
+  continuous_learning_enabled: true
+  learning_rate: 0.001
+  model_update_interval_hours: 1
+  training_batch_size: 32
+session_logging:
+  detailed_reasoning_logs: true
+  log_all_sessions: true
+  performance_tracking: true
+  retention_days: 365
+synthesis:
+  default_synthesis_type: threat_assessment
+  default_time_window_hours: 168
+  max_concurrent_syntheses: 5
+  min_source_count: 3

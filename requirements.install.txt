@@ -1,0 +1,231 @@
+# REM-Core Domains Package Requirements
+# =====================================
+# Dependencies for domain-specific API intelligence processors
+
+# Core Python HTTP and data processing
+requests
+urllib3
+aiohttp
+httpx
+
+# Data processing and analysis
+pandas
+numpy
+scipy
+
+# Date and time handling
+python-dateutil
+pytz
+
+# Configuration and environment
+python-dotenv
+pyyaml
+configparser
+
+# Caching and performance
+diskcache
+redis  # Optional, for distributed caching
+lru-dict
+
+# XML and RSS processing (for research APIs)
+lxml
+feedparser
+beautifulsoup4
+
+# JSON and data serialization
+jsonschema
+marshmallow
+
+# Geospatial utilities (optional)
+geopy
+folium  # For map generation integration
+shapely  # For geospatial operations
+
+# Cryptography and security (for API authentication)
+cryptography
+pycryptodome
+
+# Text processing and analysis
+nltk  # Optional, for advanced sentiment analysis
+textblob  # Optional, for text processing
+regex
+
+# Async and concurrency
+asyncio
+
+# Logging and monitoring
+structlog
+prometheus-client  # Optional, for metrics
+
+# Testing and development (optional)
+pytest
+pytest-asyncio
+pytest-cov
+pytest-mock
+mock
+
+# Documentation (optional)
+sphinx
+sphinx-rtd-theme
+
+# Type hints and validation
+typing-extensions
+pydantic
+
+# Network utilities
+ipaddress  # Built-in, but listed for clarity
+dnspython  # For DNS lookups
+
+# Specialized domain requirements
+# ===============================
+
+# Environmental domain
+# Weather and climate data processing
+meteocalc  # Optional, for weather calculations
+pyowm  # Optional, alternative weather API client
+
+# Economic domain
+# Financial data processing
+yfinance  # Optional, alternative financial data
+alpha-vantage  # Optional, Alpha Vantage client
+ccxt  # Optional, cryptocurrency exchange data
+
+# Security domain
+# Security and threat intelligence
+ipwhois  # Optional, for IP WHOIS lookups
+python-whois  # Optional, for domain WHOIS
+shodan  # Optional, Shodan API client
+virustotal-api  # Optional, VirusTotal client
+
+# Media domain
+# News and social media processing
+newspaper3k  # Optional, for article extraction
+tweepy  # Optional, for Twitter API (if available)
+praw  # Optional, Reddit API client
+python-telegram-bot  # Optional, for Telegram monitoring
+
+# Research domain
+# Academic and research data processing
+scholarly  # Optional, for Google Scholar
+crossref-commons  # Optional, Crossref utilities
+arxiv  # Optional, arXiv client
+biopython  # Optional, for bioinformatics research
+
+# Optional integrations with REM-Core
+# ===================================
+# These are imported from the main REM-Core if available
+
+# Geospatial utilities
+# matplotlib>=3.5.0   # For plotting (if geo_utils needs it)
+# cartopy>=0.20.0      # For advanced mapping (if needed)
+
+# Machine learning (for advanced analytics)
+# scikit-learn>=1.1.0  # For ML-based threat assessment
+# tensorflow>=2.9.0    # For deep learning models (optional)
+# torch>=1.12.0        # Alternative ML framework (optional)
+
+# Database connections (if needed for caching)
+# psycopg2>=2.9.0      # PostgreSQL (optional)
+# pymongo>=4.2.0       # MongoDB (optional)
+# sqlite3>=2.6.0       # Built-in SQLite
+
+# Development and testing extras
+# ==============================
+# Install with: pip install -r requirements.txt[dev]
+
+# Code quality
+black  # Code formatting
+flake8  # Linting
+mypy  # Type checking
+isort  # Import sorting
+pre-commit  # Git hooks
+
+# Performance profiling
+memory-profiler  # Memory usage profiling
+line-profiler  # Line-by-line profiling
+
+# Security scanning
+bandit  # Security linting
+safety  # Dependency vulnerability scanning
+
+# Alternative HTTP clients (optional)
+# ===================================
+# For specialized use cases or performance
+
+# grequests>=0.6.0     # Asynchronous requests
+# httplib2     # Alternative HTTP library
+# treq        # Twisted-based HTTP client
+
+# Version constraints explanation:
+# ===============================
+requests
+requests
+pandas
+numpy
+aiohttp
+python-dateutil
+lxml
+cryptography
+pydantic
+
+# Platform-specific notes:
+# =======================
+# Windows: Some packages may require Visual C++ build tools
+# macOS: Xcode command line tools may be required
+# Linux: Development headers may be needed (python3-dev, libxml2-dev)
+
+# Minimal installation:
+# ====================
+# For minimal functionality, only these are strictly required:
+# requests>=2.28.0
+# python-dateutil>=2.8.0
+# lxml>=4.9.0 (for research domain)
+# 
+# Most APIs will work with just the requests library,
+# but additional features require more dependencies.
+
+# Memory and performance considerations:
+# =====================================
+# - pandas: Large memory footprint, consider alternatives for small datasets
+# - numpy: Essential for numerical operations but adds size
+# - lxml: Faster XML parsing than built-in xml module
+# - aiohttp: Better for high-concurrency scenarios
+# - diskcache: Persistent caching with minimal setup
+
+# Security considerations:
+# =======================
+# - cryptography: Keep updated for security patches
+# - requests: Verify SSL certificates by default
+# - urllib3: Disable insecure request warnings in production
+# - python-dotenv: For secure API key management
+
+# Optional pip install commands for specific domains:
+# ==================================================
+# Environmental: pip install meteocalc pyowm
+# Economic: pip install yfinance ccxt alpha-vantage
+# Security: pip install shodan virustotal-api python-whois
+# Media: pip install newspaper3k praw tweepy
+# Research: pip install scholarly crossref-commons arxiv
+
+# Docker considerations:
+# =====================
+# For containerized deployments, consider using:
+# - python:3.9-slim base image
+# - Multi-stage builds to reduce final image size
+# - .dockerignore to exclude development dependencies
+# - Health checks using the domain processors' statistics endpoints
+
+# Installation troubleshooting:
+# =============================
+# If installation fails:
+# 1. Update pip: python -m pip install --upgrade pip
+# 2. Install build tools: pip install wheel setuptools
+# 3. Use binary wheels: pip install --only-binary=all package_name
+# 4. For ARM64/M1 Macs: Use conda for problematic packages
+# 5. For Alpine Linux: Install build dependencies and use --no-cache
+
+# Environment variables for optional dependencies:
+# ===============================================
+# SKIP_OPTIONAL_DEPS=1  # Skip optional dependencies during install
+# MINIMAL_INSTALL=1     # Install only core requirements
+# DEV_INSTALL=1         # Include development dependencies

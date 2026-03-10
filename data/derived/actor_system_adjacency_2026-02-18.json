@@ -1,0 +1,545 @@
+{
+  "meta": {
+    "generated": "2026-02-18 02:21",
+    "actors": [
+      "Peter Thiel",
+      "Larry Ellison",
+      "Eric Schmidt",
+      "Sam Altman"
+    ],
+    "system_count": 27
+  },
+  "adjacency": {
+    "Peter Thiel": {
+      "Project Maven (AWCFT)": {
+        "ars": 0.9,
+        "cew": 0.765,
+        "rel_types": [
+          "CON"
+        ],
+        "confidence": "HIGH",
+        "source_refs": [
+          "T14",
+          "T55",
+          "T08"
+        ],
+        "live_cooccurrence": 0
+      },
+      "Palantir Gotham": {
+        "ars": 1.0,
+        "cew": 1.0,
+        "rel_types": [
+          "OWN"
+        ],
+        "confidence": "VERIFIED",
+        "source_refs": [
+          "T17",
+          "T26"
+        ],
+        "live_cooccurrence": 0
+      },
+      "Palantir Foundry": {
+        "ars": 1.0,
+        "cew": 1.0,
+        "rel_types": [
+          "OWN"
+        ],
+        "confidence": "VERIFIED",
+        "source_refs": [
+          "T10"
+        ],
+        "live_cooccurrence": 0
+      },
+      "Palantir Titan": {
+        "ars": 0.95,
+        "cew": 0.8075,
+        "rel_types": [
+          "OWN",
+          "PAR"
+        ],
+        "confidence": "HIGH",
+        "source_refs": [
+          "T55"
+        ],
+        "live_cooccurrence": 0
+      },
+      "Anduril Lattice": {
+        "ars": 0.95,
+        "cew": 0.72,
+        "rel_types": [
+          "INV"
+        ],
+        "confidence": "VERIFIED",
+        "source_refs": [
+          "T55",
+          "T11"
+        ],
+        "live_cooccurrence": 0
+      },
+      "NGC2": {
+        "ars": 0.85,
+        "cew": 0.72,
+        "rel_types": [
+          "CON"
+        ],
+        "confidence": "HIGH",
+        "source_refs": [
+          "T56"
+        ],
+        "live_cooccurrence": 0
+      },
+      "DOGE": {
+        "ars": 0.8,
+        "cew": 0.525,
+        "rel_types": [
+          "DEP",
+          "PER"
+        ],
+        "confidence": "HIGH",
+        "source_refs": [
+          "T24",
+          "T10"
+        ],
+        "live_cooccurrence": 0
+      },
+      "JWCC": {
+        "ars": 0.5,
+        "cew": 0.45,
+        "rel_types": [
+          "CON"
+        ],
+        "confidence": "MEDIUM",
+        "source_refs": [
+          "T08"
+        ],
+        "live_cooccurrence": 0
+      },
+      "Oracle Cloud IC": {
+        "ars": 0.4,
+        "cew": 0.28,
+        "rel_types": [
+          "INV"
+        ],
+        "confidence": "LOW",
+        "source_refs": [
+          "T22"
+        ],
+        "live_cooccurrence": 0
+      },
+      "Ghost-X": {
+        "ars": 0.95,
+        "cew": 0.72,
+        "rel_types": [
+          "INV"
+        ],
+        "confidence": "VERIFIED",
+        "source_refs": [
+          "T55"
+        ],
+        "live_cooccurrence": 0
+      },
+      "Altius-600M/700M": {
+        "ars": 0.95,
+        "cew": 0.72,
+        "rel_types": [
+          "INV"
+        ],
+        "confidence": "HIGH",
+        "source_refs": [
+          "T56"
+        ],
+        "live_cooccurrence": 0
+      },
+      "Dive-LD": {
+        "ars": 0.95,
+        "cew": 0.72,
+        "rel_types": [
+          "INV"
+        ],
+        "confidence": "HIGH",
+        "source_refs": [
+          "T55"
+        ],
+        "live_cooccurrence": 0
+      },
+      "Fury CCA": {
+        "ars": 0.95,
+        "cew": 0.72,
+        "rel_types": [
+          "INV"
+        ],
+        "confidence": "HIGH",
+        "source_refs": [
+          "T56"
+        ],
+        "live_cooccurrence": 0
+      },
+      "Arsenal-1": {
+        "ars": 0.9,
+        "cew": 0.68,
+        "rel_types": [
+          "INV"
+        ],
+        "confidence": "MEDIUM",
+        "source_refs": [
+          "T55",
+          "T56"
+        ],
+        "live_cooccurrence": 0
+      }
+    },
+    "Larry Ellison": {
+      "Oracle Cloud IC": {
+        "ars": 1.0,
+        "cew": 1.0,
+        "rel_types": [
+          "OWN"
+        ],
+        "confidence": "VERIFIED",
+        "source_refs": [
+          "U11",
+          "T22"
+        ],
+        "live_cooccurrence": 0
+      },
+      "JWCC": {
+        "ars": 0.95,
+        "cew": 0.828,
+        "rel_types": [
+          "CON"
+        ],
+        "confidence": "VERIFIED",
+        "source_refs": [
+          "T40"
+        ],
+        "live_cooccurrence": 0
+      },
+      "Project Stargate": {
+        "ars": 0.95,
+        "cew": 0.667,
+        "rel_types": [
+          "INV",
+          "DEP"
+        ],
+        "confidence": "VERIFIED",
+        "source_refs": [
+          "T40"
+        ],
+        "live_cooccurrence": 0
+      },
+      "Palantir Foundry": {
+        "ars": 0.55,
+        "cew": 0.325,
+        "rel_types": [
+          "DEP"
+        ],
+        "confidence": "MEDIUM",
+        "source_refs": [
+          "T10"
+        ],
+        "live_cooccurrence": 0
+      },
+      "Azure OpenAI (IL6)": {
+        "ars": 0.4,
+        "cew": 0.2275,
+        "rel_types": [
+          "DEP"
+        ],
+        "confidence": "LOW",
+        "source_refs": [
+          "T40"
+        ],
+        "live_cooccurrence": 0
+      },
+      "STONEGHOST": {
+        "ars": 0.35,
+        "cew": 0.195,
+        "rel_types": [
+          "DEP"
+        ],
+        "confidence": "LOW",
+        "source_refs": [
+          "U11"
+        ],
+        "live_cooccurrence": 0
+      },
+      "ICD 505": {
+        "ars": 0.25,
+        "cew": 0.17,
+        "rel_types": [
+          "GOV"
+        ],
+        "confidence": "LOW",
+        "source_refs": [
+          "U11"
+        ],
+        "live_cooccurrence": 0
+      },
+      "OMB M-25-21": {
+        "ars": 0.2,
+        "cew": 0.153,
+        "rel_types": [
+          "GOV"
+        ],
+        "confidence": "LOW",
+        "source_refs": [
+          "U11"
+        ],
+        "live_cooccurrence": 0
+      }
+    },
+    "Eric Schmidt": {
+      "NSCAI": {
+        "ars": 1.0,
+        "cew": 0.85,
+        "rel_types": [
+          "GOV"
+        ],
+        "confidence": "VERIFIED",
+        "source_refs": [
+          "T10",
+          "T42"
+        ],
+        "live_cooccurrence": 0
+      },
+      "NAIAC": {
+        "ars": 0.7,
+        "cew": 0.5525,
+        "rel_types": [
+          "GOV"
+        ],
+        "confidence": "HIGH",
+        "source_refs": [
+          "T22",
+          "G01"
+        ],
+        "live_cooccurrence": 0
+      },
+      "JWCC": {
+        "ars": 0.55,
+        "cew": 0.425,
+        "rel_types": [
+          "GOV"
+        ],
+        "confidence": "MEDIUM",
+        "source_refs": [
+          "T10"
+        ],
+        "live_cooccurrence": 0
+      },
+      "ICD 505": {
+        "ars": 0.55,
+        "cew": 0.425,
+        "rel_types": [
+          "GOV"
+        ],
+        "confidence": "MEDIUM",
+        "source_refs": [
+          "T42"
+        ],
+        "live_cooccurrence": 0
+      },
+      "OMB M-25-21": {
+        "ars": 0.6,
+        "cew": 0.4675,
+        "rel_types": [
+          "GOV"
+        ],
+        "confidence": "MEDIUM",
+        "source_refs": [
+          "T42"
+        ],
+        "live_cooccurrence": 0
+      },
+      "CogSecCollab": {
+        "ars": 0.5,
+        "cew": 0.3825,
+        "rel_types": [
+          "GOV"
+        ],
+        "confidence": "MEDIUM",
+        "source_refs": [
+          "T42"
+        ],
+        "live_cooccurrence": 0
+      },
+      "DARPA SABER": {
+        "ars": 0.45,
+        "cew": 0.34,
+        "rel_types": [
+          "GOV"
+        ],
+        "confidence": "LOW",
+        "source_refs": [
+          "T42"
+        ],
+        "live_cooccurrence": 0
+      },
+      "DARPA Augmented Cog": {
+        "ars": 0.3,
+        "cew": 0.2125,
+        "rel_types": [
+          "GOV"
+        ],
+        "confidence": "LOW",
+        "source_refs": [
+          "T42"
+        ],
+        "live_cooccurrence": 0
+      },
+      "OpenAI Usage Policy": {
+        "ars": 0.3,
+        "cew": 0.175,
+        "rel_types": [
+          "PAR"
+        ],
+        "confidence": "LOW",
+        "source_refs": [
+          "T22"
+        ],
+        "live_cooccurrence": 0
+      },
+      "Palantir Gotham": {
+        "ars": 0.25,
+        "cew": 0.14,
+        "rel_types": [
+          "PAR"
+        ],
+        "confidence": "LOW",
+        "source_refs": [
+          "T10"
+        ],
+        "live_cooccurrence": 0
+      }
+    },
+    "Sam Altman": {
+      "Project Stargate": {
+        "ars": 1.0,
+        "cew": 1.0,
+        "rel_types": [
+          "OWN"
+        ],
+        "confidence": "VERIFIED",
+        "source_refs": [
+          "T40"
+        ],
+        "live_cooccurrence": 9
+      },
+      "OpenAI Usage Policy": {
+        "ars": 1.0,
+        "cew": 1.0,
+        "rel_types": [
+          "OWN"
+        ],
+        "confidence": "VERIFIED",
+        "source_refs": [
+          "S05"
+        ],
+        "live_cooccurrence": 0
+      },
+      "Worldcoin / World ID": {
+        "ars": 1.0,
+        "cew": 1.0,
+        "rel_types": [
+          "OWN"
+        ],
+        "confidence": "VERIFIED",
+        "source_refs": [
+          "O04",
+          "O05",
+          "O12"
+        ],
+        "live_cooccurrence": 0
+      },
+      "Azure OpenAI (IL6)": {
+        "ars": 0.95,
+        "cew": 0.644,
+        "rel_types": [
+          "PAR"
+        ],
+        "confidence": "HIGH",
+        "source_refs": [
+          "T14",
+          "T32"
+        ],
+        "live_cooccurrence": 0
+      },
+      "IDF AI Targeting": {
+        "ars": 0.8,
+        "cew": 0.507,
+        "rel_types": [
+          "DEP"
+        ],
+        "confidence": "HIGH",
+        "source_refs": [
+          "T25",
+          "T33"
+        ],
+        "live_cooccurrence": 0
+      },
+      "Anduril Lattice": {
+        "ars": 0.7,
+        "cew": 0.455,
+        "rel_types": [
+          "PAR"
+        ],
+        "confidence": "HIGH",
+        "source_refs": [
+          "T28",
+          "T20"
+        ],
+        "live_cooccurrence": 0
+      },
+      "Project Maven (AWCFT)": {
+        "ars": 0.6,
+        "cew": 0.385,
+        "rel_types": [
+          "PAR"
+        ],
+        "confidence": "MEDIUM",
+        "source_refs": [
+          "T08",
+          "S05"
+        ],
+        "live_cooccurrence": 0
+      },
+      "Palantir Gotham": {
+        "ars": 0.55,
+        "cew": 0.35,
+        "rel_types": [
+          "PAR"
+        ],
+        "confidence": "MEDIUM",
+        "source_refs": [
+          "T28"
+        ],
+        "live_cooccurrence": 0
+      },
+      "JWCC": {
+        "ars": 0.45,
+        "cew": 0.26,
+        "rel_types": [
+          "DEP"
+        ],
+        "confidence": "MEDIUM",
+        "source_refs": [
+          "T40",
+          "T32"
+        ],
+        "live_cooccurrence": 0
+      },
+      "NAIAC": {
+        "ars": 0.2,
+        "cew": 0.126,
+        "rel_types": [
+          "PAR"
+        ],
+        "confidence": "LOW",
+        "source_refs": [
+          "G01"
+        ],
+        "live_cooccurrence": 0
+      }
+    }
+  }
+}

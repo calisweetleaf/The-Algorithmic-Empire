@@ -1,0 +1,86 @@
+classification_matrix:
+  advanced_persistent_threat:
+    confidence_threshold: 0.8
+    default_roe_level: 3
+    engagement_policy: comprehensive_defense
+    indicators:
+    - lateral_movement
+    - data_exfiltration
+    - command_control
+  automated_probes:
+    confidence_threshold: 0.3
+    default_roe_level: 1
+    engagement_policy: monitor_and_log
+    indicators:
+    - port_scan
+    - vulnerability_scan
+    - automated_enumeration
+  corporate_surveillance:
+    confidence_threshold: 0.5
+    default_roe_level: 2
+    engagement_policy: active_deception
+    indicators:
+    - tracking_pixel
+    - fingerprinting
+    - data_collection
+  critical_infrastructure_attack:
+    confidence_threshold: 0.9
+    default_roe_level: 4
+    engagement_policy: maximum_response
+    indicators:
+    - infrastructure_targeting
+    - scada_attack
+    - supply_chain
+  noise:
+    confidence_threshold: 0.1
+    default_roe_level: 1
+    engagement_policy: ignore
+    indicators:
+    - scan_noise
+    - false_positive
+    - benign_anomaly
+  targeted_intrusion:
+    confidence_threshold: 0.7
+    default_roe_level: 3
+    engagement_policy: active_defense
+    indicators:
+    - exploit_attempt
+    - privilege_escalation
+    - persistence
+engagement_policies:
+  active_deception:
+    actions:
+    - deploy_honeypot
+    - false_data_injection
+    monitoring: comprehensive
+  active_defense:
+    actions:
+    - block_source
+    - isolate_target
+    monitoring: real_time
+  comprehensive_defense:
+    actions:
+    - multi_layer_blocking
+    - threat_hunting
+    monitoring: continuous
+  ignore:
+    actions: []
+    monitoring: basic
+  maximum_response:
+    actions:
+    - all_available_countermeasures
+    human_required: true
+    monitoring: maximum
+  monitor_and_log:
+    actions:
+    - log_event
+    - update_baseline
+    monitoring: enhanced
+roe_thresholds:
+  human_authorization_threshold: 0.85
+  roe_1_max_confidence: 0.4
+  roe_2_max_confidence: 0.6
+  roe_2_min_confidence: 0.3
+  roe_3_max_confidence: 0.8
+  roe_3_min_confidence: 0.6
+  roe_4_min_confidence: 0.8

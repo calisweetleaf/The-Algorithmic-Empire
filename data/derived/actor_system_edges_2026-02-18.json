@@ -1,0 +1,783 @@
+{
+  "meta": {
+    "generated": "2026-02-18 02:21",
+    "edge_count": 42
+  },
+  "edges": [
+    {
+      "actor": "Peter Thiel",
+      "system": "Project Maven (AWCFT)",
+      "layer": 1,
+      "rel_types": [
+        "CON"
+      ],
+      "base_weight": 0.9,
+      "evidence_multiplier": 0.85,
+      "cew": 0.765,
+      "ars": 0.9,
+      "ars_label": "Contract prime / co-ownership / founding investment",
+      "source_refs": [
+        "T14",
+        "T55",
+        "T08"
+      ],
+      "confidence": "HIGH",
+      "live_cooccurrence": 0
+    },
+    {
+      "actor": "Peter Thiel",
+      "system": "Palantir Gotham",
+      "layer": 2,
+      "rel_types": [
+        "OWN"
+      ],
+      "base_weight": 1.0,
+      "evidence_multiplier": 1.0,
+      "cew": 1.0,
+      "ars": 1.0,
+      "ars_label": "Direct ownership + operational control",
+      "source_refs": [
+        "T17",
+        "T26"
+      ],
+      "confidence": "VERIFIED",
+      "live_cooccurrence": 0
+    },
+    {
+      "actor": "Peter Thiel",
+      "system": "Palantir Foundry",
+      "layer": 2,
+      "rel_types": [
+        "OWN"
+      ],
+      "base_weight": 1.0,
+      "evidence_multiplier": 1.0,
+      "cew": 1.0,
+      "ars": 1.0,
+      "ars_label": "Direct ownership + operational control",
+      "source_refs": [
+        "T10"
+      ],
+      "confidence": "VERIFIED",
+      "live_cooccurrence": 0
+    },
+    {
+      "actor": "Peter Thiel",
+      "system": "Palantir Titan",
+      "layer": 2,
+      "rel_types": [
+        "OWN",
+        "PAR"
+      ],
+      "base_weight": 0.85,
+      "evidence_multiplier": 0.95,
+      "cew": 0.8075,
+      "ars": 0.95,
+      "ars_label": "Contract prime / co-ownership / founding investment",
+      "source_refs": [
+        "T55"
+      ],
+      "confidence": "HIGH",
+      "live_cooccurrence": 0
+    },
+    {
+      "actor": "Peter Thiel",
+      "system": "Anduril Lattice",
+      "layer": 2,
+      "rel_types": [
+        "INV"
+      ],
+      "base_weight": 0.8,
+      "evidence_multiplier": 0.9,
+      "cew": 0.72,
+      "ars": 0.95,
+      "ars_label": "Contract prime / co-ownership / founding investment",
+      "source_refs": [
+        "T55",
+        "T11"
+      ],
+      "confidence": "VERIFIED",
+      "live_cooccurrence": 0
+    },
+    {
+      "actor": "Peter Thiel",
+      "system": "NGC2",
+      "layer": 2,
+      "rel_types": [
+        "CON"
+      ],
+      "base_weight": 0.9,
+      "evidence_multiplier": 0.8,
+      "cew": 0.72,
+      "ars": 0.85,
+      "ars_label": "Major investment + strategic partnership",
+      "source_refs": [
+        "T56"
+      ],
+      "confidence": "HIGH",
+      "live_cooccurrence": 0
+    },
+    {
+      "actor": "Peter Thiel",
+      "system": "DOGE",
+      "layer": 3,
+      "rel_types": [
+        "DEP",
+        "PER"
+      ],
+      "base_weight": 0.7,
+      "evidence_multiplier": 0.75,
+      "cew": 0.525,
+      "ars": 0.8,
+      "ars_label": "Major investment + strategic partnership",
+      "source_refs": [
+        "T24",
+        "T10"
+      ],
+      "confidence": "HIGH",
+      "live_cooccurrence": 0
+    },
+    {
+      "actor": "Peter Thiel",
+      "system": "JWCC",
+      "layer": 5,
+      "rel_types": [
+        "CON"
+      ],
+      "base_weight": 0.9,
+      "evidence_multiplier": 0.5,
+      "cew": 0.45,
+      "ars": 0.5,
+      "ars_label": "Secondary linkage",
+      "source_refs": [
+        "T08"
+      ],
+      "confidence": "MEDIUM",
+      "live_cooccurrence": 0
+    },
+    {
+      "actor": "Peter Thiel",
+      "system": "Oracle Cloud IC",
+      "layer": 5,
+      "rel_types": [
+        "INV"
+      ],
+      "base_weight": 0.8,
+      "evidence_multiplier": 0.35,
+      "cew": 0.28,
+      "ars": 0.4,
+      "ars_label": "Tertiary / inferred linkage",
+      "source_refs": [
+        "T22"
+      ],
+      "confidence": "LOW",
+      "live_cooccurrence": 0
+    },
+    {
+      "actor": "Peter Thiel",
+      "system": "Ghost-X",
+      "layer": 6,
+      "rel_types": [
+        "INV"
+      ],
+      "base_weight": 0.8,
+      "evidence_multiplier": 0.9,
+      "cew": 0.72,
+      "ars": 0.95,
+      "ars_label": "Contract prime / co-ownership / founding investment",
+      "source_refs": [
+        "T55"
+      ],
+      "confidence": "VERIFIED",
+      "live_cooccurrence": 0
+    },
+    {
+      "actor": "Peter Thiel",
+      "system": "Altius-600M/700M",
+      "layer": 6,
+      "rel_types": [
+        "INV"
+      ],
+      "base_weight": 0.8,
+      "evidence_multiplier": 0.9,
+      "cew": 0.72,
+      "ars": 0.95,
+      "ars_label": "Contract prime / co-ownership / founding investment",
+      "source_refs": [
+        "T56"
+      ],
+      "confidence": "HIGH",
+      "live_cooccurrence": 0
+    },
+    {
+      "actor": "Peter Thiel",
+      "system": "Dive-LD",
+      "layer": 6,
+      "rel_types": [
+        "INV"
+      ],
+      "base_weight": 0.8,
+      "evidence_multiplier": 0.9,
+      "cew": 0.72,
+      "ars": 0.95,
+      "ars_label": "Contract prime / co-ownership / founding investment",
+      "source_refs": [
+        "T55"
+      ],
+      "confidence": "HIGH",
+      "live_cooccurrence": 0
+    },
+    {
+      "actor": "Peter Thiel",
+      "system": "Fury CCA",
+      "layer": 6,
+      "rel_types": [
+        "INV"
+      ],
+      "base_weight": 0.8,
+      "evidence_multiplier": 0.9,
+      "cew": 0.72,
+      "ars": 0.95,
+      "ars_label": "Contract prime / co-ownership / founding investment",
+      "source_refs": [
+        "T56"
+      ],
+      "confidence": "HIGH",
+      "live_cooccurrence": 0
+    },
+    {
+      "actor": "Peter Thiel",
+      "system": "Arsenal-1",
+      "layer": 6,
+      "rel_types": [
+        "INV"
+      ],
+      "base_weight": 0.8,
+      "evidence_multiplier": 0.85,
+      "cew": 0.68,
+      "ars": 0.9,
+      "ars_label": "Contract prime / co-ownership / founding investment",
+      "source_refs": [
+        "T55",
+        "T56"
+      ],
+      "confidence": "MEDIUM",
+      "live_cooccurrence": 0
+    },
+    {
+      "actor": "Larry Ellison",
+      "system": "Oracle Cloud IC",
+      "layer": 5,
+      "rel_types": [
+        "OWN"
+      ],
+      "base_weight": 1.0,
+      "evidence_multiplier": 1.0,
+      "cew": 1.0,
+      "ars": 1.0,
+      "ars_label": "Direct ownership + operational control",
+      "source_refs": [
+        "U11",
+        "T22"
+      ],
+      "confidence": "VERIFIED",
+      "live_cooccurrence": 0
+    },
+    {
+      "actor": "Larry Ellison",
+      "system": "JWCC",
+      "layer": 5,
+      "rel_types": [
+        "CON"
+      ],
+      "base_weight": 0.9,
+      "evidence_multiplier": 0.92,
+      "cew": 0.828,
+      "ars": 0.95,
+      "ars_label": "Contract prime / co-ownership / founding investment",
+      "source_refs": [
+        "T40"
+      ],
+      "confidence": "VERIFIED",
+      "live_cooccurrence": 0
+    },
+    {
+      "actor": "Larry Ellison",
+      "system": "Project Stargate",
+      "layer": 5,
+      "rel_types": [
+        "INV",
+        "DEP"
+      ],
+      "base_weight": 0.725,
+      "evidence_multiplier": 0.92,
+      "cew": 0.667,
+      "ars": 0.95,
+      "ars_label": "Contract prime / co-ownership / founding investment",
+      "source_refs": [
+        "T40"
+      ],
+      "confidence": "VERIFIED",
+      "live_cooccurrence": 0
+    },
+    {
+      "actor": "Larry Ellison",
+      "system": "Palantir Foundry",
+      "layer": 2,
+      "rel_types": [
+        "DEP"
+      ],
+      "base_weight": 0.65,
+      "evidence_multiplier": 0.5,
+      "cew": 0.325,
+      "ars": 0.55,
+      "ars_label": "Secondary linkage",
+      "source_refs": [
+        "T10"
+      ],
+      "confidence": "MEDIUM",
+      "live_cooccurrence": 0
+    },
+    {
+      "actor": "Larry Ellison",
+      "system": "Azure OpenAI (IL6)",
+      "layer": 5,
+      "rel_types": [
+        "DEP"
+      ],
+      "base_weight": 0.65,
+      "evidence_multiplier": 0.35,
+      "cew": 0.2275,
+      "ars": 0.4,
+      "ars_label": "Tertiary / inferred linkage",
+      "source_refs": [
+        "T40"
+      ],
+      "confidence": "LOW",
+      "live_cooccurrence": 0
+    },
+    {
+      "actor": "Larry Ellison",
+      "system": "STONEGHOST",
+      "layer": 5,
+      "rel_types": [
+        "DEP"
+      ],
+      "base_weight": 0.65,
+      "evidence_multiplier": 0.3,
+      "cew": 0.195,
+      "ars": 0.35,
+      "ars_label": "Tertiary / inferred linkage",
+      "source_refs": [
+        "U11"
+      ],
+      "confidence": "LOW",
+      "live_cooccurrence": 0
+    },
+    {
+      "actor": "Larry Ellison",
+      "system": "ICD 505",
+      "layer": 3,
+      "rel_types": [
+        "GOV"
+      ],
+      "base_weight": 0.85,
+      "evidence_multiplier": 0.2,
+      "cew": 0.17,
+      "ars": 0.25,
+      "ars_label": "Contextual association only",
+      "source_refs": [
+        "U11"
+      ],
+      "confidence": "LOW",
+      "live_cooccurrence": 0
+    },
+    {
+      "actor": "Larry Ellison",
+      "system": "OMB M-25-21",
+      "layer": 3,
+      "rel_types": [
+        "GOV"
+      ],
+      "base_weight": 0.85,
+      "evidence_multiplier": 0.18,
+      "cew": 0.153,
+      "ars": 0.2,
+      "ars_label": "Contextual association only",
+      "source_refs": [
+        "U11"
+      ],
+      "confidence": "LOW",
+      "live_cooccurrence": 0
+    },
+    {
+      "actor": "Eric Schmidt",
+      "system": "NSCAI",
+      "layer": 3,
+      "rel_types": [
+        "GOV"
+      ],
+      "base_weight": 0.85,
+      "evidence_multiplier": 1.0,
+      "cew": 0.85,
+      "ars": 1.0,
+      "ars_label": "Direct ownership + operational control",
+      "source_refs": [
+        "T10",
+        "T42"
+      ],
+      "confidence": "VERIFIED",
+      "live_cooccurrence": 0
+    },
+    {
+      "actor": "Eric Schmidt",
+      "system": "NAIAC",
+      "layer": 3,
+      "rel_types": [
+        "GOV"
+      ],
+      "base_weight": 0.85,
+      "evidence_multiplier": 0.65,
+      "cew": 0.5525,
+      "ars": 0.7,
+      "ars_label": "Governance role + policy influence",
+      "source_refs": [
+        "T22",
+        "G01"
+      ],
+      "confidence": "HIGH",
+      "live_cooccurrence": 0
+    },
+    {
+      "actor": "Eric Schmidt",
+      "system": "JWCC",
+      "layer": 5,
+      "rel_types": [
+        "GOV"
+      ],
+      "base_weight": 0.85,
+      "evidence_multiplier": 0.5,
+      "cew": 0.425,
+      "ars": 0.55,
+      "ars_label": "Secondary linkage",
+      "source_refs": [
+        "T10"
+      ],
+      "confidence": "MEDIUM",
+      "live_cooccurrence": 0
+    },
+    {
+      "actor": "Eric Schmidt",
+      "system": "ICD 505",
+      "layer": 3,
+      "rel_types": [
+        "GOV"
+      ],
+      "base_weight": 0.85,
+      "evidence_multiplier": 0.5,
+      "cew": 0.425,
+      "ars": 0.55,
+      "ars_label": "Secondary linkage",
+      "source_refs": [
+        "T42"
+      ],
+      "confidence": "MEDIUM",
+      "live_cooccurrence": 0
+    },
+    {
+      "actor": "Eric Schmidt",
+      "system": "OMB M-25-21",
+      "layer": 3,
+      "rel_types": [
+        "GOV"
+      ],
+      "base_weight": 0.85,
+      "evidence_multiplier": 0.55,
+      "cew": 0.4675,
+      "ars": 0.6,
+      "ars_label": "Secondary linkage",
+      "source_refs": [
+        "T42"
+      ],
+      "confidence": "MEDIUM",
+      "live_cooccurrence": 0
+    },
+    {
+      "actor": "Eric Schmidt",
+      "system": "CogSecCollab",
+      "layer": 4,
+      "rel_types": [
+        "GOV"
+      ],
+      "base_weight": 0.85,
+      "evidence_multiplier": 0.45,
+      "cew": 0.3825,
+      "ars": 0.5,
+      "ars_label": "Secondary linkage",
+      "source_refs": [
+        "T42"
+      ],
+      "confidence": "MEDIUM",
+      "live_cooccurrence": 0
+    },
+    {
+      "actor": "Eric Schmidt",
+      "system": "DARPA SABER",
+      "layer": 1,
+      "rel_types": [
+        "GOV"
+      ],
+      "base_weight": 0.85,
+      "evidence_multiplier": 0.4,
+      "cew": 0.34,
+      "ars": 0.45,
+      "ars_label": "Tertiary / inferred linkage",
+      "source_refs": [
+        "T42"
+      ],
+      "confidence": "LOW",
+      "live_cooccurrence": 0
+    },
+    {
+      "actor": "Eric Schmidt",
+      "system": "DARPA Augmented Cog",
+      "layer": 1,
+      "rel_types": [
+        "GOV"
+      ],
+      "base_weight": 0.85,
+      "evidence_multiplier": 0.25,
+      "cew": 0.2125,
+      "ars": 0.3,
+      "ars_label": "Tertiary / inferred linkage",
+      "source_refs": [
+        "T42"
+      ],
+      "confidence": "LOW",
+      "live_cooccurrence": 0
+    },
+    {
+      "actor": "Eric Schmidt",
+      "system": "OpenAI Usage Policy",
+      "layer": 3,
+      "rel_types": [
+        "PAR"
+      ],
+      "base_weight": 0.7,
+      "evidence_multiplier": 0.25,
+      "cew": 0.175,
+      "ars": 0.3,
+      "ars_label": "Tertiary / inferred linkage",
+      "source_refs": [
+        "T22"
+      ],
+      "confidence": "LOW",
+      "live_cooccurrence": 0
+    },
+    {
+      "actor": "Eric Schmidt",
+      "system": "Palantir Gotham",
+      "layer": 2,
+      "rel_types": [
+        "PAR"
+      ],
+      "base_weight": 0.7,
+      "evidence_multiplier": 0.2,
+      "cew": 0.14,
+      "ars": 0.25,
+      "ars_label": "Contextual association only",
+      "source_refs": [
+        "T10"
+      ],
+      "confidence": "LOW",
+      "live_cooccurrence": 0
+    },
+    {
+      "actor": "Sam Altman",
+      "system": "Project Stargate",
+      "layer": 5,
+      "rel_types": [
+        "OWN"
+      ],
+      "base_weight": 1.0,
+      "evidence_multiplier": 1.0,
+      "cew": 1.0,
+      "ars": 1.0,
+      "ars_label": "Direct ownership + operational control",
+      "source_refs": [
+        "T40"
+      ],
+      "confidence": "VERIFIED",
+      "live_cooccurrence": 9
+    },
+    {
+      "actor": "Sam Altman",
+      "system": "OpenAI Usage Policy",
+      "layer": 3,
+      "rel_types": [
+        "OWN"
+      ],
+      "base_weight": 1.0,
+      "evidence_multiplier": 1.0,
+      "cew": 1.0,
+      "ars": 1.0,
+      "ars_label": "Direct ownership + operational control",
+      "source_refs": [
+        "S05"
+      ],
+      "confidence": "VERIFIED",
+      "live_cooccurrence": 0
+    },
+    {
+      "actor": "Sam Altman",
+      "system": "Worldcoin / World ID",
+      "layer": 4,
+      "rel_types": [
+        "OWN"
+      ],
+      "base_weight": 1.0,
+      "evidence_multiplier": 1.0,
+      "cew": 1.0,
+      "ars": 1.0,
+      "ars_label": "Direct ownership + operational control",
+      "source_refs": [
+        "O04",
+        "O05",
+        "O12"
+      ],
+      "confidence": "VERIFIED",
+      "live_cooccurrence": 0
+    },
+    {
+      "actor": "Sam Altman",
+      "system": "Azure OpenAI (IL6)",
+      "layer": 5,
+      "rel_types": [
+        "PAR"
+      ],
+      "base_weight": 0.7,
+      "evidence_multiplier": 0.92,
+      "cew": 0.644,
+      "ars": 0.95,
+      "ars_label": "Contract prime / co-ownership / founding investment",
+      "source_refs": [
+        "T14",
+        "T32"
+      ],
+      "confidence": "HIGH",
+      "live_cooccurrence": 0
+    },
+    {
+      "actor": "Sam Altman",
+      "system": "IDF AI Targeting",
+      "layer": 6,
+      "rel_types": [
+        "DEP"
+      ],
+      "base_weight": 0.65,
+      "evidence_multiplier": 0.78,
+      "cew": 0.507,
+      "ars": 0.8,
+      "ars_label": "Major investment + strategic partnership",
+      "source_refs": [
+        "T25",
+        "T33"
+      ],
+      "confidence": "HIGH",
+      "live_cooccurrence": 0
+    },
+    {
+      "actor": "Sam Altman",
+      "system": "Anduril Lattice",
+      "layer": 2,
+      "rel_types": [
+        "PAR"
+      ],
+      "base_weight": 0.7,
+      "evidence_multiplier": 0.65,
+      "cew": 0.455,
+      "ars": 0.7,
+      "ars_label": "Governance role + policy influence",
+      "source_refs": [
+        "T28",
+        "T20"
+      ],
+      "confidence": "HIGH",
+      "live_cooccurrence": 0
+    },
+    {
+      "actor": "Sam Altman",
+      "system": "Project Maven (AWCFT)",
+      "layer": 1,
+      "rel_types": [
+        "PAR"
+      ],
+      "base_weight": 0.7,
+      "evidence_multiplier": 0.55,
+      "cew": 0.385,
+      "ars": 0.6,
+      "ars_label": "Secondary linkage",
+      "source_refs": [
+        "T08",
+        "S05"
+      ],
+      "confidence": "MEDIUM",
+      "live_cooccurrence": 0
+    },
+    {
+      "actor": "Sam Altman",
+      "system": "Palantir Gotham",
+      "layer": 2,
+      "rel_types": [
+        "PAR"
+      ],
+      "base_weight": 0.7,
+      "evidence_multiplier": 0.5,
+      "cew": 0.35,
+      "ars": 0.55,
+      "ars_label": "Secondary linkage",
+      "source_refs": [
+        "T28"
+      ],
+      "confidence": "MEDIUM",
+      "live_cooccurrence": 0
+    },
+    {
+      "actor": "Sam Altman",
+      "system": "JWCC",
+      "layer": 5,
+      "rel_types": [
+        "DEP"
+      ],
+      "base_weight": 0.65,
+      "evidence_multiplier": 0.4,
+      "cew": 0.26,
+      "ars": 0.45,
+      "ars_label": "Tertiary / inferred linkage",
+      "source_refs": [
+        "T40",
+        "T32"
+      ],
+      "confidence": "MEDIUM",
+      "live_cooccurrence": 0
+    },
+    {
+      "actor": "Sam Altman",
+      "system": "NAIAC",
+      "layer": 3,
+      "rel_types": [
+        "PAR"
+      ],
+      "base_weight": 0.7,
+      "evidence_multiplier": 0.18,
+      "cew": 0.126,
+      "ars": 0.2,
+      "ars_label": "Contextual association only",
+      "source_refs": [
+        "G01"
+      ],
+      "confidence": "LOW",
+      "live_cooccurrence": 0
+    }
+  ]
+}

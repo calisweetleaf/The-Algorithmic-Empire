@@ -1,0 +1,57 @@
+{
+  "project_root": "C:\\Users\\treyr\\Documents\\algorithmic_empire",
+  "generated_at": "2026-02-26T22:15:03.777864",
+  "python_version": "3.12.10",
+  "config": {
+    "target_globs": [
+      "ARCS/*.py"
+    ],
+    "ignore_patterns": [
+      "__pycache__/*",
+      "*.pyc",
+      ".git/*",
+      ".venv/*",
+      "venv/*",
+      "env/*",
+      "node_modules/*"
+    ],
+    "jobs": 4
+  },
+  "summary": {
+    "files_scanned": 14,
+    "total_issues": 386,
+    "severity_counts": {
+      "serious": 19,
+      "minor": 366,
+      "critical": 1
+    },
+    "category_counts": {
+      "simple_returns": 6,
+      "missing_docstrings": 222,
+      "suspicious_short_functions": 104,
+      "type_hint_gaps": 40,
+      "test_gaps": 8,
+      "syntax_errors": 1,
+      "stubs": 5
+    }
+  },
+  "artifacts": {
+    "aggregate_report": "C:\\Users\\treyr\\Documents\\algorithmic_empire\\reports\\python_production_doctor\\arcs_aggregate_report.md",
+    "per_file_reports": [
+      "reports\\python_production_doctor\\arcs_per_file\\ARCS__attribution_engine.py.md",
+      "reports\\python_production_doctor\\arcs_per_file\\ARCS__browser_intelligence.py.md",
+      "reports\\python_production_doctor\\arcs_per_file\\ARCS__corpus_ingestion_pipeline.py.md",
+      "reports\\python_production_doctor\\arcs_per_file\\ARCS__data_fusion.py.md",
+      "reports\\python_production_doctor\\arcs_per_file\\ARCS__intelligence_database.py.md",
+      "reports\\python_production_doctor\\arcs_per_file\\ARCS__network_telemetry.py.md",
+      "reports\\python_production_doctor\\arcs_per_file\\ARCS__osint_orchestrator.py.md",
+      "reports\\python_production_doctor\\arcs_per_file\\ARCS__system_behavior.py.md",
+      "reports\\python_production_doctor\\arcs_per_file\\ARCS__tests____init__.py.md",
+      "reports\\python_production_doctor\\arcs_per_file\\ARCS__tests__conftest.py.md",
+      "reports\\python_production_doctor\\arcs_per_file\\ARCS__tests__test_data_fusion.py.md",
+      "reports\\python_production_doctor\\arcs_per_file\\ARCS__tests__test_network_telemetry.py.md",
+      "reports\\python_production_doctor\\arcs_per_file\\ARCS__tests__test_threat_aggregation.py.md",
+      "reports\\python_production_doctor\\arcs_per_file\\ARCS__threat_aggregation.py.md"
+    ]
+  }
+}

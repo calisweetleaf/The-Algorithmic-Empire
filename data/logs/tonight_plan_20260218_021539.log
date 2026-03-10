@@ -1,0 +1,27 @@
+2026-02-18 02:15:39,352 [INFO] Loaded metrics: C:\Users\treyr\Documents\algorithmic_empire\visuals\network_metrics.json
+2026-02-18 02:15:39,352 [INFO] Loaded synthesis matrix: C:\Users\treyr\Documents\algorithmic_empire\docs\synthesis_matrix.json
+2026-02-18 02:15:39,353 [INFO] Graph: 271 nodes, 2076 edges
+2026-02-18 02:15:39,353 [INFO] Corpus: 138 docs
+2026-02-18 02:15:39,355 [INFO] === STAGE 1: Evidence Curator ===
+2026-02-18 02:15:39,357 [INFO]   Written: C:\Users\treyr\Documents\algorithmic_empire\reports\stage1_evidence_curator.md
+2026-02-18 02:15:39,360 [INFO]   Written: C:\Users\treyr\Documents\algorithmic_empire\reports\stage1_evidence_curator_manifest.json
+2026-02-18 02:15:39,363 [INFO]   Written: C:\Users\treyr\Documents\algorithmic_empire\data\derived\evidence_packet_2026-02-18.json
+2026-02-18 02:15:39,363 [INFO] === STAGE 1 COMPLETE — Gate: PASS ===
+2026-02-18 02:15:39,363 [INFO] === STAGE 2: Entity Normalization + Edge Encoding ===
+2026-02-18 02:15:39,364 [INFO]   Gate: undefined_rel_codes=0  duplicate_tuples=0  => PASS
+2026-02-18 02:15:39,366 [INFO]   Written: C:\Users\treyr\Documents\algorithmic_empire\reports\stage2_edge_encoding.md
+2026-02-18 02:15:39,368 [INFO]   Written: C:\Users\treyr\Documents\algorithmic_empire\reports\stage2_edge_encoding_manifest.json
+2026-02-18 02:15:39,372 [INFO]   Written: C:\Users\treyr\Documents\algorithmic_empire\data\derived\actor_system_edges_2026-02-18.json
+2026-02-18 02:15:39,373 [INFO] === STAGE 2 COMPLETE — Gate: PASS ===
+2026-02-18 02:15:39,373 [INFO] === STAGE 3: Matrix Compute + Overlap Analysis ===
+2026-02-18 02:15:39,376 [INFO]   Written: C:\Users\treyr\Documents\algorithmic_empire\reports\stage3_matrix_compute.md
+2026-02-18 02:15:39,378 [INFO]   Written: C:\Users\treyr\Documents\algorithmic_empire\reports\stage3_matrix_compute_manifest.json
+2026-02-18 02:15:39,382 [INFO]   Written: C:\Users\treyr\Documents\algorithmic_empire\data\derived\actor_system_adjacency_2026-02-18.json
+2026-02-18 02:15:39,384 [INFO]   Written: C:\Users\treyr\Documents\algorithmic_empire\data\derived\overlap_nodes_2026-02-18.json
+2026-02-18 02:15:39,384 [INFO] === STAGE 3 COMPLETE — Gate: PASS ===
+2026-02-18 02:15:39,385 [INFO] === STAGE 4: Finisher — Synthesis + Publication ===
+2026-02-18 02:15:39,388 [INFO]   Written: C:\Users\treyr\Documents\algorithmic_empire\reports\stage4_finisher.md
+2026-02-18 02:15:39,390 [INFO]   Published: C:\Users\treyr\Documents\algorithmic_empire\analysis\actor_system_adjacency_matrix_update_2026-02-18.md
+2026-02-18 02:15:39,391 [INFO]   Written: C:\Users\treyr\Documents\algorithmic_empire\reports\stage4_finisher_manifest.json
+2026-02-18 02:15:39,392 [INFO] === STAGE 4 COMPLETE ===
+2026-02-18 02:15:39,392 [INFO] === ALL STAGES COMPLETE ===

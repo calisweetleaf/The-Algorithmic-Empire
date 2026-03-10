@@ -1,0 +1,21 @@
+{
+  "pipeline": "entity_cleaner_v1",
+  "docs_input": 150,
+  "docs_output": 138,
+  "docs_excluded": 12,
+  "total_entities_before": 1877,
+  "total_entities_after": 1627,
+  "entities_removed_noise": 173,
+  "entities_removed_doctitle": 24,
+  "entities_aliased": 91,
+  "entity_type_distribution": {
+    "CONCEPT": 899,
+    "LOCATION": 91,
+    "ORG": 324,
+    "GOV_MIL": 52,
+    "PERSON": 241,
+    "PROGRAM": 73
+  },
+  "noise_stoplist_size": 167,
+  "alias_table_size": 32
+}

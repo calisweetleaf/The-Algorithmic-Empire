@@ -1,0 +1,1762 @@
+{
+  "D001": {
+    "file": "Massive Password Leak_ 2025 Impact.md",
+    "old_count": 1,
+    "new_count": 75,
+    "method": "url_references",
+    "breakdown": {
+      "references_section_v2": 0,
+      "footnote_definitions": 0,
+      "url_references": 75,
+      "inline_links_deduped": 0,
+      "numbered_list": 0
+    }
+  },
+  "D002": {
+    "error": "File not found"
+  },
+  "D003": {
+    "error": "File not found"
+  },
+  "D004": {
+    "error": "File not found"
+  },
+  "D005": {
+    "error": "File not found"
+  },
+  "D006": {
+    "error": "File not found"
+  },
+  "D007": {
+    "error": "File not found"
+  },
+  "D008": {
+    "error": "File not found"
+  },
+  "D009": {
+    "file": "Thiel Network Anomalies and Contradictions.md",
+    "old_count": 0,
+    "new_count": 0,
+    "method": "none",
+    "breakdown": {
+      "references_section_v2": 0,
+      "footnote_definitions": 0,
+      "url_references": 0,
+      "inline_links_deduped": 0,
+      "numbered_list": 0
+    }
+  },
+  "D010": {
+    "file": "Opaque Empire of Sam Altman.md",
+    "old_count": 0,
+    "new_count": 0,
+    "method": "none",
+    "breakdown": {
+      "references_section_v2": 0,
+      "footnote_definitions": 0,
+      "url_references": 0,
+      "inline_links_deduped": 0,
+      "numbered_list": 0
+    }
+  },
+  "D011": {
+    "file": "Anthropic's Global AI Governance Ambitions_.md",
+    "old_count": 92,
+    "new_count": 58,
+    "method": "inline_links_deduped",
+    "breakdown": {
+      "references_section_v2": 0,
+      "footnote_definitions": 0,
+      "url_references": 45,
+      "inline_links_deduped": 58,
+      "numbered_list": 0
+    }
+  },
+  "D012": {
+    "file": "AI Workforce Surveillance Dossier.md",
+    "old_count": 1,
+    "new_count": 60,
+    "method": "url_references",
+    "breakdown": {
+      "references_section_v2": 0,
+      "footnote_definitions": 0,
+      "url_references": 60,
+      "inline_links_deduped": 0,
+      "numbered_list": 0
+    }
+  },
+  "D013": {
+    "file": "thiel_openai_altman_osint.md",
+    "old_count": 5,
+    "new_count": 0,
+    "method": "none",
+    "breakdown": {
+      "references_section_v2": 0,
+      "footnote_definitions": 0,
+      "url_references": 0,
+      "inline_links_deduped": 0,
+      "numbered_list": 0
+    }
+  },
+  "D014": {
+    "file": "Synthetic_Empire_Constraint_Collapse.md",
+    "old_count": 0,
+    "new_count": 0,
+    "method": "none",
+    "breakdown": {
+      "references_section_v2": 0,
+      "footnote_definitions": 0,
+      "url_references": 0,
+      "inline_links_deduped": 0,
+      "numbered_list": 0
+    }
+  },
+  "D015": {
+    "file": "South China Sea Aircraft Incident Research.md",
+    "old_count": 1,
+    "new_count": 48,
+    "method": "url_references",
+    "breakdown": {
+      "references_section_v2": 0,
+      "footnote_definitions": 0,
+      "url_references": 48,
+      "inline_links_deduped": 0,
+      "numbered_list": 0
+    }
+  },
+  "D016": {
+    "file": "Real_llm_market.md",
+    "old_count": 41,
+    "new_count": 52,
+    "method": "url_references",
+    "breakdown": {
+      "references_section_v2": 0,
+      "footnote_definitions": 0,
+      "url_references": 52,
+      "inline_links_deduped": 0,
+      "numbered_list": 0
+    }
+  },
+  "D017": {
+    "file": "altman_osint.md",
+    "old_count": 0,
+    "new_count": 0,
+    "method": "none",
+    "breakdown": {
+      "references_section_v2": 0,
+      "footnote_definitions": 0,
+      "url_references": 0,
+      "inline_links_deduped": 0,
+      "numbered_list": 0
+    }
+  },
+  "D018": {
+    "file": "AI Infrastructure Scam Deep Dive.md",
+    "old_count": 0,
+    "new_count": 0,
+    "method": "none",
+    "breakdown": {
+      "references_section_v2": 0,
+      "footnote_definitions": 0,
+      "url_references": 0,
+      "inline_links_deduped": 0,
+      "numbered_list": 0
+    }
+  },
+  "D019": {
+    "file": "AI's Legal and Ethical Minefield.md",
+    "old_count": 1,
+    "new_count": 34,
+    "method": "url_references",
+    "breakdown": {
+      "references_section_v2": 0,
+      "footnote_definitions": 0,
+      "url_references": 34,
+      "inline_links_deduped": 0,
+      "numbered_list": 0
+    }
+  },
+  "D020": {
+    "file": "Deep Dive Investigation_ Shooting Hypothesis.md",
+    "old_count": 1,
+    "new_count": 18,
+    "method": "url_references",
+    "breakdown": {
+      "references_section_v2": 0,
+      "footnote_definitions": 0,
+      "url_references": 18,
+      "inline_links_deduped": 0,
+      "numbered_list": 0
+    }
+  },
+  "D021": {
+    "file": "Weaponized AI Systems Investigation.md",
+    "old_count": 1,
+    "new_count": 55,
+    "method": "url_references",
+    "breakdown": {
+      "references_section_v2": 0,
+      "footnote_definitions": 0,
+      "url_references": 55,
+      "inline_links_deduped": 0,
+      "numbered_list": 0
+    }
+  },
+  "D022": {
+    "file": "Anthropic's Hidden Model Analysis.md",
+    "old_count": 1,
+    "new_count": 33,
+    "method": "url_references",
+    "breakdown": {
+      "references_section_v2": 0,
+      "footnote_definitions": 0,
+      "url_references": 33,
+      "inline_links_deduped": 0,
+      "numbered_list": 0
+    }
+  },
+  "D023": {
+    "file": "Military AI Leak Investigation.md",
+    "old_count": 1,
+    "new_count": 11,
+    "method": "url_references",
+    "breakdown": {
+      "references_section_v2": 0,
+      "footnote_definitions": 0,
+      "url_references": 11,
+      "inline_links_deduped": 0,
+      "numbered_list": 0
+    }
+  },
+  "D024": {
+    "file": "altman_darkside_osint.md",
+    "old_count": 0,
+    "new_count": 0,
+    "method": "none",
+    "breakdown": {
+      "references_section_v2": 0,
+      "footnote_definitions": 0,
+      "url_references": 0,
+      "inline_links_deduped": 0,
+      "numbered_list": 0
+    }
+  },
+  "D025": {
+    "file": "AI Integration into U.S. Military.md.md",
+    "old_count": 1,
+    "new_count": 60,
+    "method": "url_references",
+    "breakdown": {
+      "references_section_v2": 0,
+      "footnote_definitions": 0,
+      "url_references": 60,
+      "inline_links_deduped": 0,
+      "numbered_list": 0
+    }
+  },
+  "D026": {
+    "file": "Tracing Defense Tech Lineage.md",
+    "old_count": 1,
+    "new_count": 20,
+    "method": "url_references",
+    "breakdown": {
+      "references_section_v2": 0,
+      "footnote_definitions": 0,
+      "url_references": 20,
+      "inline_links_deduped": 0,
+      "numbered_list": 0
+    }
+  },
+  "D027": {
+    "file": "Thiel Financial Architecture.md",
+    "old_count": 0,
+    "new_count": 0,
+    "method": "none",
+    "breakdown": {
+      "references_section_v2": 0,
+      "footnote_definitions": 0,
+      "url_references": 0,
+      "inline_links_deduped": 0,
+      "numbered_list": 0
+    }
+  },
+  "D028": {
+    "file": "Military AI Systems Intelligence Report.md",
+    "old_count": 1,
+    "new_count": 73,
+    "method": "url_references",
+    "breakdown": {
+      "references_section_v2": 0,
+      "footnote_definitions": 0,
+      "url_references": 73,
+      "inline_links_deduped": 0,
+      "numbered_list": 0
+    }
+  },
+  "D029": {
+    "file": "thiel_altman_phase1.md",
+    "old_count": 0,
+    "new_count": 0,
+    "method": "none",
+    "breakdown": {
+      "references_section_v2": 0,
+      "footnote_definitions": 0,
+      "url_references": 0,
+      "inline_links_deduped": 0,
+      "numbered_list": 0
+    }
+  },
+  "D030": {
+    "file": "Deep State AI Governance OSINT.md",
+    "old_count": 73,
+    "new_count": 65,
+    "method": "url_references",
+    "breakdown": {
+      "references_section_v2": 0,
+      "footnote_definitions": 0,
+      "url_references": 65,
+      "inline_links_deduped": 0,
+      "numbered_list": 0
+    }
+  },
+  "D031": {
+    "file": "Reaper Drone OSINT Investigation.md",
+    "old_count": 1,
+    "new_count": 32,
+    "method": "url_references",
+    "breakdown": {
+      "references_section_v2": 0,
+      "footnote_definitions": 0,
+      "url_references": 32,
+      "inline_links_deduped": 0,
+      "numbered_list": 0
+    }
+  },
+  "D032": {
+    "file": "Advanced Aerospace Propulsion Intelligence.md",
+    "old_count": 1,
+    "new_count": 29,
+    "method": "url_references",
+    "breakdown": {
+      "references_section_v2": 0,
+      "footnote_definitions": 0,
+      "url_references": 29,
+      "inline_links_deduped": 0,
+      "numbered_list": 0
+    }
+  },
+  "D033": {
+    "file": "algorithmic leviathan.md",
+    "old_count": 0,
+    "new_count": 0,
+    "method": "none",
+    "breakdown": {
+      "references_section_v2": 0,
+      "footnote_definitions": 0,
+      "url_references": 0,
+      "inline_links_deduped": 0,
+      "numbered_list": 0
+    }
+  },
+  "D034": {
+    "file": "Israel's Secret Weapons OSINT.md",
+    "old_count": 1,
+    "new_count": 68,
+    "method": "url_references",
+    "breakdown": {
+      "references_section_v2": 0,
+      "footnote_definitions": 0,
+      "url_references": 68,
+      "inline_links_deduped": 0,
+      "numbered_list": 0
+    }
+  },
+  "D035": {
+    "file": "Theil's Influence.md",
+    "old_count": 1,
+    "new_count": 0,
+    "method": "none",
+    "breakdown": {
+      "references_section_v2": 0,
+      "footnote_definitions": 0,
+      "url_references": 0,
+      "inline_links_deduped": 0,
+      "numbered_list": 0
+    }
+  },
+  "D036": {
+    "file": "Classified AI Model Deep Dive.md",
+    "old_count": 75,
+    "new_count": 75,
+    "method": "inline_links_deduped",
+    "breakdown": {
+      "references_section_v2": 0,
+      "footnote_definitions": 0,
+      "url_references": 56,
+      "inline_links_deduped": 75,
+      "numbered_list": 0
+    }
+  },
+  "D037": {
+    "file": "thiel private sector state.md",
+    "old_count": 0,
+    "new_count": 0,
+    "method": "none",
+    "breakdown": {
+      "references_section_v2": 0,
+      "footnote_definitions": 0,
+      "url_references": 0,
+      "inline_links_deduped": 0,
+      "numbered_list": 0
+    }
+  },
+  "D038": {
+    "file": "Thiel Network Technological Capabilities Integration & Evolution.md",
+    "old_count": 0,
+    "new_count": 0,
+    "method": "none",
+    "breakdown": {
+      "references_section_v2": 0,
+      "footnote_definitions": 0,
+      "url_references": 0,
+      "inline_links_deduped": 0,
+      "numbered_list": 0
+    }
+  },
+  "D039": {
+    "file": "Thiel Nexus.md",
+    "old_count": 43,
+    "new_count": 0,
+    "method": "none",
+    "breakdown": {
+      "references_section_v2": 0,
+      "footnote_definitions": 0,
+      "url_references": 0,
+      "inline_links_deduped": 0,
+      "numbered_list": 0
+    }
+  },
+  "D040": {
+    "file": "Ilya-Sutsekever-Deposition.df_-1.pdf",
+    "old_count": 0,
+    "new_count": 0,
+    "method": "none",
+    "breakdown": {
+      "references_section_v2": 0,
+      "footnote_definitions": 0,
+      "url_references": 0,
+      "inline_links_deduped": 0,
+      "numbered_list": 0
+    }
+  },
+  "D041": {
+    "file": "Thiel Israel Nexus.md",
+    "old_count": 0,
+    "new_count": 0,
+    "method": "none",
+    "breakdown": {
+      "references_section_v2": 0,
+      "footnote_definitions": 0,
+      "url_references": 0,
+      "inline_links_deduped": 0,
+      "numbered_list": 0
+    }
+  },
+  "D042": {
+    "file": "Thiel Network Timeline.md",
+    "old_count": 0,
+    "new_count": 0,
+    "method": "none",
+    "breakdown": {
+      "references_section_v2": 0,
+      "footnote_definitions": 0,
+      "url_references": 0,
+      "inline_links_deduped": 0,
+      "numbered_list": 0
+    }
+  },
+  "D043": {
+    "file": "Altman's Covert Power Structure Analysis.md",
+    "old_count": 90,
+    "new_count": 63,
+    "method": "url_references",
+    "breakdown": {
+      "references_section_v2": 0,
+      "footnote_definitions": 0,
+      "url_references": 63,
+      "inline_links_deduped": 0,
+      "numbered_list": 0
+    }
+  },
+  "D044": {
+    "file": "Pangu Architecture Forensic Reconstruction.md",
+    "old_count": 19,
+    "new_count": 19,
+    "method": "inline_links_deduped",
+    "breakdown": {
+      "references_section_v2": 0,
+      "footnote_definitions": 0,
+      "url_references": 13,
+      "inline_links_deduped": 19,
+      "numbered_list": 0
+    }
+  },
+  "D045": {
+    "file": "Altman's Covert Power Structure Analysis_.md",
+    "old_count": 90,
+    "new_count": 63,
+    "method": "url_references",
+    "breakdown": {
+      "references_section_v2": 0,
+      "footnote_definitions": 0,
+      "url_references": 63,
+      "inline_links_deduped": 0,
+      "numbered_list": 0
+    }
+  },
+  "D046": {
+    "file": "Anthropic AI_ Origins and Network.md",
+    "old_count": 59,
+    "new_count": 59,
+    "method": "inline_links_deduped",
+    "breakdown": {
+      "references_section_v2": 0,
+      "footnote_definitions": 0,
+      "url_references": 48,
+      "inline_links_deduped": 59,
+      "numbered_list": 0
+    }
+  },
+  "D047": {
+    "file": "Military_Reddit_To_Github_Pipeline.md",
+    "old_count": 1,
+    "new_count": 11,
+    "method": "url_references",
+    "breakdown": {
+      "references_section_v2": 0,
+      "footnote_definitions": 0,
+      "url_references": 11,
+      "inline_links_deduped": 0,
+      "numbered_list": 0
+    }
+  },
+  "D048": {
+    "file": "Theils Covert Ops.md",
+    "old_count": 0,
+    "new_count": 0,
+    "method": "none",
+    "breakdown": {
+      "references_section_v2": 0,
+      "footnote_definitions": 0,
+      "url_references": 0,
+      "inline_links_deduped": 0,
+      "numbered_list": 0
+    }
+  },
+  "D049": {
+    "file": "Noumena Stealth Startup Deep Research.md",
+    "old_count": 1,
+    "new_count": 43,
+    "method": "url_references",
+    "breakdown": {
+      "references_section_v2": 0,
+      "footnote_definitions": 0,
+      "url_references": 43,
+      "inline_links_deduped": 0,
+      "numbered_list": 0
+    }
+  },
+  "D050": {
+    "file": "Israel-Iran Conflict_ June 2025.md",
+    "old_count": 1,
+    "new_count": 22,
+    "method": "url_references",
+    "breakdown": {
+      "references_section_v2": 0,
+      "footnote_definitions": 0,
+      "url_references": 22,
+      "inline_links_deduped": 0,
+      "numbered_list": 0
+    }
+  },
+  "D051": {
+    "file": "Domestic ISR Program Analysis.md",
+    "old_count": 1,
+    "new_count": 16,
+    "method": "url_references",
+    "breakdown": {
+      "references_section_v2": 0,
+      "footnote_definitions": 0,
+      "url_references": 16,
+      "inline_links_deduped": 0,
+      "numbered_list": 0
+    }
+  },
+  "D052": {
+    "file": "Recursive OSINT and Anomaly Synthesis.md",
+    "old_count": 1,
+    "new_count": 36,
+    "method": "url_references",
+    "breakdown": {
+      "references_section_v2": 0,
+      "footnote_definitions": 0,
+      "url_references": 36,
+      "inline_links_deduped": 0,
+      "numbered_list": 0
+    }
+  },
+  "D053": {
+    "file": "AI Integration into U.S. Military.md",
+    "old_count": 1,
+    "new_count": 60,
+    "method": "url_references",
+    "breakdown": {
+      "references_section_v2": 0,
+      "footnote_definitions": 0,
+      "url_references": 60,
+      "inline_links_deduped": 0,
+      "numbered_list": 0
+    }
+  },
+  "D054": {
+    "file": "Israel's Military Capabilities Investigation.md",
+    "old_count": 1,
+    "new_count": 44,
+    "method": "url_references",
+    "breakdown": {
+      "references_section_v2": 0,
+      "footnote_definitions": 0,
+      "url_references": 44,
+      "inline_links_deduped": 0,
+      "numbered_list": 0
+    }
+  },
+  "D055": {
+    "file": "thiel_osint.md",
+    "old_count": 6,
+    "new_count": 0,
+    "method": "none",
+    "breakdown": {
+      "references_section_v2": 0,
+      "footnote_definitions": 0,
+      "url_references": 0,
+      "inline_links_deduped": 0,
+      "numbered_list": 0
+    }
+  },
+  "D056": {
+    "file": "Thiel_Altman_Synthetic_Empire.md",
+    "old_count": 0,
+    "new_count": 0,
+    "method": "none",
+    "breakdown": {
+      "references_section_v2": 0,
+      "footnote_definitions": 0,
+      "url_references": 0,
+      "inline_links_deduped": 0,
+      "numbered_list": 0
+    }
+  },
+  "D057": {
+    "file": "Unearthing Defense AI Erasures.md",
+    "old_count": 1,
+    "new_count": 35,
+    "method": "url_references",
+    "breakdown": {
+      "references_section_v2": 0,
+      "footnote_definitions": 0,
+      "url_references": 35,
+      "inline_links_deduped": 0,
+      "numbered_list": 0
+    }
+  },
+  "D058": {
+    "file": "Global Surveillance Ecosystem Mapping.md",
+    "old_count": 9,
+    "new_count": 45,
+    "method": "url_references",
+    "breakdown": {
+      "references_section_v2": 0,
+      "footnote_definitions": 0,
+      "url_references": 45,
+      "inline_links_deduped": 0,
+      "numbered_list": 0
+    }
+  },
+  "D059": {
+    "file": "altmans_synthetic_empire.md",
+    "old_count": 0,
+    "new_count": 0,
+    "method": "none",
+    "breakdown": {
+      "references_section_v2": 0,
+      "footnote_definitions": 0,
+      "url_references": 0,
+      "inline_links_deduped": 0,
+      "numbered_list": 0
+    }
+  },
+  "D060": {
+    "error": "File not found"
+  },
+  "D061": {
+    "file": "Covert Relocation_ Flight Investigations.md",
+    "old_count": 1,
+    "new_count": 47,
+    "method": "url_references",
+    "breakdown": {
+      "references_section_v2": 0,
+      "footnote_definitions": 0,
+      "url_references": 47,
+      "inline_links_deduped": 0,
+      "numbered_list": 0
+    }
+  },
+  "D062": {
+    "file": "Altmans Hidden Latus.md",
+    "old_count": 20,
+    "new_count": 0,
+    "method": "none",
+    "breakdown": {
+      "references_section_v2": 0,
+      "footnote_definitions": 0,
+      "url_references": 0,
+      "inline_links_deduped": 0,
+      "numbered_list": 0
+    }
+  },
+  "D063": {
+    "file": "Oracle Origins_ Intelligence, Databases, and Cold .md",
+    "old_count": 1,
+    "new_count": 34,
+    "method": "url_references",
+    "breakdown": {
+      "references_section_v2": 0,
+      "footnote_definitions": 0,
+      "url_references": 34,
+      "inline_links_deduped": 0,
+      "numbered_list": 0
+    }
+  },
+  "D064": {
+    "file": "Anthropic AI_ Founding Network Analysis.md",
+    "old_count": 63,
+    "new_count": 63,
+    "method": "inline_links_deduped",
+    "breakdown": {
+      "references_section_v2": 0,
+      "footnote_definitions": 0,
+      "url_references": 42,
+      "inline_links_deduped": 63,
+      "numbered_list": 0
+    }
+  },
+  "D065": {
+    "error": "File not found"
+  },
+  "D066": {
+    "file": "Altman Control.md",
+    "old_count": 62,
+    "new_count": 0,
+    "method": "none",
+    "breakdown": {
+      "references_section_v2": 0,
+      "footnote_definitions": 0,
+      "url_references": 0,
+      "inline_links_deduped": 0,
+      "numbered_list": 0
+    }
+  },
+  "D067": {
+    "file": "Hidden Model Research.md",
+    "old_count": 145,
+    "new_count": 145,
+    "method": "inline_links_deduped",
+    "breakdown": {
+      "references_section_v2": 0,
+      "footnote_definitions": 0,
+      "url_references": 95,
+      "inline_links_deduped": 145,
+      "numbered_list": 0
+    }
+  },
+  "D068": {
+    "file": "AI Weapons Systems Intelligence Report.md",
+    "old_count": 1,
+    "new_count": 66,
+    "method": "url_references",
+    "breakdown": {
+      "references_section_v2": 0,
+      "footnote_definitions": 0,
+      "url_references": 66,
+      "inline_links_deduped": 0,
+      "numbered_list": 0
+    }
+  },
+  "D069": {
+    "file": "Epstein, Thiel, Barak Surveillance Network.md",
+    "old_count": 1,
+    "new_count": 25,
+    "method": "url_references",
+    "breakdown": {
+      "references_section_v2": 0,
+      "footnote_definitions": 0,
+      "url_references": 25,
+      "inline_links_deduped": 0,
+      "numbered_list": 0
+    }
+  },
+  "D070": {
+    "file": "Thiel Network International Matrices.md",
+    "old_count": 0,
+    "new_count": 0,
+    "method": "none",
+    "breakdown": {
+      "references_section_v2": 0,
+      "footnote_definitions": 0,
+      "url_references": 0,
+      "inline_links_deduped": 0,
+      "numbered_list": 0
+    }
+  },
+  "D071": {
+    "file": "Thiel_Defense_Capture.md",
+    "old_count": 0,
+    "new_count": 0,
+    "method": "none",
+    "breakdown": {
+      "references_section_v2": 0,
+      "footnote_definitions": 0,
+      "url_references": 0,
+      "inline_links_deduped": 0,
+      "numbered_list": 0
+    }
+  },
+  "D072": {
+    "file": "Massive Password Leak_ 2025 Impact.md",
+    "old_count": 1,
+    "new_count": 75,
+    "method": "url_references",
+    "breakdown": {
+      "references_section_v2": 0,
+      "footnote_definitions": 0,
+      "url_references": 75,
+      "inline_links_deduped": 0,
+      "numbered_list": 0
+    }
+  },
+  "D073": {
+    "file": "Project Recursion.md",
+    "old_count": 0,
+    "new_count": 0,
+    "method": "none",
+    "breakdown": {
+      "references_section_v2": 0,
+      "footnote_definitions": 0,
+      "url_references": 0,
+      "inline_links_deduped": 0,
+      "numbered_list": 0
+    }
+  },
+  "D074": {
+    "error": "File not found"
+  },
+  "D075": {
+    "file": "Anthropic's Global AI Governance.md",
+    "old_count": 53,
+    "new_count": 53,
+    "method": "inline_links_deduped",
+    "breakdown": {
+      "references_section_v2": 0,
+      "footnote_definitions": 0,
+      "url_references": 33,
+      "inline_links_deduped": 53,
+      "numbered_list": 0
+    }
+  },
+  "D076": {
+    "file": "China's Military AI Integration.md",
+    "old_count": 1,
+    "new_count": 55,
+    "method": "url_references",
+    "breakdown": {
+      "references_section_v2": 0,
+      "footnote_definitions": 0,
+      "url_references": 55,
+      "inline_links_deduped": 0,
+      "numbered_list": 0
+    }
+  },
+  "D077": {
+    "file": "Thiel Political Network.md",
+    "old_count": 0,
+    "new_count": 0,
+    "method": "none",
+    "breakdown": {
+      "references_section_v2": 0,
+      "footnote_definitions": 0,
+      "url_references": 0,
+      "inline_links_deduped": 0,
+      "numbered_list": 0
+    }
+  },
+  "D078": {
+    "file": "Stargate Program OSINT Deep Dive.md",
+    "old_count": 1,
+    "new_count": 70,
+    "method": "url_references",
+    "breakdown": {
+      "references_section_v2": 0,
+      "footnote_definitions": 0,
+      "url_references": 70,
+      "inline_links_deduped": 0,
+      "numbered_list": 0
+    }
+  },
+  "D079": {
+    "file": "Context Compression in Modern LLMs (1).md",
+    "old_count": 1,
+    "new_count": 24,
+    "method": "url_references",
+    "breakdown": {
+      "references_section_v2": 0,
+      "footnote_definitions": 0,
+      "url_references": 24,
+      "inline_links_deduped": 0,
+      "numbered_list": 0
+    }
+  },
+  "D080": {
+    "file": "thiel_altman_deep_osint.md",
+    "old_count": 0,
+    "new_count": 0,
+    "method": "none",
+    "breakdown": {
+      "references_section_v2": 0,
+      "footnote_definitions": 0,
+      "url_references": 0,
+      "inline_links_deduped": 0,
+      "numbered_list": 0
+    }
+  },
+  "D081": {
+    "file": "Experimental Technology Framework Investigation.md",
+    "old_count": 1,
+    "new_count": 48,
+    "method": "url_references",
+    "breakdown": {
+      "references_section_v2": 0,
+      "footnote_definitions": 0,
+      "url_references": 48,
+      "inline_links_deduped": 0,
+      "numbered_list": 0
+    }
+  },
+  "D082": {
+    "file": "Tracing_Reddit_To_Github.md",
+    "old_count": 1,
+    "new_count": 6,
+    "method": "url_references",
+    "breakdown": {
+      "references_section_v2": 0,
+      "footnote_definitions": 0,
+      "url_references": 6,
+      "inline_links_deduped": 0,
+      "numbered_list": 0
+    }
+  },
+  "D083": {
+    "file": "Anomalous Technology Synthesis Mission.md",
+    "old_count": 1,
+    "new_count": 45,
+    "method": "url_references",
+    "breakdown": {
+      "references_section_v2": 0,
+      "footnote_definitions": 0,
+      "url_references": 45,
+      "inline_links_deduped": 0,
+      "numbered_list": 0
+    }
+  },
+  "D084": {
+    "file": "Thiel Network Defense Influence.md",
+    "old_count": 0,
+    "new_count": 10,
+    "method": "references_section_v2",
+    "breakdown": {
+      "references_section_v2": 10,
+      "footnote_definitions": 0,
+      "url_references": 0,
+      "inline_links_deduped": 0,
+      "numbered_list": 0
+    }
+  },
+  "D085": {
+    "error": "File not found"
+  },
+  "D086": {
+    "file": "Military AI Research Pipeline.md",
+    "old_count": 1,
+    "new_count": 48,
+    "method": "url_references",
+    "breakdown": {
+      "references_section_v2": 0,
+      "footnote_definitions": 0,
+      "url_references": 48,
+      "inline_links_deduped": 0,
+      "numbered_list": 0
+    }
+  },
+  "D087": {
+    "file": "OpenAI's Hidden Model Analysis.md",
+    "old_count": 1,
+    "new_count": 25,
+    "method": "url_references",
+    "breakdown": {
+      "references_section_v2": 0,
+      "footnote_definitions": 0,
+      "url_references": 25,
+      "inline_links_deduped": 0,
+      "numbered_list": 0
+    }
+  },
+  "D088": {
+    "file": "Ukraine Border Incident Verification Mission.md",
+    "old_count": 1,
+    "new_count": 40,
+    "method": "url_references",
+    "breakdown": {
+      "references_section_v2": 0,
+      "footnote_definitions": 0,
+      "url_references": 40,
+      "inline_links_deduped": 0,
+      "numbered_list": 0
+    }
+  },
+  "D089": {
+    "file": "Recursive OSINT and Anomaly Synthesis(1).md",
+    "old_count": 1,
+    "new_count": 36,
+    "method": "url_references",
+    "breakdown": {
+      "references_section_v2": 0,
+      "footnote_definitions": 0,
+      "url_references": 36,
+      "inline_links_deduped": 0,
+      "numbered_list": 0
+    }
+  },
+  "D090": {
+    "file": "Deep AI Military Use.md",
+    "old_count": 89,
+    "new_count": 89,
+    "method": "inline_links_deduped",
+    "breakdown": {
+      "references_section_v2": 0,
+      "footnote_definitions": 0,
+      "url_references": 68,
+      "inline_links_deduped": 89,
+      "numbered_list": 0
+    }
+  },
+  "D091": {
+    "file": "MQ-9 Investigation_ DOG81 Analysis.md",
+    "old_count": 1,
+    "new_count": 35,
+    "method": "url_references",
+    "breakdown": {
+      "references_section_v2": 0,
+      "footnote_definitions": 0,
+      "url_references": 35,
+      "inline_links_deduped": 0,
+      "numbered_list": 0
+    }
+  },
+  "D092": {
+    "file": "Thiel Altman Synthetic Empire Phase2.md",
+    "old_count": 0,
+    "new_count": 0,
+    "method": "none",
+    "breakdown": {
+      "references_section_v2": 0,
+      "footnote_definitions": 0,
+      "url_references": 0,
+      "inline_links_deduped": 0,
+      "numbered_list": 0
+    }
+  },
+  "D093": {
+    "file": "Autonomous Government Systems OSINT Analysis.md",
+    "old_count": 1,
+    "new_count": 36,
+    "method": "url_references",
+    "breakdown": {
+      "references_section_v2": 0,
+      "footnote_definitions": 0,
+      "url_references": 36,
+      "inline_links_deduped": 0,
+      "numbered_list": 0
+    }
+  },
+  "D094": {
+    "file": "Altmans Influence.md",
+    "old_count": 0,
+    "new_count": 0,
+    "method": "none",
+    "breakdown": {
+      "references_section_v2": 0,
+      "footnote_definitions": 0,
+      "url_references": 0,
+      "inline_links_deduped": 0,
+      "numbered_list": 0
+    }
+  },
+  "D095": {
+    "file": "thiel_altman_collapse.md",
+    "old_count": 0,
+    "new_count": 0,
+    "method": "none",
+    "breakdown": {
+      "references_section_v2": 0,
+      "footnote_definitions": 0,
+      "url_references": 0,
+      "inline_links_deduped": 0,
+      "numbered_list": 0
+    }
+  },
+  "D096": {
+    "file": "Anthropic Response to OSTP RFI (March 2025).pdf",
+    "old_count": 0,
+    "new_count": 6,
+    "method": "url_references",
+    "breakdown": {
+      "references_section_v2": 0,
+      "footnote_definitions": 0,
+      "url_references": 6,
+      "inline_links_deduped": 0,
+      "numbered_list": 0
+    }
+  },
+  "D097": {
+    "file": "Altman Nexus.md",
+    "old_count": 0,
+    "new_count": 0,
+    "method": "none",
+    "breakdown": {
+      "references_section_v2": 0,
+      "footnote_definitions": 0,
+      "url_references": 0,
+      "inline_links_deduped": 0,
+      "numbered_list": 0
+    }
+  },
+  "D098": {
+    "error": "File not found"
+  },
+  "D099": {
+    "file": "Unearthing Pre-2010 AI Development.md",
+    "old_count": 1,
+    "new_count": 30,
+    "method": "url_references",
+    "breakdown": {
+      "references_section_v2": 0,
+      "footnote_definitions": 0,
+      "url_references": 30,
+      "inline_links_deduped": 0,
+      "numbered_list": 0
+    }
+  },
+  "D100": {
+    "file": "U.S.-Israel-Iran Escalation Research Tree.md",
+    "old_count": 1,
+    "new_count": 26,
+    "method": "url_references",
+    "breakdown": {
+      "references_section_v2": 0,
+      "footnote_definitions": 0,
+      "url_references": 26,
+      "inline_links_deduped": 0,
+      "numbered_list": 0
+    }
+  },
+  "D101": {
+    "file": "Yarvin_ Fringe Influence Network Analysis.md",
+    "old_count": 1,
+    "new_count": 56,
+    "method": "url_references",
+    "breakdown": {
+      "references_section_v2": 0,
+      "footnote_definitions": 0,
+      "url_references": 56,
+      "inline_links_deduped": 0,
+      "numbered_list": 0
+    }
+  },
+  "D102": {
+    "file": "Military AI Leak.md",
+    "old_count": 1,
+    "new_count": 12,
+    "method": "inline_links_deduped",
+    "breakdown": {
+      "references_section_v2": 0,
+      "footnote_definitions": 0,
+      "url_references": 7,
+      "inline_links_deduped": 12,
+      "numbered_list": 0
+    }
+  },
+  "D103": {
+    "file": "Sovereign OSINT Sweep_ Five Eyes.md",
+    "old_count": 47,
+    "new_count": 0,
+    "method": "none",
+    "breakdown": {
+      "references_section_v2": 0,
+      "footnote_definitions": 0,
+      "url_references": 0,
+      "inline_links_deduped": 0,
+      "numbered_list": 0
+    }
+  },
+  "D104": {
+    "file": "Custom GPT & Gemini System Development.md",
+    "old_count": 1,
+    "new_count": 14,
+    "method": "url_references",
+    "breakdown": {
+      "references_section_v2": 0,
+      "footnote_definitions": 0,
+      "url_references": 14,
+      "inline_links_deduped": 0,
+      "numbered_list": 0
+    }
+  },
+  "D105": {
+    "file": "Thiel Defense Network Investigation_.md",
+    "old_count": 170,
+    "new_count": 170,
+    "method": "inline_links_deduped",
+    "breakdown": {
+      "references_section_v2": 0,
+      "footnote_definitions": 0,
+      "url_references": 118,
+      "inline_links_deduped": 170,
+      "numbered_list": 0
+    }
+  },
+  "D106": {
+    "file": "Reactionary Defense OSINT Engine Activation.md",
+    "old_count": 1,
+    "new_count": 73,
+    "method": "url_references",
+    "breakdown": {
+      "references_section_v2": 0,
+      "footnote_definitions": 0,
+      "url_references": 73,
+      "inline_links_deduped": 0,
+      "numbered_list": 0
+    }
+  },
+  "D107": {
+    "file": "TR-3B Deep-Structure Reality Audit.md",
+    "old_count": 19,
+    "new_count": 30,
+    "method": "url_references",
+    "breakdown": {
+      "references_section_v2": 0,
+      "footnote_definitions": 0,
+      "url_references": 30,
+      "inline_links_deduped": 0,
+      "numbered_list": 0
+    }
+  },
+  "D108": {
+    "file": "Synthetic Empire Collapse.md",
+    "old_count": 0,
+    "new_count": 0,
+    "method": "none",
+    "breakdown": {
+      "references_section_v2": 0,
+      "footnote_definitions": 0,
+      "url_references": 0,
+      "inline_links_deduped": 0,
+      "numbered_list": 0
+    }
+  },
+  "D109": {
+    "file": "Deep AI Model Research.md",
+    "old_count": 83,
+    "new_count": 83,
+    "method": "inline_links_deduped",
+    "breakdown": {
+      "references_section_v2": 0,
+      "footnote_definitions": 0,
+      "url_references": 66,
+      "inline_links_deduped": 83,
+      "numbered_list": 0
+    }
+  },
+  "D110": {
+    "file": "Analyzing Anomalous Aircraft Activity.md",
+    "old_count": 1,
+    "new_count": 35,
+    "method": "url_references",
+    "breakdown": {
+      "references_section_v2": 0,
+      "footnote_definitions": 0,
+      "url_references": 35,
+      "inline_links_deduped": 0,
+      "numbered_list": 0
+    }
+  },
+  "D111": {
+    "file": "Thiel Network Anomalies and Contradictions.md",
+    "old_count": 0,
+    "new_count": 0,
+    "method": "none",
+    "breakdown": {
+      "references_section_v2": 0,
+      "footnote_definitions": 0,
+      "url_references": 0,
+      "inline_links_deduped": 0,
+      "numbered_list": 0
+    }
+  },
+  "D112": {
+    "file": "Opaque Empire of Sam Altman.md",
+    "old_count": 0,
+    "new_count": 0,
+    "method": "none",
+    "breakdown": {
+      "references_section_v2": 0,
+      "footnote_definitions": 0,
+      "url_references": 0,
+      "inline_links_deduped": 0,
+      "numbered_list": 0
+    }
+  },
+  "D113": {
+    "file": "thiel_openai_altman_osint.md",
+    "old_count": 5,
+    "new_count": 0,
+    "method": "none",
+    "breakdown": {
+      "references_section_v2": 0,
+      "footnote_definitions": 0,
+      "url_references": 0,
+      "inline_links_deduped": 0,
+      "numbered_list": 0
+    }
+  },
+  "D114": {
+    "file": "Synthetic_Empire_Constraint_Collapse.md",
+    "old_count": 0,
+    "new_count": 0,
+    "method": "none",
+    "breakdown": {
+      "references_section_v2": 0,
+      "footnote_definitions": 0,
+      "url_references": 0,
+      "inline_links_deduped": 0,
+      "numbered_list": 0
+    }
+  },
+  "D115": {
+    "file": "Thiel Financial Architecture.md",
+    "old_count": 0,
+    "new_count": 0,
+    "method": "none",
+    "breakdown": {
+      "references_section_v2": 0,
+      "footnote_definitions": 0,
+      "url_references": 0,
+      "inline_links_deduped": 0,
+      "numbered_list": 0
+    }
+  },
+  "D116": {
+    "file": "thiel_altman_phase1.md",
+    "old_count": 0,
+    "new_count": 0,
+    "method": "none",
+    "breakdown": {
+      "references_section_v2": 0,
+      "footnote_definitions": 0,
+      "url_references": 0,
+      "inline_links_deduped": 0,
+      "numbered_list": 0
+    }
+  },
+  "D117": {
+    "file": "Deep State AI Governance OSINT.md",
+    "old_count": 73,
+    "new_count": 65,
+    "method": "url_references",
+    "breakdown": {
+      "references_section_v2": 0,
+      "footnote_definitions": 0,
+      "url_references": 65,
+      "inline_links_deduped": 0,
+      "numbered_list": 0
+    }
+  },
+  "D118": {
+    "file": "algorithmic leviathan.md",
+    "old_count": 0,
+    "new_count": 0,
+    "method": "none",
+    "breakdown": {
+      "references_section_v2": 0,
+      "footnote_definitions": 0,
+      "url_references": 0,
+      "inline_links_deduped": 0,
+      "numbered_list": 0
+    }
+  },
+  "D119": {
+    "file": "Theil's Influence.md",
+    "old_count": 1,
+    "new_count": 0,
+    "method": "none",
+    "breakdown": {
+      "references_section_v2": 0,
+      "footnote_definitions": 0,
+      "url_references": 0,
+      "inline_links_deduped": 0,
+      "numbered_list": 0
+    }
+  },
+  "D120": {
+    "file": "thiel private sector state.md",
+    "old_count": 0,
+    "new_count": 0,
+    "method": "none",
+    "breakdown": {
+      "references_section_v2": 0,
+      "footnote_definitions": 0,
+      "url_references": 0,
+      "inline_links_deduped": 0,
+      "numbered_list": 0
+    }
+  },
+  "D121": {
+    "file": "Thiel Network Technological Capabilities Integration & Evolution.md",
+    "old_count": 0,
+    "new_count": 0,
+    "method": "none",
+    "breakdown": {
+      "references_section_v2": 0,
+      "footnote_definitions": 0,
+      "url_references": 0,
+      "inline_links_deduped": 0,
+      "numbered_list": 0
+    }
+  },
+  "D122": {
+    "file": "Thiel Nexus.md",
+    "old_count": 43,
+    "new_count": 0,
+    "method": "none",
+    "breakdown": {
+      "references_section_v2": 0,
+      "footnote_definitions": 0,
+      "url_references": 0,
+      "inline_links_deduped": 0,
+      "numbered_list": 0
+    }
+  },
+  "D123": {
+    "file": "Thiel Israel Nexus.md",
+    "old_count": 0,
+    "new_count": 0,
+    "method": "none",
+    "breakdown": {
+      "references_section_v2": 0,
+      "footnote_definitions": 0,
+      "url_references": 0,
+      "inline_links_deduped": 0,
+      "numbered_list": 0
+    }
+  },
+  "D124": {
+    "file": "Thiel Network Timeline.md",
+    "old_count": 0,
+    "new_count": 0,
+    "method": "none",
+    "breakdown": {
+      "references_section_v2": 0,
+      "footnote_definitions": 0,
+      "url_references": 0,
+      "inline_links_deduped": 0,
+      "numbered_list": 0
+    }
+  },
+  "D125": {
+    "file": "Altman's Covert Power Structure Analysis.md",
+    "old_count": 90,
+    "new_count": 63,
+    "method": "url_references",
+    "breakdown": {
+      "references_section_v2": 0,
+      "footnote_definitions": 0,
+      "url_references": 63,
+      "inline_links_deduped": 0,
+      "numbered_list": 0
+    }
+  },
+  "D126": {
+    "file": "Theils Covert Ops.md",
+    "old_count": 0,
+    "new_count": 0,
+    "method": "none",
+    "breakdown": {
+      "references_section_v2": 0,
+      "footnote_definitions": 0,
+      "url_references": 0,
+      "inline_links_deduped": 0,
+      "numbered_list": 0
+    }
+  },
+  "D127": {
+    "file": "Thiel_Altman_Synthetic_Empire.md",
+    "old_count": 0,
+    "new_count": 0,
+    "method": "none",
+    "breakdown": {
+      "references_section_v2": 0,
+      "footnote_definitions": 0,
+      "url_references": 0,
+      "inline_links_deduped": 0,
+      "numbered_list": 0
+    }
+  },
+  "D128": {
+    "file": "altmans_synthetic_empire.md",
+    "old_count": 0,
+    "new_count": 0,
+    "method": "none",
+    "breakdown": {
+      "references_section_v2": 0,
+      "footnote_definitions": 0,
+      "url_references": 0,
+      "inline_links_deduped": 0,
+      "numbered_list": 0
+    }
+  },
+  "D129": {
+    "file": "Altmans Hidden Latus.md",
+    "old_count": 20,
+    "new_count": 0,
+    "method": "none",
+    "breakdown": {
+      "references_section_v2": 0,
+      "footnote_definitions": 0,
+      "url_references": 0,
+      "inline_links_deduped": 0,
+      "numbered_list": 0
+    }
+  },
+  "D130": {
+    "file": "Altman Control.md",
+    "old_count": 62,
+    "new_count": 0,
+    "method": "none",
+    "breakdown": {
+      "references_section_v2": 0,
+      "footnote_definitions": 0,
+      "url_references": 0,
+      "inline_links_deduped": 0,
+      "numbered_list": 0
+    }
+  },
+  "D131": {
+    "file": "Thiel Network International Matrices.md",
+    "old_count": 0,
+    "new_count": 0,
+    "method": "none",
+    "breakdown": {
+      "references_section_v2": 0,
+      "footnote_definitions": 0,
+      "url_references": 0,
+      "inline_links_deduped": 0,
+      "numbered_list": 0
+    }
+  },
+  "D132": {
+    "file": "Thiel_Defense_Capture.md",
+    "old_count": 0,
+    "new_count": 0,
+    "method": "none",
+    "breakdown": {
+      "references_section_v2": 0,
+      "footnote_definitions": 0,
+      "url_references": 0,
+      "inline_links_deduped": 0,
+      "numbered_list": 0
+    }
+  },
+  "D133": {
+    "file": "Project Recursion.md",
+    "old_count": 0,
+    "new_count": 0,
+    "method": "none",
+    "breakdown": {
+      "references_section_v2": 0,
+      "footnote_definitions": 0,
+      "url_references": 0,
+      "inline_links_deduped": 0,
+      "numbered_list": 0
+    }
+  },
+  "D134": {
+    "file": "Thiel Political Network.md",
+    "old_count": 0,
+    "new_count": 0,
+    "method": "none",
+    "breakdown": {
+      "references_section_v2": 0,
+      "footnote_definitions": 0,
+      "url_references": 0,
+      "inline_links_deduped": 0,
+      "numbered_list": 0
+    }
+  },
+  "D135": {
+    "file": "thiel_altman_deep_osint.md",
+    "old_count": 0,
+    "new_count": 0,
+    "method": "none",
+    "breakdown": {
+      "references_section_v2": 0,
+      "footnote_definitions": 0,
+      "url_references": 0,
+      "inline_links_deduped": 0,
+      "numbered_list": 0
+    }
+  },
+  "D136": {
+    "file": "Thiel Network Defense Influence.md",
+    "old_count": 0,
+    "new_count": 10,
+    "method": "references_section_v2",
+    "breakdown": {
+      "references_section_v2": 10,
+      "footnote_definitions": 0,
+      "url_references": 0,
+      "inline_links_deduped": 0,
+      "numbered_list": 0
+    }
+  },
+  "D137": {
+    "file": "Thiel Altman Synthetic Empire Phase2.md",
+    "old_count": 0,
+    "new_count": 0,
+    "method": "none",
+    "breakdown": {
+      "references_section_v2": 0,
+      "footnote_definitions": 0,
+      "url_references": 0,
+      "inline_links_deduped": 0,
+      "numbered_list": 0
+    }
+  },
+  "D138": {
+    "file": "Altmans Influence.md",
+    "old_count": 0,
+    "new_count": 0,
+    "method": "none",
+    "breakdown": {
+      "references_section_v2": 0,
+      "footnote_definitions": 0,
+      "url_references": 0,
+      "inline_links_deduped": 0,
+      "numbered_list": 0
+    }
+  },
+  "D139": {
+    "file": "thiel_altman_collapse.md",
+    "old_count": 0,
+    "new_count": 0,
+    "method": "none",
+    "breakdown": {
+      "references_section_v2": 0,
+      "footnote_definitions": 0,
+      "url_references": 0,
+      "inline_links_deduped": 0,
+      "numbered_list": 0
+    }
+  },
+  "D140": {
+    "file": "Altman Nexus.md",
+    "old_count": 0,
+    "new_count": 0,
+    "method": "none",
+    "breakdown": {
+      "references_section_v2": 0,
+      "footnote_definitions": 0,
+      "url_references": 0,
+      "inline_links_deduped": 0,
+      "numbered_list": 0
+    }
+  },
+  "D141": {
+    "file": "Yarvin_ Fringe Influence Network Analysis.md",
+    "old_count": 1,
+    "new_count": 56,
+    "method": "url_references",
+    "breakdown": {
+      "references_section_v2": 0,
+      "footnote_definitions": 0,
+      "url_references": 56,
+      "inline_links_deduped": 0,
+      "numbered_list": 0
+    }
+  },
+  "D142": {
+    "file": "Synthetic Empire Collapse.md",
+    "old_count": 0,
+    "new_count": 0,
+    "method": "none",
+    "breakdown": {
+      "references_section_v2": 0,
+      "footnote_definitions": 0,
+      "url_references": 0,
+      "inline_links_deduped": 0,
+      "numbered_list": 0
+    }
+  },
+  "D143": {
+    "file": "Anthropic's Hidden Model Analysis.md",
+    "old_count": 1,
+    "new_count": 33,
+    "method": "url_references",
+    "breakdown": {
+      "references_section_v2": 0,
+      "footnote_definitions": 0,
+      "url_references": 33,
+      "inline_links_deduped": 0,
+      "numbered_list": 0
+    }
+  },
+  "D144": {
+    "error": "File not found"
+  },
+  "D145": {
+    "error": "File not found"
+  },
+  "D146": {
+    "error": "File not found"
+  },
+  "D147": {
+    "error": "File not found"
+  },
+  "D148": {
+    "error": "File not found"
+  },
+  "D149": {
+    "error": "File not found"
+  },
+  "D150": {
+    "error": "File not found"
+  }
+}

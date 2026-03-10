@@ -1,0 +1,21 @@
+{
+  "manifest_version": "1.0",
+  "stage": "stage2_edge_encoding",
+  "run_date": "2026-02-18 02:21",
+  "gate_status": "PASS",
+  "edge_count": 42,
+  "actors": [
+    "Peter Thiel",
+    "Larry Ellison",
+    "Eric Schmidt",
+    "Sam Altman"
+  ],
+  "undefined_rel_codes": 0,
+  "duplicate_tuples": 0,
+  "outputs": [
+    "C:\\Users\\treyr\\Documents\\algorithmic_empire\\reports\\stage2_edge_encoding.md",
+    "C:\\Users\\treyr\\Documents\\algorithmic_empire\\reports\\stage2_edge_encoding_manifest.json",
+    "C:\\Users\\treyr\\Documents\\algorithmic_empire\\data\\derived\\actor_system_edges_2026-02-18.json"
+  ],
+  "next_stage": "stage3_matrix_compute"
+}

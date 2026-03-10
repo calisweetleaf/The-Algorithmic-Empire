@@ -1,0 +1,35 @@
+# Sovereign Citation Indexer Configuration
+
+# Root directory to scan (relative to where the script is run, or absolute)
+root_dir: "."
+
+# Output file name
+output_file: "CITATION_INDEX.md"
+
+# File extensions to include in the index
+include_extensions:
+  - ".md"
+  - ".py"
+  - ".json"
+  - ".txt"
+  - ".pdf"
+
+# Directories to ignore (supports glob patterns)
+ignore_dirs:
+  - ".git"
+  - ".vscode"
+  - ".claude"
+  - ".gemini"
+  - "__pycache__"
+  - "venv"
+  - "node_modules"
+  - "docs"  # User requested to ignore docs/ folder for now to find tools
+  - "logs"
+  - "tmp"
+
+# Individual files to ignore (supports glob patterns)
+ignore_files:
+  - "CITATION_INDEX.md"
+  - "config.yaml"
+  - "package-lock.json"
+  - ".DS_Store"

@@ -1,0 +1,557 @@
+{
+  "meta": {
+    "generated": "2026-02-18 02:21",
+    "stage": "1_evidence_curator",
+    "data_source": "live pipeline",
+    "corpus_doc_count": 138,
+    "graph_nodes": 271,
+    "graph_edges": 2076
+  },
+  "pagerank_top20": [
+    {
+      "rank": 1,
+      "entity": "Peter Thiel",
+      "pagerank": 0.027734,
+      "betweenness": 0.484301,
+      "degree": 135
+    },
+    {
+      "rank": 2,
+      "entity": "Anduril Industries",
+      "pagerank": 0.018237,
+      "betweenness": 0.270925,
+      "degree": 90
+    },
+    {
+      "rank": 3,
+      "entity": "Sam Altman",
+      "pagerank": 0.017417,
+      "betweenness": 0.263454,
+      "degree": 88
+    },
+    {
+      "rank": 4,
+      "entity": "Palantir Technologies",
+      "pagerank": 0.01635,
+      "betweenness": 0.176844,
+      "degree": 83
+    },
+    {
+      "rank": 5,
+      "entity": "Founders Fund",
+      "pagerank": 0.015667,
+      "betweenness": 0.090392,
+      "degree": 80
+    },
+    {
+      "rank": 6,
+      "entity": "Elon Musk",
+      "pagerank": 0.013557,
+      "betweenness": 0.10486,
+      "degree": 71
+    },
+    {
+      "rank": 7,
+      "entity": "Lockheed Martin",
+      "pagerank": 0.012638,
+      "betweenness": 0.329126,
+      "degree": 55
+    },
+    {
+      "rank": 8,
+      "entity": "Project Maven",
+      "pagerank": 0.011061,
+      "betweenness": 0.130504,
+      "degree": 55
+    },
+    {
+      "rank": 9,
+      "entity": "Silicon Valley",
+      "pagerank": 0.010848,
+      "betweenness": 0.058164,
+      "degree": 55
+    },
+    {
+      "rank": 10,
+      "entity": "United States",
+      "pagerank": 0.010524,
+      "betweenness": 0.196497,
+      "degree": 45
+    },
+    {
+      "rank": 11,
+      "entity": "Hydrazine Capital",
+      "pagerank": 0.010012,
+      "betweenness": 0.091043,
+      "degree": 51
+    },
+    {
+      "rank": 12,
+      "entity": "Valar Ventures",
+      "pagerank": 0.008936,
+      "betweenness": 0.019896,
+      "degree": 45
+    },
+    {
+      "rank": 13,
+      "entity": "Air Force",
+      "pagerank": 0.008153,
+      "betweenness": 0.043628,
+      "degree": 37
+    },
+    {
+      "rank": 14,
+      "entity": "Mithril Capital",
+      "pagerank": 0.007742,
+      "betweenness": 0.009317,
+      "degree": 41
+    },
+    {
+      "rank": 15,
+      "entity": "Claude Gov",
+      "pagerank": 0.007737,
+      "betweenness": 0.047866,
+      "degree": 32
+    },
+    {
+      "rank": 16,
+      "entity": "Five Eyes",
+      "pagerank": 0.00706,
+      "betweenness": 0.027071,
+      "degree": 35
+    },
+    {
+      "rank": 17,
+      "entity": "Artificial Intelligence",
+      "pagerank": 0.006655,
+      "betweenness": 0.028433,
+      "degree": 31
+    },
+    {
+      "rank": 18,
+      "entity": "Lattice OS",
+      "pagerank": 0.006483,
+      "betweenness": 0.014339,
+      "degree": 33
+    },
+    {
+      "rank": 19,
+      "entity": "Skinwalker Ranch",
+      "pagerank": 0.006194,
+      "betweenness": 0.026519,
+      "degree": 25
+    },
+    {
+      "rank": 20,
+      "entity": "OpenAI Startup Fund",
+      "pagerank": 0.005984,
+      "betweenness": 0.019431,
+      "degree": 29
+    }
+  ],
+  "betweenness_top20": [
+    {
+      "rank": 1,
+      "entity": "Peter Thiel",
+      "betweenness": 0.484301,
+      "pagerank": 0.027734,
+      "degree": 135
+    },
+    {
+      "rank": 2,
+      "entity": "Lockheed Martin",
+      "betweenness": 0.329126,
+      "pagerank": 0.012638,
+      "degree": 55
+    },
+    {
+      "rank": 3,
+      "entity": "Anduril Industries",
+      "betweenness": 0.270925,
+      "pagerank": 0.018237,
+      "degree": 90
+    },
+    {
+      "rank": 4,
+      "entity": "Sam Altman",
+      "betweenness": 0.263454,
+      "pagerank": 0.017417,
+      "degree": 88
+    },
+    {
+      "rank": 5,
+      "entity": "United States",
+      "betweenness": 0.196497,
+      "pagerank": 0.010524,
+      "degree": 45
+    },
+    {
+      "rank": 6,
+      "entity": "Palantir Technologies",
+      "betweenness": 0.176844,
+      "pagerank": 0.01635,
+      "degree": 83
+    },
+    {
+      "rank": 7,
+      "entity": "Project Maven",
+      "betweenness": 0.130504,
+      "pagerank": 0.011061,
+      "degree": 55
+    },
+    {
+      "rank": 8,
+      "entity": "Elon Musk",
+      "betweenness": 0.10486,
+      "pagerank": 0.013557,
+      "degree": 71
+    },
+    {
+      "rank": 9,
+      "entity": "Hydrazine Capital",
+      "betweenness": 0.091043,
+      "pagerank": 0.010012,
+      "degree": 51
+    },
+    {
+      "rank": 10,
+      "entity": "Founders Fund",
+      "betweenness": 0.090392,
+      "pagerank": 0.015667,
+      "degree": 80
+    },
+    {
+      "rank": 11,
+      "entity": "Silicon Valley",
+      "betweenness": 0.058164,
+      "pagerank": 0.010848,
+      "degree": 55
+    },
+    {
+      "rank": 12,
+      "entity": "Claude Gov",
+      "betweenness": 0.047866,
+      "pagerank": 0.007737,
+      "degree": 32
+    },
+    {
+      "rank": 13,
+      "entity": "Air Force",
+      "betweenness": 0.043628,
+      "pagerank": 0.008153,
+      "degree": 37
+    },
+    {
+      "rank": 14,
+      "entity": "Khosla Ventures",
+      "betweenness": 0.030294,
+      "pagerank": 0.004737,
+      "degree": 23
+    },
+    {
+      "rank": 15,
+      "entity": "Artificial Intelligence",
+      "betweenness": 0.028433,
+      "pagerank": 0.006655,
+      "degree": 31
+    },
+    {
+      "rank": 16,
+      "entity": "Five Eyes",
+      "betweenness": 0.027071,
+      "pagerank": 0.00706,
+      "degree": 35
+    },
+    {
+      "rank": 17,
+      "entity": "Skinwalker Ranch",
+      "betweenness": 0.026519,
+      "pagerank": 0.006194,
+      "degree": 25
+    },
+    {
+      "rank": 18,
+      "entity": "Valar Ventures",
+      "betweenness": 0.019896,
+      "pagerank": 0.008936,
+      "degree": 45
+    },
+    {
+      "rank": 19,
+      "entity": "OpenAI LP",
+      "betweenness": 0.019641,
+      "pagerank": 0.004788,
+      "degree": 24
+    },
+    {
+      "rank": 20,
+      "entity": "OpenAI Startup Fund",
+      "betweenness": 0.019431,
+      "pagerank": 0.005984,
+      "degree": 29
+    }
+  ],
+  "citation_map": {
+    "T06": {
+      "filename": "Military AI Leak Investigation.md",
+      "topics": [
+        "THIEL_NETWORK",
+        "MILITARY_AI_US",
+        "SURVEILLANCE"
+      ],
+      "confidence": "HIGH"
+    },
+    "T08": {
+      "filename": "Military AI Systems Intelligence Report.md",
+      "topics": [
+        "THIEL_NETWORK",
+        "MILITARY_AI_US",
+        "SURVEILLANCE"
+      ],
+      "confidence": "HIGH"
+    },
+    "T10": {
+      "filename": "Deep State AI Governance OSINT.md",
+      "topics": [
+        "THIEL_NETWORK",
+        "MILITARY_AI_US",
+        "AI_GOVERNANCE",
+        "SURVEILLANCE"
+      ],
+      "confidence": "HIGH",
+      "dedup": "T63 suppressed"
+    },
+    "T11": {
+      "filename": "algorithmic leviathan.md",
+      "topics": [
+        "THIEL_NETWORK",
+        "SURVEILLANCE"
+      ],
+      "confidence": "HIGH",
+      "dedup": "T64 suppressed"
+    },
+    "T14": {
+      "filename": "Classified AI Model Deep Dive.md",
+      "topics": [
+        "THIEL_NETWORK",
+        "MILITARY_AI_US",
+        "SURVEILLANCE"
+      ],
+      "confidence": "HIGH"
+    },
+    "T17": {
+      "filename": "Thiel Nexus.md",
+      "topics": [
+        "THIEL_NETWORK",
+        "EPSTEIN_NETWORK"
+      ],
+      "confidence": "HIGH",
+      "dedup": "T68 suppressed"
+    },
+    "T20": {
+      "filename": "Altman's Covert Power Structure Analysis.md",
+      "topics": [
+        "THIEL_NETWORK",
+        "MILITARY_AI_US"
+      ],
+      "confidence": "HIGH",
+      "dedup": "T71 suppressed"
+    },
+    "T22": {
+      "filename": "Anthropic AI_ Origins and Network.md",
+      "topics": [
+        "THIEL_NETWORK",
+        "FINANCIAL_INFRASTRUCTURE"
+      ],
+      "confidence": "HIGH"
+    },
+    "T24": {
+      "filename": "Theils Covert Ops.md",
+      "topics": [
+        "THIEL_NETWORK",
+        "YARVIN_IDEOLOGY",
+        "SURVEILLANCE"
+      ],
+      "confidence": "HIGH",
+      "dedup": "T72 suppressed"
+    },
+    "T25": {
+      "filename": "Israel's Military Capabilities Investigation.md",
+      "topics": [
+        "THIEL_NETWORK",
+        "BARAK_ISRAEL",
+        "MILITARY_AI_US"
+      ],
+      "confidence": "HIGH"
+    },
+    "T26": {
+      "filename": "thiel_osint.md",
+      "topics": [
+        "THIEL_NETWORK",
+        "EPSTEIN_NETWORK"
+      ],
+      "confidence": "HIGH"
+    },
+    "T28": {
+      "filename": "altmans_synthetic_empire.md",
+      "topics": [
+        "THIEL_NETWORK"
+      ],
+      "confidence": "MEDIUM",
+      "dedup": "T74 suppressed"
+    },
+    "T32": {
+      "filename": "Hidden Model Research.md",
+      "topics": [
+        "THIEL_NETWORK",
+        "MILITARY_AI_US",
+        "SURVEILLANCE"
+      ],
+      "confidence": "MEDIUM"
+    },
+    "T33": {
+      "filename": "AI Weapons Systems Intelligence Report.md",
+      "topics": [
+        "THIEL_NETWORK",
+        "MILITARY_AI_US",
+        "SURVEILLANCE"
+      ],
+      "confidence": "HIGH"
+    },
+    "T34": {
+      "filename": "Epstein, Thiel, Barak Surveillance Network.md",
+      "topics": [
+        "THIEL_NETWORK",
+        "EPSTEIN_NETWORK",
+        "BARAK_ISRAEL",
+        "SURVEILLANCE"
+      ],
+      "confidence": "HIGH",
+      "priority": "TIER_1_2_COLLECTION_TARGET"
+    },
+    "T36": {
+      "filename": "Thiel_Defense_Capture.md",
+      "topics": [
+        "THIEL_NETWORK",
+        "MILITARY_AI_US",
+        "AI_GOVERNANCE"
+      ],
+      "confidence": "HIGH"
+    },
+    "T40": {
+      "filename": "Stargate Program OSINT Deep Dive.md",
+      "topics": [
+        "THIEL_NETWORK",
+        "MILITARY_AI_US",
+        "FINANCIAL_INFRASTRUCTURE"
+      ],
+      "confidence": "HIGH",
+      "priority": "EVIDENCE_MATRIX_T40_SOVEREIGN_WEALTH"
+    },
+    "T42": {
+      "filename": "Experimental Technology Framework Investigation.md",
+      "topics": [
+        "THIEL_NETWORK",
+        "YARVIN_IDEOLOGY",
+        "MILITARY_AI_US",
+        "AI_GOVERNANCE"
+      ],
+      "confidence": "HIGH"
+    },
+    "T44": {
+      "filename": "Anomalous Technology Synthesis Mission.md",
+      "topics": [
+        "THIEL_NETWORK",
+        "MILITARY_AI_CHINA"
+      ],
+      "confidence": "LOW"
+    },
+    "T46": {
+      "filename": "Military AI Research Pipeline.md",
+      "topics": [
+        "THIEL_NETWORK",
+        "MILITARY_AI_US"
+      ],
+      "confidence": "HIGH"
+    },
+    "T47": {
+      "filename": "Deep AI Military Use.md",
+      "topics": [
+        "THIEL_NETWORK",
+        "MILITARY_AI_US",
+        "SURVEILLANCE"
+      ],
+      "confidence": "HIGH"
+    },
+    "T55": {
+      "filename": "Thiel Defense Network Investigation_.md",
+      "topics": [
+        "THIEL_NETWORK",
+        "MILITARY_AI_US"
+      ],
+      "confidence": "HIGH"
+    },
+    "T56": {
+      "filename": "Reactionary Defense OSINT Engine Activation.md",
+      "topics": [
+        "THIEL_NETWORK",
+        "MILITARY_AI_US"
+      ],
+      "confidence": "HIGH"
+    },
+    "U11": {
+      "filename": "Oracle Origins_ Intelligence, Databases, and Cold .md",
+      "topics": [
+        "FINANCIAL_INFRASTRUCTURE"
+      ],
+      "confidence": "HIGH",
+      "note": "Only dedicated Oracle/IC doc in corpus"
+    },
+    "S05": {
+      "filename": "Altman Control.md",
+      "topics": [
+        "SURVEILLANCE"
+      ],
+      "confidence": "HIGH",
+      "dedup": "S09 suppressed"
+    },
+    "O04": {
+      "filename": "Opaque Empire of Sam Altman.md",
+      "topics": [
+        "OTHER"
+      ],
+      "confidence": "MEDIUM",
+      "dedup": "O14 suppressed"
+    },
+    "O05": {
+      "filename": "altman_osint.md",
+      "topics": [
+        "OTHER"
+      ],
+      "confidence": "MEDIUM"
+    },
+    "O12": {
+      "filename": "Altman Nexus.md",
+      "topics": [
+        "OTHER"
+      ],
+      "confidence": "MEDIUM",
+      "dedup": "O15 suppressed"
+    },
+    "G01": {
+      "filename": "Anthropic's Global AI Governance Ambitions_.md",
+      "topics": [
+        "AI_GOVERNANCE"
+      ],
+      "confidence": "HIGH"
+    },
+    "C03": {
+      "filename": "TR-3B Deep-Structure Reality Audit.md",
+      "topics": [
+        "MILITARY_AI_CHINA"
+      ],
+      "confidence": "UNVERIFIED",
+      "priority": "EVIDENCE_MATRIX_C03_HIGHEST_CLASSIFICATION_LEAK"
+    }
+  }
+}

@@ -1,0 +1,151 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "algorithmic_empire/handoff.schema.json",
+  "title": "Distributed Agent Handoff Packet",
+  "type": "object",
+  "required": [
+    "run_id",
+    "stage_id",
+    "timestamp_utc",
+    "role",
+    "state_hash_in",
+    "state_hash_out",
+    "objective",
+    "files_changed",
+    "verification",
+    "result",
+    "next_actions",
+    "coverage"
+  ],
+  "properties": {
+    "run_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "stage_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "timestamp_utc": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "role": {
+      "type": "string",
+      "enum": [
+        "planner_reasoner",
+        "builder_executor",
+        "finisher_polisher"
+      ]
+    },
+    "state_hash_in": {
+      "type": "string",
+      "minLength": 8
+    },
+    "state_hash_out": {
+      "type": "string",
+      "minLength": 8
+    },
+    "objective": {
+      "type": "string",
+      "minLength": 1
+    },
+    "files_changed": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "verification": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "command",
+          "status",
+          "summary"
+        ],
+        "properties": {
+          "command": {
+            "type": "string"
+          },
+          "status": {
+            "type": "string",
+            "enum": [
+              "pass",
+              "fail",
+              "skipped"
+            ]
+          },
+          "summary": {
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "result": {
+      "type": "object",
+      "required": [
+        "status",
+        "confidence",
+        "notes"
+      ],
+      "properties": {
+        "status": {
+          "type": "string",
+          "enum": [
+            "completed",
+            "partial",
+            "blocked"
+          ]
+        },
+        "confidence": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1
+        },
+        "notes": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    },
+    "next_actions": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "coverage": {
+      "type": "object",
+      "required": [
+        "categories_considered",
+        "tools_used",
+        "unused_categories"
+      ],
+      "properties": {
+        "categories_considered": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "tools_used": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "unused_categories": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
+}

@@ -1,0 +1,18 @@
+{
+  "manifest_version": "1.0",
+  "stage": "stage3_matrix_compute",
+  "run_date": "2026-02-18 02:21",
+  "gate_status": "PASS",
+  "edge_count": 42,
+  "overlap_node_count": 12,
+  "four_actor_nodes": [
+    "JWCC"
+  ],
+  "outputs": [
+    "C:\\Users\\treyr\\Documents\\algorithmic_empire\\reports\\stage3_matrix_compute.md",
+    "C:\\Users\\treyr\\Documents\\algorithmic_empire\\reports\\stage3_matrix_compute_manifest.json",
+    "C:\\Users\\treyr\\Documents\\algorithmic_empire\\data\\derived\\actor_system_adjacency_2026-02-18.json",
+    "C:\\Users\\treyr\\Documents\\algorithmic_empire\\data\\derived\\overlap_nodes_2026-02-18.json"
+  ],
+  "next_stage": "stage4_finisher"
+}

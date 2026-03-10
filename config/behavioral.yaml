@@ -1,0 +1,20 @@
+anomaly_detection:
+  correlation_threshold: 0.8
+  entropy_threshold: 0.3
+  statistical_threshold: 2.5
+  temporal_threshold: 3.0
+baseline_establishment:
+  auto_baseline_update: true
+  baseline_quality_threshold: 0.7
+  min_observations: 100
+  observation_period_hours: 168
+behavioral_analysis:
+  analysis_interval_hours: 2
+  anomaly_sensitivity: medium
+  baseline_update_interval_hours: 24
+  continuous_analysis_enabled: true
+learning:
+  learning_rate: 0.001
+  model_update_interval_hours: 0.5
+  recursive_learning_enabled: true
+  training_batch_size: 64

@@ -16,6 +16,8 @@ import os
 import yaml
 import argparse
 import fnmatch
+import logging
+import re
 from pathlib import Path
 from datetime import datetime
 from typing import List, Dict, Any, Optional
@@ -29,6 +31,15 @@ class CitationIndexer:
         self.ignore_dirs = self.config.get('ignore_dirs', [])
         self.ignore_files = self.config.get('ignore_files', [])
         self.index_data = {}
+
+        # Initialize logger
+        self.logger = logging.getLogger('CitationIndexer')
+        if not self.logger.handlers:
+            handler = logging.StreamHandler()
+            formatter = logging.Formatter('%(asctime)s [%(levelname)s] %(name)s: %(message)s')
+            handler.setFormatter(formatter)
+            self.logger.addHandler(handler)
+            self.logger.setLevel(logging.INFO)
 
     def _load_config(self, path: str) -> Dict[str, Any]:
         """Load configuration from YAML file."""
@@ -57,10 +68,11 @@ class CitationIndexer:
     def _extract_metadata(self, file_path: Path) -> Dict[str, str]:
         """Extract title and description from file content."""
         metadata = {
-            'title': file_path.name,
+            'title': file_path.stem.replace('_', ' '),
             'description': 'No description available.',
             'path': str(file_path.relative_to(self.root_dir)).replace('\\', '/'),
-            'type': file_path.suffix.lower()
+            'type': file_path.suffix.lower(),
+            'date': 'Unknown'
         }
 
         try:
@@ -85,20 +97,31 @@ class CitationIndexer:
 
             # Markdown: Look for H1 and text
             elif file_path.suffix == '.md':
-                for line in lines:
-                    if line.startswith('# '):
-                        metadata['title'] = line[2:].strip()
-                        break
+                # Try to extract title from first H1
+                title_match = re.search(r'^#\s+(.+)$', content, re.MULTILINE)
+                if title_match:
+                    metadata["title"] = title_match.group(1).strip()
                 
-                # Try to find first non-header text line for description
+                # Crude date extraction (YYYY-MM-DD or Month YYYY)
+                date_pattern = r'(20\d{2}-\d{2}-\d{2}|[A-Z][a-z]+ 20\d{2})'
+                date_match = re.search(date_pattern, content)
+                if date_match:
+                    metadata["date"] = date_match.group(1)
+
+                # Try to find first non-header, non-date text line for description
                 for line in lines:
-                    if line.strip() and not line.startswith('#') and not line.startswith('```') and not line.startswith('<!--'):
-                        metadata['description'] = line.strip()[:200]
-                        if len(line.strip()) > 200:
+                    stripped_line = line.strip()
+                    if stripped_line and not stripped_line.startswith('#') and not stripped_line.startswith('```') and not stripped_line.startswith('<!--'):
+                        # Check if this line is just the date we already extracted
+                        if re.search(date_pattern, stripped_line) and len(stripped_line) < 30:
+                            continue
+
+                        metadata['description'] = stripped_line[:200]
+                        if len(stripped_line) > 200:
                             metadata['description'] += "..."
                         break
-        except Exception:
-            pass # Keep defaults on error
+        except Exception as e:
+            self.logger.warning(f"Failed to extract metadata from {file_path.name}: {e}")
 
         return metadata
 
@@ -156,15 +179,16 @@ class CitationIndexer:
         for category in sorted(self.index_data.keys()):
             lines.append(f"## 📂 {category}")
             lines.append(f"")
-            lines.append(f"| File | Type | Description |")
-            lines.append(f"|------|------|-------------|")
+            lines.append(f"| File | Type | Date | Description |")
+            lines.append(f"|------|------|------|-------------|")
             
             # Sort files within category
             for item in sorted(self.index_data[category], key=lambda x: x['title']):
                 # Create relative link
                 link = f"[{item['title']}]({item['path']})"
+                date = item.get('date', 'Unknown')
                 desc = item['description'].replace('|', '\|') # Escape pipes for table
-                lines.append(f"| {link} | `{item['type']}` | {desc} |")
+                lines.append(f"| {link} | `{item['type']}` | {date} | {desc} |")
             
             lines.append(f"")
 

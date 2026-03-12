@@ -1339,14 +1339,15 @@ class IntelligenceDatabaseEngine:
         fingerprint_text = "|".join(fingerprint_elements)
         return hashlib.sha256(fingerprint_text.encode()).hexdigest()
     
-    async def retrieve_intelligence(self, record_id: str) -> Optional[IntelligenceRecord]:
+    async def retrieve_intelligence(self, record_id: str, track_access: bool = True) -> Optional[IntelligenceRecord]:
         """Retrieve an intelligence record with full decompression and decryption.
 
         Checks the in-memory cache first, falling back to a database
-        lookup with decryption, decompression, and access-tracking updates.
+        lookup with decryption, decompression, and optionally access-tracking updates.
 
         Args:
             record_id: Unique identifier of the record.
+            track_access: Whether to increment access count and update last_accessed.
 
         Returns:
             The reconstructed :class:`IntelligenceRecord`, or ``None`` if
@@ -1358,11 +1359,12 @@ class IntelligenceDatabaseEngine:
             # Check cache first
             if record_id in self.record_cache:
                 record = self.record_cache[record_id]
-                record.access_count += 1
-                record.last_accessed = datetime.now(timezone.utc)
-                
-                # Update access tracking in database
-                await self._update_access_tracking(record_id)
+                if track_access:
+                    record.access_count += 1
+                    record.last_accessed = datetime.now(timezone.utc)
+
+                    # Update access tracking in database
+                    await self._update_access_tracking(record_id)
                 
                 execution_time = (time.time() - start_time) * 1000
                 self.performance_metrics['retrieve_operations'].append(execution_time)
@@ -1387,7 +1389,8 @@ class IntelligenceDatabaseEngine:
                     self.record_cache[record_id] = record
                 
                 # Update access tracking
-                await self._update_access_tracking(record_id)
+                if track_access:
+                    await self._update_access_tracking(record_id)
                 
                 execution_time = (time.time() - start_time) * 1000
                 self.performance_metrics['retrieve_operations'].append(execution_time)
@@ -1823,37 +1826,151 @@ class IntelligenceDatabaseEngine:
 
         Runs hourly, evaluating records whose tier has not changed in
         over 24 hours and migrating them to their optimal tier.
+        Optimized to use batch processing and minimize database roundtrips.
         """
         while self._running:
             try:
                 await asyncio.sleep(3600)  # Run every hour
                 
-                # Query records that might need tier changes
+                # Query records that might need tier changes with metadata for assessment
                 with self.db_lock:
                     cursor = self.primary_db.cursor()
                     cursor.execute("""
-                        SELECT record_id, current_tier, promotion_score
-                        FROM tier_management 
-                        WHERE last_tier_change < datetime('now', '-1 day')
-                        ORDER BY promotion_score DESC
+                        SELECT tm.record_id, tm.current_tier, ir.intelligence_type,
+                               ir.collection_timestamp, ir.priority_score, ir.access_count,
+                               ir.threat_level, ir.confidence_score
+                        FROM tier_management tm
+                        JOIN intelligence_records ir ON tm.record_id = ir.record_id
+                        WHERE tm.last_tier_change < datetime('now', '-1 day')
+                        ORDER BY tm.promotion_score DESC
                         LIMIT 1000
                     """)
                     
                     candidates = cursor.fetchall()
                 
-                # Process tier change candidates
-                for record_id, current_tier, promotion_score in candidates:
-                    record = await self.retrieve_intelligence(record_id)
-                    if record:
-                        new_tier = self.storage_manager.calculate_tier_placement(record)
+                if not candidates:
+                    continue
+
+                # Identify records requiring migration
+                migration_tasks = []
+                for row in candidates:
+                    try:
+                        # Construct a thin record for tier placement calculation
+                        # This avoids full record retrieval, decryption, and decompression for all 1000 candidates
+                        dummy_record = IntelligenceRecord(
+                            record_id=row[0],
+                            intelligence_type=IntelligenceType(row[2]),
+                            collection_timestamp=datetime.fromisoformat(row[3]),
+                            source_system="", # Not needed for calculation
+                            source_reliability=0.0,
+                            confidence_score=row[7],
+                            threat_level=row[6],
+                            priority_score=row[4],
+                            raw_data={},
+                            processed_indicators=[],
+                            storage_tier=StorageTier(row[1]),
+                            access_count=row[5]
+                        )
                         
-                        if new_tier != record.storage_tier:
-                            await self._migrate_record_tier(record, new_tier)
+                        new_tier = self.storage_manager.calculate_tier_placement(dummy_record)
+                        if new_tier != dummy_record.storage_tier:
+                            migration_tasks.append((row[0], new_tier))
+                    except Exception as e:
+                        logger.warning(f"Failed to assess record {row[0]} for tier migration: {e}")
+
+                # Process migrations in batches
+                if migration_tasks:
+                    batch_size = 100
+                    for i in range(0, len(migration_tasks), batch_size):
+                        batch = migration_tasks[i:i + batch_size]
+                        await self._batch_migrate_records(batch)
                 
-                logger.info(f"Processed {len(candidates)} tier management candidates")
+                logger.info(f"Processed {len(candidates)} tier management candidates, migrated {len(migration_tasks)}")
                 
             except Exception as e:
                 logger.error(f"Tier management service error: {e}")
+
+    async def _batch_migrate_records(self, migration_tasks: List[Tuple[str, StorageTier]]) -> None:
+        """Perform batch migration of records to new storage tiers in a single transaction.
+
+        Args:
+            migration_tasks: List of (record_id, new_tier) tuples.
+        """
+        try:
+            migration_data = []
+
+            # Retrieve full records for re-compression and re-encryption
+            # We skip access tracking to avoid per-record commits
+            for record_id, new_tier in migration_tasks:
+                record = await self.retrieve_intelligence(record_id, track_access=False)
+                if record:
+                    record.storage_tier = new_tier
+
+                    # Re-process for new tier exactly as store_intelligence does
+                    raw_data_json = json.dumps(record.raw_data, default=str)
+                    encrypted_data = self.cipher_suite.encrypt(raw_data_json.encode())
+                    compressed_data = self.storage_manager.compress_data(encrypted_data, record.storage_tier)
+
+                    embedding_bytes = record.semantic_embedding.tobytes() if record.semantic_embedding is not None else b""
+                    compressed_embedding = self.storage_manager.compress_data(embedding_bytes, record.storage_tier)
+
+                    data_hash = hashlib.sha256(raw_data_json.encode()).hexdigest()
+
+                    migration_data.append({
+                        'record_id': record_id,
+                        'new_tier': new_tier.value,
+                        'compressed_data': compressed_data,
+                        'data_hash': data_hash,
+                        'compressed_embedding': compressed_embedding,
+                        'size_bytes': len(compressed_data)
+                    })
+
+            if not migration_data:
+                return
+
+            # Batch update in a single transaction
+            with self.db_lock:
+                cursor = self.primary_db.cursor()
+                now_iso = datetime.now(timezone.utc).isoformat()
+
+                for item in migration_data:
+                    # Update primary record
+                    cursor.execute("""
+                        UPDATE intelligence_records
+                        SET storage_tier = ?, raw_data_compressed = ?, raw_data_hash = ?,
+                            semantic_embedding_compressed = ?, updated_at = CURRENT_TIMESTAMP
+                        WHERE record_id = ?
+                    """, (
+                        item['new_tier'],
+                        item['compressed_data'],
+                        item['data_hash'],
+                        item['compressed_embedding'],
+                        item['record_id']
+                    ))
+
+                    # Update tier management tracking
+                    cursor.execute("""
+                        UPDATE tier_management
+                        SET current_tier = ?, last_tier_change = ?, size_bytes = ?
+                        WHERE record_id = ?
+                    """, (
+                        item['new_tier'],
+                        now_iso,
+                        item['size_bytes'],
+                        item['record_id']
+                    ))
+
+                self.primary_db.commit()
+
+            logger.debug(f"Batch migrated {len(migration_data)} records successfully")
+
+        except Exception as e:
+            with self.db_lock:
+                try:
+                    self.primary_db.rollback()
+                except Exception:
+                    pass
+            logger.error(f"Batch migration failed: {e}")
     
     async def _migrate_record_tier(self, record: IntelligenceRecord,
                                    new_tier: StorageTier) -> None:

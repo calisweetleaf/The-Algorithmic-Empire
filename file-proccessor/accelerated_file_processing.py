@@ -60,8 +60,9 @@ class QueueStatus(str, Enum):
 @dataclass
 class ProcessingTask:
     """Individual file processing task with metadata"""
-    task_id: UUID = field(default_factory=uuid4)
     file_data: bytes = field(repr=False)
+    task_id: UUID = field(default_factory=uuid4)
+
     filename: str = ""
     user_id: UserID = ""
     session_id: SessionID = field(default_factory=uuid4)

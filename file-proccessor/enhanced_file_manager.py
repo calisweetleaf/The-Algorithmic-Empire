@@ -699,8 +699,8 @@ class EnhancedFileUploadManager:
                 return metadata
             
             # Classify file type
-            with open(temp_path, 'rb') as f:
-                first_chunk = f.read(8192)
+            async with aiofiles.open(temp_path, 'rb') as f:
+                first_chunk = await f.read(8192)
             
             metadata.file_type = self.classifier.classify_file(filename, first_chunk)
             metadata.mime_type = self.classifier.magic_detector.from_file(str(temp_path))
@@ -810,9 +810,15 @@ class EnhancedFileUploadManager:
         """Extract text file content"""
         try:
             # Detect encoding
-            with open(file_path, 'rb') as f:
-                raw_data = f.read()
-                encoding_result = chardet.detect(raw_data)
+            # For efficiency and to avoid blocking, we limit the sample size for detection
+            async with aiofiles.open(file_path, 'rb') as f:
+                # Limit raw_data to first 1MB for encoding detection to avoid OOM
+                raw_data = await f.read(1024 * 1024)
+                # Use executor for CPU-bound chardet
+                loop = asyncio.get_running_loop()
+                encoding_result = await loop.run_in_executor(
+                    self.executor, chardet.detect, raw_data
+                )
                 encoding = encoding_result.get('encoding', 'utf-8')
             
             # Read with detected encoding

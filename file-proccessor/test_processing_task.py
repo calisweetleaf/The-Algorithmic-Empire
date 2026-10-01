@@ -115,15 +115,3 @@ def test_can_retry_retrying():
     """Test can_retry returns False when status is RETRYING"""
     task = ProcessingTask(file_data=b"test", retry_count=0, max_retries=3, status=QueueStatus.RETRYING)
     assert task.can_retry is False
-
-if __name__ == "__main__":
-    # Test runner for standalone execution
-    test_can_retry_true()
-    test_can_retry_at_max()
-    test_can_retry_above_max()
-    test_can_retry_pending()
-    test_can_retry_processing()
-    test_can_retry_completed()
-    test_can_retry_cancelled()
-    test_can_retry_retrying()
-    print("All can_retry tests passed successfully!")

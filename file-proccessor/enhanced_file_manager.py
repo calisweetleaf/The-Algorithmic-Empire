@@ -819,7 +819,7 @@ class EnhancedFileUploadManager:
                 encoding_result = await loop.run_in_executor(
                     self.executor, chardet.detect, raw_data
                 )
-                encoding = encoding_result.get('encoding', 'utf-8')
+                encoding = encoding_result.get('encoding') or 'utf-8'
             
             # Read with detected encoding
             async with aiofiles.open(file_path, 'r', encoding=encoding, errors='replace') as f:
